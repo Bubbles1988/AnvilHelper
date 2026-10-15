@@ -1,0 +1,36 @@
+{
+  "_comment": "Different spellings used in the spreadsheet -> the one name the bot uses. Players can also type these when searching.",
+  "items": {
+    "Heavy Chest Armour": "Heavy Chest",
+    "Heavy Leg Armour": "Heavy Leg",
+    "Reinforced Chest Armour": "Reinforced Chest",
+    "Reinforced Leg Armour": "Reinforced Leg",
+    "Light Chest Armour": "Light Chest",
+    "Light Leg Armour": "Light Leg",
+    "Crude Chest Armour": "Crude Chest",
+    "Crude Leg Armour": "Crude Leg",
+    "Iron Broadax": "Iron Broadaxe",
+    "Long Bow": "Longbow",
+    "Short Bow": "Shortbow",
+    "Superior Short Bow": "Superior Shortbow",
+    "Iron Toold Blade": "Iron Tool Blade",
+    "Lead Ingots": "Lead Ingot",
+    "Bronze Ingots": "Bronze Ingot",
+    "Copper Bricks": "Copper Nails",
+    "Briar Spruce Seed": "Briar Spruce Seeds",
+    "North Astrian Pine Seed": "North Astrian Pine Seeds",
+    "Mireland Beech Seeds": "Mireland Beech Seed",
+    "Cabbageseeds": "Cabbage Seed",
+    "Cabbage Seeds": "Cabbage Seed",
+    "Wheat Seeds": "Wheat Seed",
+    "Makeshiftwall": "Makeshift Wall",
+    "Mánadýr": "Manadyr",
+    "Stonewulfe": "Stonwulfe",
+    "Rock Slabs": "Rock Slab",
+    "Iron ore": "Iron Ore"
+  },
+  "stations": {
+    "Workshop": "Workbench",
+    "Town Workbench": "Town Workshop"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "_comment": "Optional. Item name -> direct image URL. Use this when the automatic wiki image is missing or wrong. 'wiki_titles' maps an item to its wiki page name when it differs.",
+  "images": {},
+  "wiki_titles": {}
+}

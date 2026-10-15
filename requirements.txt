@@ -1,0 +1,4 @@
+discord.py>=2.3,<3
+python-dotenv>=1.0
+# only needed for tools/import_xlsx.py
+openpyxl>=3.1

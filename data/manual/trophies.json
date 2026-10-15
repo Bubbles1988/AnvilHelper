@@ -1,0 +1,17 @@
+{
+  "_comment": "NPC name -> trophy it drops (hand in at a bounty board).",
+  "trophies": {
+    "Bat": "Bat Wing",
+    "Bear": "Bear Claw",
+    "Boar": "Boar Tusk",
+    "Deer": "Deer Antler",
+    "Dire Raven": "Dire Raven Wing",
+    "Manadyr": "Mánadýr Barb",
+    "Reaver Bandit": "Bandit Mark",
+    "Reaver Highwayman (Melee)": "Highwayman Cloak",
+    "Reaver Highwayman (Ranged)": "Highwayman Cloak",
+    "Stonwulfe": "Stonwulfe Heart",
+    "Wolf": "Wolf Tooth",
+    "Wolf (Cave)": "Wolf Tooth"
+  }
+}

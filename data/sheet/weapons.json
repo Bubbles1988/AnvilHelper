@@ -1,0 +1,955 @@
+[
+  {
+    "id": "W100",
+    "name": "Bronze Short Sword",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 27.0,
+          "max": 33.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Slashing",
+          "min": 17.0,
+          "max": 20.0
+        },
+        "time_s": 0.75,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 15.0
+      },
+      {
+        "slot": 3,
+        "damage": {
+          "type": "Slashing",
+          "min": 40.0,
+          "max": 49.0
+        },
+        "time_s": 1.47,
+        "movement": "0.25",
+        "ability": "Damage to guard: 10%",
+        "stamina": 30
+      }
+    ],
+    "stability_loss": 0.32,
+    "durability": 100.0,
+    "requirements": null
+  },
+  {
+    "id": "W101",
+    "name": "Bronze Spear",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Impaling",
+          "min": 22.0,
+          "max": 27.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Impaling",
+          "min": 45.0,
+          "max": 55.0
+        },
+        "time_s": 0.7,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      }
+    ],
+    "stability_loss": 0.28,
+    "durability": 67.0,
+    "requirements": "Cannot be used with Reinforced Armour or Heavy Armour"
+  },
+  {
+    "id": "W102",
+    "name": "Burning Oil",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Burning",
+          "min": 45.0,
+          "max": 55.0
+        },
+        "time_s": 0.34,
+        "movement": "66.5%",
+        "ability": "Range 5m",
+        "stamina": 10.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": null,
+    "requirements": null
+  },
+  {
+    "id": "W103",
+    "name": "Crude Short Sword",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 21.0,
+          "max": 26.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Slashing",
+          "min": 13.0,
+          "max": 16.0
+        },
+        "time_s": 0.75,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 15.0
+      },
+      {
+        "slot": 3,
+        "damage": {
+          "type": "Slashing",
+          "min": 32.0,
+          "max": 39.0
+        },
+        "time_s": 1.47,
+        "movement": "0.25",
+        "ability": "Damage to guard: 6%",
+        "stamina": 30
+      }
+    ],
+    "stability_loss": 0.36,
+    "durability": 100.0,
+    "requirements": null
+  },
+  {
+    "id": "W104",
+    "name": "Crude Shortbow",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Missile",
+          "min": 49.0,
+          "max": 60.0
+        },
+        "time_s": 1.17,
+        "movement": "0.4",
+        "ability": "Range 27m , Inaccuracy 0m - 1m , Max Accuracy 1s",
+        "stamina": 8.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Missile",
+          "min": 49.0,
+          "max": 60.0
+        },
+        "time_s": 1.17,
+        "movement": "0.6",
+        "ability": "Range 16m , Inaccuracy 1.5m - 3.5m , Max Accuracy 1s",
+        "stamina": 8.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": 167.0,
+    "requirements": "Bows cannot be armed while wearing reinforced armour or heavy armour."
+  },
+  {
+    "id": "W105",
+    "name": "Crude Throwing Axe",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 13.0,
+          "max": 16.0
+        },
+        "time_s": 0.2,
+        "movement": null,
+        "ability": "It always staggers the target on impact even if it is wearing heavy armour.",
+        "stamina": 8.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": null,
+    "requirements": null
+  },
+  {
+    "id": "W106",
+    "name": "Fine Longsword",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Piercing",
+          "min": 49.0,
+          "max": 60.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Piercing",
+          "min": 35.0,
+          "max": 42.0
+        },
+        "time_s": 0.75,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 15.0
+      },
+      {
+        "slot": 3,
+        "damage": {
+          "type": "Piercing",
+          "min": 81.0,
+          "max": 99.0
+        },
+        "time_s": 1.75,
+        "movement": "0.25",
+        "ability": "Damage to guard: 15%",
+        "stamina": 30
+      }
+    ],
+    "stability_loss": 0.24,
+    "durability": 100.0,
+    "requirements": "Melee 6"
+  },
+  {
+    "id": "W107",
+    "name": "Fine Short Sword",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 40.0,
+          "max": 49.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Slashing",
+          "min": 26.0,
+          "max": 31.0
+        },
+        "time_s": 0.75,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 15.0
+      },
+      {
+        "slot": 3,
+        "damage": {
+          "type": "Slashing",
+          "min": 60.0,
+          "max": 73.0
+        },
+        "time_s": 1.47,
+        "movement": "0.25",
+        "ability": "Damage to guard: 15%",
+        "stamina": 30
+      }
+    ],
+    "stability_loss": 0.28,
+    "durability": 100.0,
+    "requirements": "Melee 5"
+  },
+  {
+    "id": "W108",
+    "name": "Flint Spear",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Impaling",
+          "min": 16.0,
+          "max": 19.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Impaling",
+          "min": 18.0,
+          "max": 22.0
+        },
+        "time_s": 0.7,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      }
+    ],
+    "stability_loss": 0.28,
+    "durability": 40.0,
+    "requirements": "Cannot be used with Reinforced Armour or Heavy Armour"
+  },
+  {
+    "id": "W109",
+    "name": "Iron Longsword",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Piercing",
+          "min": 40.0,
+          "max": 49.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Piercing",
+          "min": 32.0,
+          "max": 39.0
+        },
+        "time_s": 0.75,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 15.0
+      },
+      {
+        "slot": 3,
+        "damage": {
+          "type": "Piercing",
+          "min": 73.0,
+          "max": 90.0
+        },
+        "time_s": 1.75,
+        "movement": "0.25",
+        "ability": "Damage to guard: 15%",
+        "stamina": 30
+      }
+    ],
+    "stability_loss": 0.24,
+    "durability": 100.0,
+    "requirements": "Melee 4"
+  },
+  {
+    "id": "W110",
+    "name": "Iron Mace",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Crushing",
+          "min": 25.0,
+          "max": 30.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": "Stability Damage 3.75%",
+        "stamina": 20.0
+      }
+    ],
+    "stability_loss": 0.28,
+    "durability": 100.0,
+    "requirements": "Melee 5"
+  },
+  {
+    "id": "W111",
+    "name": "Iron Short Sword",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 31.0,
+          "max": 38.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Slashing",
+          "min": 20.0,
+          "max": 25.0
+        },
+        "time_s": 0.75,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 15.0
+      },
+      {
+        "slot": 3,
+        "damage": {
+          "type": "Slashing",
+          "min": 46.0,
+          "max": 57.0
+        },
+        "time_s": 1.47,
+        "movement": "0.25",
+        "ability": "Damage to guard: 15%",
+        "stamina": 30
+      }
+    ],
+    "stability_loss": 0.28,
+    "durability": 100.0,
+    "requirements": "Melee 3"
+  },
+  {
+    "id": "W112",
+    "name": "Iron Spear",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Impaling",
+          "min": 29.0,
+          "max": 36.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Impaling",
+          "min": 67.0,
+          "max": 82.0
+        },
+        "time_s": 0.7,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      }
+    ],
+    "stability_loss": 0.28,
+    "durability": null,
+    "requirements": null
+  },
+  {
+    "id": "W113",
+    "name": "Javelin",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 25.0,
+          "max": 30.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 10.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Missile",
+          "min": 135.0,
+          "max": 165.0
+        },
+        "time_s": 0.7,
+        "movement": "0.25",
+        "ability": "Range 20m",
+        "stamina": 10.0
+      }
+    ],
+    "stability_loss": 0.28,
+    "durability": 100.0,
+    "requirements": "Melee 2 , Ranged 4 Cannot be used with Reinforced Armour or Heavy Armour"
+  },
+  {
+    "id": "W114",
+    "name": "Longbow",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Missile",
+          "min": 117.0,
+          "max": 144.0
+        },
+        "time_s": 1.17,
+        "movement": "0.6",
+        "ability": "Range 34m , Inaccuracy 0m - 3m, Max Accuracy 1s",
+        "stamina": 8.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Missile",
+          "min": 94.0,
+          "max": 115.0
+        },
+        "time_s": 1.17,
+        "movement": "0.7",
+        "ability": "Range 35m , Inaccuracy 2m - 4m , Max Accuracy 1s",
+        "stamina": 10.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": 167.0,
+    "requirements": "Ranged 5, Bows cannot be armed while wearing reinforced armour or heavy armour."
+  },
+  {
+    "id": "W115",
+    "name": "Masterwork Short Sword",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 49.0,
+          "max": 60.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Slashing",
+          "min": 34.0,
+          "max": 41.0
+        },
+        "time_s": 0.75,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 15.0
+      },
+      {
+        "slot": 3,
+        "damage": {
+          "type": "Slashing",
+          "min": 73.0,
+          "max": 90.0
+        },
+        "time_s": 1.47,
+        "movement": "0.25",
+        "ability": "Damage to guard: 15%",
+        "stamina": 30
+      }
+    ],
+    "stability_loss": 0.28,
+    "durability": 100.0,
+    "requirements": "Melee 7"
+  },
+  {
+    "id": "W116",
+    "name": "Oil Flask",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Siege",
+          "min": 10.0,
+          "max": 13.0
+        },
+        "time_s": 0.7,
+        "movement": null,
+        "ability": "Range 6m , No Damage to stone structures",
+        "stamina": 10.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": null,
+    "requirements": null
+  },
+  {
+    "id": "W117",
+    "name": "Quality Throwing Axe",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 22.0,
+          "max": 27.0
+        },
+        "time_s": 0.2,
+        "movement": null,
+        "ability": "It always staggers the target on impact even if it is wearing heavy armour.",
+        "stamina": 8.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": null,
+    "requirements": null
+  },
+  {
+    "id": "W118",
+    "name": "Shortbow",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Missile",
+          "min": 76.0,
+          "max": 93.0
+        },
+        "time_s": 1.17,
+        "movement": "0.4",
+        "ability": "Range 27m , Inaccuracy 0m - 1m , Max Accuracy 1s",
+        "stamina": 8.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Missile",
+          "min": 76.0,
+          "max": 93.0
+        },
+        "time_s": 1.17,
+        "movement": "0.6",
+        "ability": "Range 16m , Inaccuracy 1.5m - 3.5m , Max Accuracy 1s",
+        "stamina": 8.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": 167.0,
+    "requirements": "Ranged 3, Bows cannot be armed while wearing reinforced armour or heavy armour."
+  },
+  {
+    "id": "W119",
+    "name": "Superior Longsword",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Piercing",
+          "min": 54.0,
+          "max": 66.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Piercing",
+          "min": 37.0,
+          "max": 46.0
+        },
+        "time_s": 0.75,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 15.0
+      },
+      {
+        "slot": 3,
+        "damage": {
+          "type": "Piercing",
+          "min": 87.0,
+          "max": 106.0
+        },
+        "time_s": 1.75,
+        "movement": "0.25",
+        "ability": "Damage to guard: 15%",
+        "stamina": 30
+      }
+    ],
+    "stability_loss": 0.24,
+    "durability": 100.0,
+    "requirements": "Melee 7"
+  },
+  {
+    "id": "W120",
+    "name": "Superior Short Sword",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 45.0,
+          "max": 55.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Slashing",
+          "min": 29.0,
+          "max": 36.0
+        },
+        "time_s": 0.75,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 15.0
+      },
+      {
+        "slot": 3,
+        "damage": {
+          "type": "Slashing",
+          "min": 67.0,
+          "max": 82.0
+        },
+        "time_s": 1.47,
+        "movement": "0.25",
+        "ability": "Damage to guard: 15%",
+        "stamina": 30
+      }
+    ],
+    "stability_loss": 0.28,
+    "durability": 100.0,
+    "requirements": "Melee 6"
+  },
+  {
+    "id": "W121",
+    "name": "Superior Shortbow",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Missile",
+          "min": 94.0,
+          "max": 115.0
+        },
+        "time_s": 1.17,
+        "movement": "0.1",
+        "ability": "Range 27m , Inaccuracy 0m - 1m , Max Accuracy 1s",
+        "stamina": 8.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Missile",
+          "min": 94.0,
+          "max": 115.0
+        },
+        "time_s": 1.17,
+        "movement": "0.3",
+        "ability": "Range 16m , Inaccuracy 1.5m - 3.5m , Max Accuracy 1s",
+        "stamina": 8.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": 167.0,
+    "requirements": "Ranged 5, Bows cannot be armed while wearing reinforced armour or heavy armour."
+  },
+  {
+    "id": "W122",
+    "name": "Superior Spear",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Impaling",
+          "min": 46.0,
+          "max": 57.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Impaling",
+          "min": 76.0,
+          "max": 93.0
+        },
+        "time_s": 0.7,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 20.0
+      }
+    ],
+    "stability_loss": 0.28,
+    "durability": 134.0,
+    "requirements": "Melee 5 , Ranged 5 , Cannot be used with Reinforced Armour or Heavy Armour"
+  },
+  {
+    "id": "W123",
+    "name": "Torch",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 9.0,
+          "max": 11.0
+        },
+        "time_s": 1.1,
+        "movement": null,
+        "ability": null,
+        "stamina": 10.0
+      },
+      {
+        "slot": 2,
+        "damage": {
+          "type": "Siege",
+          "min": 3.0,
+          "max": 4.0
+        },
+        "time_s": 0.4,
+        "movement": null,
+        "ability": "Range 6m",
+        "stamina": 10.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": null,
+    "requirements": null
+  },
+  {
+    "id": "W124",
+    "name": "Trap",
+    "attacks": [],
+    "stability_loss": null,
+    "durability": null,
+    "requirements": null
+  },
+  {
+    "id": "W125",
+    "name": "Iron Broadaxe",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Cleaving",
+          "min": 25.0,
+          "max": 30.0
+        },
+        "time_s": 1.0,
+        "movement": "0.25",
+        "ability": "Shield durability loss multiplier x20 ; Armour damage multiplayer x7.5",
+        "stamina": 20.0
+      }
+    ],
+    "stability_loss": 0.28,
+    "durability": 400.0,
+    "requirements": "Melee 5"
+  },
+  {
+    "id": "W126",
+    "name": "Defensive Stone",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Crushing",
+          "min": 135.0,
+          "max": 165.0
+        },
+        "time_s": 0.1,
+        "movement": "0.55",
+        "ability": "Damage to Stability 50% , Range 5m",
+        "stamina": 10.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": null,
+    "requirements": null
+  },
+  {
+    "id": "W127",
+    "name": "Bronze Knife",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 18.0,
+          "max": 22.0
+        },
+        "time_s": 1.1,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 10.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": 160.0,
+    "requirements": null
+  },
+  {
+    "id": "W128",
+    "name": "Flint Knife",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 13.0,
+          "max": 16.0
+        },
+        "time_s": 1.1,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 10.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": 80.0,
+    "requirements": null
+  },
+  {
+    "id": "W129",
+    "name": "Iron Knife",
+    "attacks": [
+      {
+        "slot": 1,
+        "damage": {
+          "type": "Slashing",
+          "min": 22.0,
+          "max": 27.0
+        },
+        "time_s": 1.1,
+        "movement": "0.25",
+        "ability": null,
+        "stamina": 10.0
+      }
+    ],
+    "stability_loss": null,
+    "durability": 320.0,
+    "requirements": null
+  }
+]

@@ -1,0 +1,106 @@
+{
+  "targets": [
+    "Infantry",
+    "NPC",
+    "Mounted Unit",
+    "Light Structure",
+    "Heavy Structure",
+    "Vehicle"
+  ],
+  "multipliers": {
+    "Slashing": {
+      "Infantry": 0.75,
+      "NPC": 1.0,
+      "Mounted Unit": 0.5,
+      "Light Structure": 0.1,
+      "Heavy Structure": 0.0,
+      "Vehicle": 0.0
+    },
+    "Piercing": {
+      "Infantry": 0.75,
+      "NPC": 1.0,
+      "Mounted Unit": 0.5,
+      "Light Structure": 0.1,
+      "Heavy Structure": 0.0,
+      "Vehicle": 0.0
+    },
+    "Missile": {
+      "Infantry": 1.0,
+      "NPC": 0.5,
+      "Mounted Unit": 0.25,
+      "Light Structure": 0.0,
+      "Heavy Structure": 0.0,
+      "Vehicle": 0.0
+    },
+    "Siege": {
+      "Infantry": 0.3,
+      "NPC": 0.3,
+      "Mounted Unit": 0.3,
+      "Light Structure": 1.0,
+      "Heavy Structure": 1.0,
+      "Vehicle": 5.0
+    },
+    "Animal": {
+      "Infantry": 1.0,
+      "NPC": 1.0,
+      "Mounted Unit": 0.5,
+      "Light Structure": 0.1,
+      "Heavy Structure": 0.0,
+      "Vehicle": 0.1
+    },
+    "Cleaving": {
+      "Infantry": 0.75,
+      "NPC": 1.0,
+      "Mounted Unit": 0.5,
+      "Light Structure": 1.0,
+      "Heavy Structure": 0.0,
+      "Vehicle": 1.0
+    },
+    "Crushing": {
+      "Infantry": 0.75,
+      "NPC": 1.0,
+      "Mounted Unit": 0.5,
+      "Light Structure": 0.1,
+      "Heavy Structure": 0.0,
+      "Vehicle": 0.33
+    },
+    "Burning": {
+      "Infantry": 1.0,
+      "NPC": 1.0,
+      "Mounted Unit": 0.5,
+      "Light Structure": 1.0,
+      "Heavy Structure": 0.0,
+      "Vehicle": 0.66
+    },
+    "Impaling": {
+      "Infantry": 1.0,
+      "NPC": 1.5,
+      "Mounted Unit": 3.0,
+      "Light Structure": 0.1,
+      "Heavy Structure": 0.0,
+      "Vehicle": 0.0
+    }
+  },
+  "labels": [
+    {
+      "label": "Very Effective",
+      "range": "100%+"
+    },
+    {
+      "label": "Effective",
+      "range": "100%"
+    },
+    {
+      "label": "Reduced",
+      "range": "50-99%"
+    },
+    {
+      "label": "Very Reduced",
+      "range": "1-49%"
+    },
+    {
+      "label": "No Damage",
+      "range": "0%"
+    }
+  ]
+}

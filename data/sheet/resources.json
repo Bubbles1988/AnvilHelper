@@ -1,0 +1,759 @@
+[
+  {
+    "name": "Branches",
+    "category": "Raw Resource",
+    "id": "RR001",
+    "size": "Small",
+    "description": "Branches are raw resources. They are among the most basic resources, used extensively throughout the war. They can also be used as fuel. Fuel duration is 30 seconds."
+  },
+  {
+    "name": "Briar Spruce Log",
+    "category": "Raw Resource",
+    "id": "RR002",
+    "size": "Big",
+    "description": "Briar Spruce Log is a raw resource."
+  },
+  {
+    "name": "Briar Spruce Seeds",
+    "category": "Raw Resource",
+    "id": "RR003",
+    "size": "Small",
+    "description": "Briar Spruce Seeds are seeds dropped by chopping down Briar Spruce Tree IconResourceWood02.png, which players can plant to grow another briar spruce tree."
+  },
+  {
+    "name": "Cassiterite Fragments",
+    "category": "Raw Resource",
+    "id": "RR004",
+    "size": "Small",
+    "description": "Cassiterite Fragments are raw resources."
+  },
+  {
+    "name": "Coal",
+    "category": "Raw Resource",
+    "id": "RR005",
+    "size": "Big",
+    "description": "Coal is a large chunk of coal that needs to be smashed before it can be smelted."
+  },
+  {
+    "name": "Crude Resin",
+    "category": "Raw Resource",
+    "id": "RR006",
+    "size": "Small",
+    "description": "Crude Resin is a raw resource. Is not stackable."
+  },
+  {
+    "name": "Dead Wood Log",
+    "category": "Raw Resource",
+    "id": "RR007",
+    "size": "Big",
+    "description": "Dead Wood Log is a raw resource."
+  },
+  {
+    "name": "Fibre",
+    "category": "Raw Resource",
+    "id": "RR008",
+    "size": "Small",
+    "description": "Fibre is a raw resource. It is among the most basic resources, used extensively throughout the war. It can also be used as fuel. Fuel duration 60 seconds."
+  },
+  {
+    "name": "Flint",
+    "category": "Raw Resource",
+    "id": "RR009",
+    "size": "Small",
+    "description": "Flint is a raw resource."
+  },
+  {
+    "name": "Iron Ore",
+    "category": "Raw Resource",
+    "id": "RR010",
+    "size": "Big",
+    "description": "Iron Ore is a large chunk of iron that needs to be smashed before it can be smelted."
+  },
+  {
+    "name": "Iron Ore Fragment",
+    "category": "Raw Resource",
+    "id": "RR011",
+    "size": "Small",
+    "description": "Iron Ore Fragment is a raw resource."
+  },
+  {
+    "name": "Lead Fragments",
+    "category": "Raw Resource",
+    "id": "RR012",
+    "size": "Small",
+    "description": "Lead Fragments are raw resources."
+  },
+  {
+    "name": "Limestone",
+    "category": "Raw Resource",
+    "id": "RR013",
+    "size": "Small",
+    "description": "Limestone is a raw resource. With a 50% drop chance"
+  },
+  {
+    "name": "Malachite Fragments",
+    "category": "Raw Resource",
+    "id": "RR014",
+    "size": "Small",
+    "description": "Malachite Fragments are raw resources."
+  },
+  {
+    "name": "Malachite Ore",
+    "category": "Raw Resource",
+    "id": "RR015",
+    "size": "Big",
+    "description": "Malachite Ore is a large chunk of malachite that needs to be smashed before it can be smelted."
+  },
+  {
+    "name": "Mireland Beech Log",
+    "category": "Raw Resource",
+    "id": "RR016",
+    "size": "Big",
+    "description": "Mireland Beech Log is a raw resource."
+  },
+  {
+    "name": "Mireland Beech Seed",
+    "category": "Raw Resource",
+    "id": "RR017",
+    "size": "Big",
+    "description": "Mireland Beech Seeds are seeds dropped by chopping down Mireland Beech Tree IconResourceWood01.png, which players can plant to grow another mireland beech tree."
+  },
+  {
+    "name": "North Astrian Pine Log",
+    "category": "Raw Resource",
+    "id": "RR018",
+    "size": "Big",
+    "description": "North Astrian Pine Log is a raw resource."
+  },
+  {
+    "name": "North Astrian Pine Seeds",
+    "category": "Raw Resource",
+    "id": "RR019",
+    "size": "Small",
+    "description": "North Astrian Pine Seeds are seeds dropped by chopping down North Astrian Pine Tree , which players can plant to grow another north astrian pine tree."
+  },
+  {
+    "name": "Pulverized Coal",
+    "category": "Raw Resource",
+    "id": "RR020",
+    "size": "Small",
+    "description": "Pulverized Coal is a raw resource."
+  },
+  {
+    "name": "Rare Metals",
+    "category": "Raw Resource",
+    "id": "RR021",
+    "size": "Small",
+    "description": "Rare Metals is a raw resource found in the lowest region in the Underworld. It is used to craft the highest tier of weapons and armour."
+  },
+  {
+    "name": "Rock Slab",
+    "category": "Raw Resource",
+    "id": "RR022",
+    "size": "Big",
+    "description": "The Rock Slab is a resource and weapon. As a resource it can be broken down into fragments at the Smashing Plate. As a weapon it can be thrown/dropped onto targets to deal crushing damage."
+  },
+  {
+    "name": "Stone Off-Cuts",
+    "category": "Raw Resource",
+    "id": "RR023",
+    "size": "Small",
+    "description": "Stone Off-Cuts are raw resources."
+  },
+  {
+    "name": "Water Bucket",
+    "category": "Raw Resource",
+    "id": "RR024",
+    "size": "Big",
+    "description": "Water Buckets are a general purpose resource used by a range of professions. Such as watering Tilled Field , quenching tools at Quenching Station , cooking foods and putting out fires. It can be acquired from a Well or active Canal Storage ."
+  },
+  {
+    "name": "Bronze Ingot",
+    "category": "Manufactured Resources",
+    "id": "MR001",
+    "size": "Small",
+    "description": "Bronze Ingot is a manufactured resource. It is used for bronze smithing."
+  },
+  {
+    "name": "Chicken Feed",
+    "category": "Manufactured Resources",
+    "id": "MR002",
+    "size": "Small",
+    "description": "Chicken Feed is an animal feed that can be eaten by Chicken IconChicken.png. Players holding a chicken feed in hands can lure wild chickens."
+  },
+  {
+    "name": "Copper Nails",
+    "category": "Manufactured Resources",
+    "id": "MR003",
+    "size": "Small",
+    "description": "Copper Nails are manufactured resources. They are mainly used for repairing tools, armours and weapons at Repair Bench but also used for crafting certain items and building certain structures."
+  },
+  {
+    "name": "Dead Wood Planks",
+    "category": "Manufactured Resources",
+    "id": "MR004",
+    "size": "Small",
+    "description": "Dead Wood Planks are manufactured resources. Not stackable."
+  },
+  {
+    "name": "Equine Feed",
+    "category": "Manufactured Resources",
+    "id": "MR005",
+    "size": "Small",
+    "description": "Equine Feed is an animal feed that can be eaten by Horse or Donkey . Players holding equine feed in their hands can lure wild horses or donkeys. It restores 50% of an animal's hunger and also provides 0.5% health regeneration for 4 Minutes."
+  },
+  {
+    "name": "Fertilizer",
+    "category": "Manufactured Resources",
+    "id": "MR006",
+    "size": "Small",
+    "description": "Fertilizer is a manufactured resource used on Tilled Field to reduce crop growth time by 33%. Each application of fertilizer lasts for 33 minutes, regardless of the crops planted. It can be applied by equipping fertilizer in hand and clicking while standing on the field. Once applied, the field's surface will display a white ash covering, indicating it is fertilized."
+  },
+  {
+    "name": "Flour",
+    "category": "Manufactured Resources",
+    "id": "MR007",
+    "size": "Small",
+    "description": "Flour is a manufactured resource used for cooking food."
+  },
+  {
+    "name": "Gravel",
+    "category": "Manufactured Resources",
+    "id": "MR008",
+    "size": "Small",
+    "description": "Gravel is a manufactured resource used for building Dirt Path ."
+  },
+  {
+    "name": "Iron Ingot",
+    "category": "Manufactured Resources",
+    "id": "MR009",
+    "size": "Small",
+    "description": "Iron Ingot is a manufactured resource. It is used for iron smithing."
+  },
+  {
+    "name": "Lead Ingot",
+    "category": "Manufactured Resources",
+    "id": "MR010",
+    "size": "Small",
+    "description": "Lead Ingot is a manufactured resource. It is one of three trade resources, along with Linen and Rosin ."
+  },
+  {
+    "name": "Linen",
+    "category": "Manufactured Resources",
+    "id": "MR011",
+    "size": "Small",
+    "description": "Linen is a manufactured resource. It is one of three trade resources, along with Lead Ingot and Rosin ."
+  },
+  {
+    "name": "Mortar",
+    "category": "Manufactured Resources",
+    "id": "MR012",
+    "size": "Small",
+    "description": "Mortar is a manufactured resource."
+  },
+  {
+    "name": "Reinforced Wood Planks",
+    "category": "Manufactured Resources",
+    "id": "MR013",
+    "size": "Small",
+    "description": "Reinforced Wood Planks are manufactured resources. Not stackable"
+  },
+  {
+    "name": "Rosin",
+    "category": "Manufactured Resources",
+    "id": "MR014",
+    "size": "Small",
+    "description": "Rosin is a manufactured resource. It is one of three trade resources, along with Lead Ingot and Linen ."
+  },
+  {
+    "name": "Sinew Bow String",
+    "category": "Manufactured Resources",
+    "id": "MR015",
+    "size": "Small",
+    "description": "Sinew Bow String is a manufactured resource used for crafting bows."
+  },
+  {
+    "name": "Steel Ingot",
+    "category": "Manufactured Resources",
+    "id": "MR016",
+    "size": "Small",
+    "description": "Steel Ingot is a manufactured resource."
+  },
+  {
+    "name": "Stone Bricks",
+    "category": "Manufactured Resources",
+    "id": "MR017",
+    "size": "Big",
+    "description": "Stone Bricks are manufactured resources."
+  },
+  {
+    "name": "Tanned Thick Leather",
+    "category": "Manufactured Resources",
+    "id": "MR018",
+    "size": "Big",
+    "description": "Tanned Thick Leather is a manufactured resource."
+  },
+  {
+    "name": "Thick Leather",
+    "category": "Manufactured Resources",
+    "id": "MR019",
+    "size": "Small",
+    "description": "Thick Leather is a manufactured resource."
+  },
+  {
+    "name": "Thin Leather",
+    "category": "Manufactured Resources",
+    "id": "MR020",
+    "size": "Small",
+    "description": "Thin Leather is a manufactured resource."
+  },
+  {
+    "name": "Tin Ingot",
+    "category": "Manufactured Resources",
+    "id": "MR021",
+    "size": "Small",
+    "description": "Tin Ingot is a manufactured resource. It is used in the production of longswords."
+  },
+  {
+    "name": "Wood Ash",
+    "category": "Manufactured Resources",
+    "id": "MR022",
+    "size": "Small",
+    "description": "Wood Ash is a byproduct of burning fuel, with each fuel item converting to wood ash at a 1:1 ratio."
+  },
+  {
+    "name": "Wood Blank",
+    "category": "Manufactured Resources",
+    "id": "MR023",
+    "size": "Small",
+    "description": "Wood Blank is a manufactured resource. Not stackable"
+  },
+  {
+    "name": "Wood Planks",
+    "category": "Manufactured Resources",
+    "id": "MR024",
+    "size": "Small",
+    "description": "Wood Planks are manufactured resources. They are among the most basic resources, used extensively throughout the war. They can also be used as fuel. Fuel Duration 180 Seconds. Not stackable"
+  },
+  {
+    "name": "Animal Bones",
+    "category": "Animal Resources",
+    "id": "AR001",
+    "size": "Small",
+    "description": "Animal Bones are resources."
+  },
+  {
+    "name": "Animal Fat",
+    "category": "Animal Resources",
+    "id": "AR002",
+    "size": "Small",
+    "description": "Animal Fat is a resource obtained as loot from most animals. It is one of the common resources and used extensively throughout the war."
+  },
+  {
+    "name": "Animal Shite",
+    "category": "Animal Resources",
+    "id": "AR003",
+    "size": "Small",
+    "description": "Animal Shite is a resource. It is harvested from Animal Shite Pile . Horse and Donkey produce animal shite while stationed in a Stable ."
+  },
+  {
+    "name": "Boar Meat",
+    "category": "Animal Resources",
+    "id": "AR004",
+    "size": "Small",
+    "spoilage": "16 Minutes 40 Seconds",
+    "description": "Boar Meat is a raw food used in multiple food recipes. It decays over time and must be cooked before spoiling. Storing it in a Meat Rack IconMeatRack.png extends its shelf life."
+  },
+  {
+    "name": "Chicken Egg",
+    "category": "Animal Resources",
+    "id": "AR005",
+    "size": "Small",
+    "description": "A Chicken Egg is a resource that can be collected by having Chicken in proximity to a Hen House . Each morning the chickens will lay 1 each consuming 1 Chicken Feed ."
+  },
+  {
+    "name": "Common Meat",
+    "category": "Animal Resources",
+    "id": "AR006",
+    "size": "Small",
+    "spoilage": "16 Minutes 40 Seconds",
+    "description": "Common Meat is a raw food used in multiple food recipes, obtained as loot from most animals. It decays over time and must be cooked before spoiling. Storing it in a Meat Rack extends its shelf life."
+  },
+  {
+    "name": "Deer Meat",
+    "category": "Animal Resources",
+    "id": "AR007",
+    "size": "Small",
+    "spoilage": "16 Minutes 40 Seconds",
+    "description": "Deer Meat is a raw food used in multiple food recipes. It decays over time and must be cooked before spoiling. Storing it in a Meat Rack extends its shelf life."
+  },
+  {
+    "name": "Feathers",
+    "category": "Animal Resources",
+    "id": "AR008",
+    "size": "Small",
+    "description": "Feathers are a resource dropped by Chicken or Dire Raven when killed, or generated by chickens near a Hen House containing Chicken Feed ."
+  },
+  {
+    "name": "Rare Animal Bones",
+    "category": "Animal Resources",
+    "id": "AR009",
+    "size": "Small",
+    "description": "Rare Animal Bones are resources."
+  },
+  {
+    "name": "Strong Sinew",
+    "category": "Animal Resources",
+    "id": "AR010",
+    "size": "Small",
+    "description": "Strong Sinew is a resource."
+  },
+  {
+    "name": "Thick Pelt",
+    "category": "Animal Resources",
+    "id": "AR011",
+    "size": "Big",
+    "description": "Thick Pelt is a resource."
+  },
+  {
+    "name": "Thin Pelt",
+    "category": "Animal Resources",
+    "id": "AR012",
+    "size": "Big",
+    "description": "Thin Pelt is a resource."
+  },
+  {
+    "name": "Cabbage",
+    "category": "Plant Resources",
+    "id": "PR001",
+    "description": "Cabbage is a crop."
+  },
+  {
+    "name": "Cabbage Seed",
+    "category": "Plant Resources",
+    "id": "PR002",
+    "description": "Cabbage Seed is a type of seed that can be planted into a Tilled Field. It can't be planted during winter."
+  },
+  {
+    "name": "Flax",
+    "category": "Plant Resources",
+    "id": "PR003",
+    "description": "Flax is a crop."
+  },
+  {
+    "name": "Flax Seed",
+    "category": "Plant Resources",
+    "id": "PR004",
+    "description": "Flax Seed is a type of seed that can be planted into a Tilled Field . It can't be planted during winter."
+  },
+  {
+    "name": "Hemp Seed",
+    "category": "Plant Resources",
+    "id": "PR005",
+    "description": "Hemp Seed is a type of seed that can be planted into a Tilled Field . It can be planted only during sumor and lencten."
+  },
+  {
+    "name": "Strong Fibre",
+    "category": "Plant Resources",
+    "id": "PR006",
+    "description": "Strong Fibre is a crop."
+  },
+  {
+    "name": "Wheat Seed",
+    "category": "Plant Resources",
+    "id": "PR007",
+    "description": "Wheat Seed is a type of seed that can be planted into a Tilled Field IconFarm.png. It can't be planted during winter."
+  },
+  {
+    "name": "Wheat Sheaf",
+    "category": "Plant Resources",
+    "id": "PR008",
+    "description": "Wheat Sheaf is a crop."
+  },
+  {
+    "name": "Bronze Armour Plating",
+    "category": "Smithy Resources",
+    "id": "SR001",
+    "description": "Bronze Armour Plating is a resource used in smithing to craft bronze equipment."
+  },
+  {
+    "name": "Bronze Axe Blade",
+    "category": "Smithy Resources",
+    "id": "SR002",
+    "description": "A Bronze Axe Blade is a resource used in smithing."
+  },
+  {
+    "name": "Bronze Ingot (Heated)",
+    "category": "Smithy Resources",
+    "id": "SR003",
+    "description": "The Bronze Ingot (Heated) is the Forge heated version of a Bronze Ingot . Heated bronze ingots will revert to regular bronze ingots once their temperature drops to zero."
+  },
+  {
+    "name": "Bronze Sword Blade",
+    "category": "Smithy Resources",
+    "id": "SR004",
+    "description": "A Bronze Sword Blade is a resource used in smithing."
+  },
+  {
+    "name": "Bronze Tip Blade",
+    "category": "Smithy Resources",
+    "id": "SR005",
+    "description": "A Bronze Tip Blade is a resource used in smithing."
+  },
+  {
+    "name": "Bronze Tool Blade",
+    "category": "Smithy Resources",
+    "id": "SR006",
+    "description": "A Bronze Tool Blade is a resource used in smithing."
+  },
+  {
+    "name": "Iron Armour Plating",
+    "category": "Smithy Resources",
+    "id": "SR007",
+    "description": "Iron Armour Plating is a resource used in smithing to craft iron equipment."
+  },
+  {
+    "name": "Iron Axe Blade",
+    "category": "Smithy Resources",
+    "id": "SR008",
+    "description": "An Iron Axe Blade is a resource used in smithing."
+  },
+  {
+    "name": "Iron Ingot (Heated)",
+    "category": "Smithy Resources",
+    "id": "SR009",
+    "description": "The Iron Ingot (Heated) is the Forge heated version of a Iron Ingot . Heated iron ingots will revert to regular iron ingots once their temperature drops to zero."
+  },
+  {
+    "name": "Iron Sword Blade",
+    "category": "Smithy Resources",
+    "id": "SR010",
+    "description": "A Iron Sword Blade is a resource used in smithing."
+  },
+  {
+    "name": "Iron Tool Blade",
+    "category": "Smithy Resources",
+    "id": "SR011",
+    "description": "A Iron Tool Blade is a resource used in smithing."
+  },
+  {
+    "name": "Iron Weapon Tip",
+    "category": "Smithy Resources",
+    "id": "SR012",
+    "description": "A Iron Weapon Tip is a resource used in smithing."
+  },
+  {
+    "name": "Ancient Lamen",
+    "category": "Trophy Resources",
+    "id": "TR001",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Ancient Lamen is a trophy item dropped by killing Ancients players. It can be handed in at the bounty board inside any Town Keep , Fortress Keep , or Large Camp to complete a bounty."
+  },
+  {
+    "name": "Valuables",
+    "category": "Trophy Resources",
+    "id": "TR002",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Valuables are a trophy item earned by burning an Farm House . It can be handed in at the bounty board inside a Town Keep to complete a bounty."
+  },
+  {
+    "name": "Bandit Mark",
+    "category": "Trophy Resources",
+    "id": "TR003",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Bandit Mark is a trophy item. It can be handed in at the bounty board inside a Town Keep to complete a bounty."
+  },
+  {
+    "name": "Bat Wing",
+    "category": "Trophy Resources",
+    "id": "TR004",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Bat Wing is a trophy item. It can be handed in at the bounty board inside a Town Keep IconTownhall.png to complete a bounty."
+  },
+  {
+    "name": "Bear Claw",
+    "category": "Trophy Resources",
+    "id": "TR005",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Bear Claw is a trophy item. It can be handed in at the bounty board inside a Town Keep to complete a bounty."
+  },
+  {
+    "name": "Boar Tusk",
+    "category": "Trophy Resources",
+    "id": "TR006",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Boar Tusk is a trophy item. It can be handed in at the bounty board inside a Town Keep to complete a bounty."
+  },
+  {
+    "name": "Deer Antler",
+    "category": "Trophy Resources",
+    "id": "TR007",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Deer Antler is a trophy item. It can be handed in at the bounty board inside a Town Keep to complete a bounty."
+  },
+  {
+    "name": "Dire Raven Wing",
+    "category": "Trophy Resources",
+    "id": "TR008",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Dire Raven Wing is a trophy item. It can be handed in at the bounty board inside a Town Keep to complete a bounty."
+  },
+  {
+    "name": "Fortress Charters",
+    "category": "Trophy Resources",
+    "id": "TR009",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Fortress Charters is a trophy item. It can be handed in at the bounty board inside any Town Keep , Fortress Keep , or Large Camp to complete a bounty."
+  },
+  {
+    "name": "Highwayman Cloak",
+    "category": "Trophy Resources",
+    "id": "TR010",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Highwayman Cloak is a trophy item. It can be handed in at the bounty board inside a Town Keep to complete a bounty."
+  },
+  {
+    "name": "Mánadýr Barb",
+    "category": "Trophy Resources",
+    "id": "TR011",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Mánadýr Barb is a trophy item. It can be handed in at the bounty board inside a Town Keep to complete a bounty."
+  },
+  {
+    "name": "Pagan Oath Ring",
+    "category": "Trophy Resources",
+    "id": "TR012",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Pagan Oath Ring is a trophy item dropped by killing Pagans players. It can be handed in at the bounty board inside any Town Keep , Fortress Keep , or Large Camp to complete a bounty."
+  },
+  {
+    "name": "Remnant Cingulum",
+    "category": "Trophy Resources",
+    "id": "TR013",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Remnant Cingulum is a trophy item dropped by killing Remnants players. It can be handed in at the bounty board inside any Town Keep , Fortress Keep , or Large Camp to complete a bounty."
+  },
+  {
+    "name": "Religious Relics",
+    "category": "Trophy Resources",
+    "id": "TR014",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Religious Relics are a trophy item. It can be handed in at the bounty board inside a Town Keep to complete a bounty."
+  },
+  {
+    "name": "Stonwulfe Heart",
+    "category": "Trophy Resources",
+    "id": "TR015",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Stonwulfe Heart is a trophy item. It can be handed in at the bounty board inside a Town Keep to complete a bounty."
+  },
+  {
+    "name": "Wolf Tooth",
+    "category": "Trophy Resources",
+    "id": "TR016",
+    "spoilage": "47 Minutes 37 Seconds",
+    "description": "Wolf Tooth is a trophy item. It can be handed in at the bounty board inside a Town Keep IconTownhall.png to complete a bounty."
+  },
+  {
+    "name": "Basic Saddle",
+    "category": "Misc Resources",
+    "id": "MR001",
+    "description": "Basic Saddle is a saddle. Before a Horse can be mounted, a basic saddle must be equipped. It also provides 3 stackable slots for item storage."
+  },
+  {
+    "name": "Mill Harness",
+    "category": "Misc Resources",
+    "id": "MR002",
+    "description": "Mill Harness is animal equipment used to attach a Horse or Donkey to a Power Mill ."
+  },
+  {
+    "name": "Pack Saddle",
+    "category": "Misc Resources",
+    "id": "MR003",
+    "description": "Pack Saddle is a saddle. It is used on a Donkey IconDonkey.png to transport items. Up to 6 stackable items can be stored on a donkey equipped with a pack saddle. Large items are not supported."
+  },
+  {
+    "name": "Catapult Boulder",
+    "category": "Misc Resources",
+    "id": "MR004",
+    "description": "Catapult Boulder is ammunition that can be fired from the Catapult CatapultIcon.png."
+  },
+  {
+    "name": "Crude Shortbow Arrows",
+    "category": "Misc Resources",
+    "id": "MR005",
+    "description": "Crude Shortbow Arrows are ammunition used by the Crude Shortbow"
+  },
+  {
+    "name": "Longbow Arrows",
+    "category": "Misc Resources",
+    "id": "MR006",
+    "description": "Longbow Arrows are ammunition used by the Long Bow"
+  },
+  {
+    "name": "Scorpion Arrows",
+    "category": "Misc Resources",
+    "id": "MR007",
+    "description": "Scorpion Arrows are ammunition used by the Scorpion"
+  },
+  {
+    "name": "Shortbow Arrows",
+    "category": "Misc Resources",
+    "id": "MR008",
+    "description": "Shortbow Arrows are ammunition used by the Short Bow IconBow.png and the Superior Short Bow IconBow500.png"
+  },
+  {
+    "name": "Auxiliary Bowmen Kit",
+    "category": "Misc Resources",
+    "id": "MR009",
+    "description": "Auxiliary Bowmen Kit is an item that can be unbundled to get 10 crude armour sets, 10 Crude Shortbow and 200 Crude Shortbow Arrows."
+  },
+  {
+    "name": "Auxiliary Ration Supply",
+    "category": "Misc Resources",
+    "id": "MR010",
+    "description": "Auxiliary Ration Supply is an item that can be unbundled to get 1000 Auxiliary Rations. Not a edible food source!"
+  },
+  {
+    "name": "Auxiliary Rations",
+    "category": "Misc Resources",
+    "id": "MR011",
+    "description": "Auxiliary Rations can be acquired by unbundling Auxiliary Ration Supply . Not a food source, only for Aux Avatar storage!"
+  },
+  {
+    "name": "Auxiliary Spearmen Kit",
+    "category": "Misc Resources",
+    "id": "MR012",
+    "description": "Auxiliary Spearmen Kit is an item that can be unbundled to get 10 crude armour sets and 10 Flint Spear."
+  },
+  {
+    "name": "Auxiliary Swordsmen Kit",
+    "category": "Misc Resources",
+    "id": "MR013",
+    "description": "Auxiliary Swordsmen Kit is an item that can be unbundled to get 10 crude armour sets, 10 Crude Short Sword and 10 Crude Shield."
+  },
+  {
+    "name": "Bandage",
+    "category": "Misc Resources",
+    "id": "MR014",
+    "description": "Bandage is a avatar recovery item, allowing wounded avatars to be treated."
+  },
+  {
+    "name": "Barrel",
+    "category": "Misc Resources",
+    "id": "MR015",
+    "description": "A Barrel is a movable storage container designed to compress multiple items into one transportable item, ideal for long-distance transportation via a Caravan , Resource Wagon or Cargo Ship . Items can be packed and unpacked into barrels using the dedicated inventory slot found within a Town Keep , Fortress Keep Homesteads , or Large Camp ."
+  },
+  {
+    "name": "Repair Materials",
+    "category": "Misc Resources",
+    "id": "MR016",
+    "description": "Repair Materials are a resource used for repairing damaged structures and vehicles. To use them, equip a hammer and, with repair materials in your inventory, click while facing the target to repair it, restoring a varying percentage of health depending on the target. Repairs cannot be performed if the target is on fire or an enemy is nearby."
+  },
+  {
+    "name": "Silver",
+    "category": "Misc Resources",
+    "id": "MR017",
+    "description": "Silver is the currency of Calligo, used at the Town Marketplace for trading, used for production at TownCraftingTable and as an upkeep cost for the Homesteads and Keeps . Silver can be earned as bounty by exchanging trophies at bounty board."
+  }
+]

@@ -1,0 +1,3802 @@
+[
+  {
+    "name": "Beacon Tower",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Own Territory",
+    "health": 100.0,
+    "description": "The Beacon Tower is a structure used to detect players and certain structures within its radius and display them on the map. Beacons can link with a friendly Fortress Keep or other Beacon Towers to create a chain. The detection range of each beacon varies based on relative altitude within an area, with greater coverage from the sides of hills and mountains. The altitude indicators observed before placing the beacon are normal, high, very high, and highest depending where you are building the beacon. If the beacon is fueled and an enemy appears within its own or linked radius, the beacon tower will visually become lit.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 3.0
+      },
+      {
+        "item": "Stone Off-Cuts",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Dirt Path",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Anywhere",
+    "health": null,
+    "description": "The Dirt Path is a road surface that will speed up any player running over it by 20%.",
+    "ingredients": [
+      {
+        "item": "Gravel",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Gravel Road",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Anywhere",
+    "health": null,
+    "description": "The Gravel Road is a road surface that will speed up any player running over it by 25%.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 1.0
+      },
+      {
+        "item": "Gravel",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Repair Bench",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Own Facilities",
+    "health": 80.0,
+    "description": "The Repair Bench is a structure that can be used to repair damaged weapons, tools or armours by consuming Copper Nails. It always costs 1 nail to fully repair an item.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 10.0
+      },
+      {
+        "item": "Stone Off-Cuts",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Sign Post",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Anywhere",
+    "health": null,
+    "description": "A Sign Post is a structure that can be built almost anywhere within the world to create semi-persistent text messages. Signs can be upvoted or downvoted to increase or decrease its lifespan. Signs have a 200 message character limit.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 4.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Standing Torch",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Anywhere",
+    "health": 20.0,
+    "description": "The Standing Torch is a light producing structure that needs fuel to function.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 2.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Storage Chest",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Anywhere",
+    "health": 30.0,
+    "description": "The Storage Chest is a small dedicated storage structure.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Temple",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress, Wildness",
+    "health": 1080.0,
+    "description": "The Temple is a late game victory condition structure. It can be built no earlier than 4 Days after the war has started, with currently 2 being required to start the condition and then kept alive for 48 hours. Temples will be visible on the map for everyone once built.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 450.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 150.0
+      },
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 450.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 150.0
+      },
+      {
+        "item": "Dead Wood Planks",
+        "amount": 75.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 150.0
+      },
+      {
+        "item": "Strong Fibre",
+        "amount": 75.0
+      },
+      {
+        "item": "Linen",
+        "amount": 150.0
+      },
+      {
+        "item": "Lead Ingot",
+        "amount": 150.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 100.0
+      }
+    ]
+  },
+  {
+    "name": "Tent",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Town, Fortress, Siegecamp",
+    "health": 25.0,
+    "description": "The Tent is a structure that is built to increase avatar recovery time. Base recovery is 10 hours and with each tent built increases avatar recovery speed by 5%, with maximum of 20 tents reaching 100% (5 hours), effectively halving the time required for full recovery.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Bridge Walkway",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 300.0,
+    "description": "Passable walkway with openings to both sides.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Corridor T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "Passable corridor with openings to both sides.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Corridor T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 300.0,
+    "description": "The Homestead Bedrock Stairs is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Bedrock Stairs T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 125.0,
+    "description": "The Homestead Bedrock Stairs is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Bedrock Stairs T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 250.0,
+    "description": "The Homestead Bedrock Stairs is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Half Bedrock T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 125.0,
+    "description": "The Homestead Half Bedrock is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Half Bedrock T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 250.0,
+    "description": "The Homestead Half Bedrock is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Half Triangular Bedrock T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 125.0,
+    "description": "The Homestead Half Triangular Bedrock is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Half Triangular Bedrock T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 250.0,
+    "description": "The Homestead Half Triangular Bedrock is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Quarter Bedrock T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 125.0,
+    "description": "The Homestead Quarter Bedrock is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Quarter Bedrock T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 250.0,
+    "description": "The Homestead Quarter Bedrock is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Square Bedrock T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 125.0,
+    "description": "The Homestead Quarter Bedrock is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Square Bedrock T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 250.0,
+    "description": "The Homestead Quarter Bedrock is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Triangular Bedrock T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 125.0,
+    "description": "Homestead Triangular Bedrock is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Triangular Bedrock T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 250.0,
+    "description": "The Homestead Triangular Bedrock is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Banner",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 50.0,
+    "description": "A Homestead Banner is a banner that can be built to display your Empire's heraldry.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Linen",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Half Floor",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Half Floor is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Half Triangular Floor",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Half Triangular Floor is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Quarter Floor",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Quarter Floor is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Square Floor",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Square Floor is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Triangular Floor",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Triangular Floor is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Keystone T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 300.0,
+    "description": "The Homestead Keystone is the center of a homestead and can be claimed by a house. At Tiers 2 and 3, a destroyed keystone collapses into an indestructible husk that despawns after 24 hours unless it is repaired. Keystones without a roof or any pledges will rapidly decay, potentially within only a few hours, even when upkeep Silver Gold.png is available.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 16.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 8.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 4.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Keystone T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 500.0,
+    "description": "The Homestead Keystone is the center of a homestead and can be claimed by a house. At Tiers 2 and 3, a destroyed keystone collapses into an indestructible husk that despawns after 24 hours unless it is repaired. Keystones without a roof or any pledges will rapidly decay, potentially within only a few hours, even when upkeep Silver Gold.png is available.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 25.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 10.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 10.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Keystone T3",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 800.0,
+    "description": "The Homestead Keystone is the center of a homestead and can be claimed by a house. At Tiers 2 and 3, a destroyed keystone collapses into an indestructible husk that despawns after 24 hours unless it is repaired. Keystones without a roof or any pledges will rapidly decay, potentially within only a few hours, even when upkeep Silver Gold.png is available.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 50.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 20.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 3.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 20.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 10.0
+      }
+    ]
+  },
+  {
+    "name": "Advanced Workbench",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 80.0,
+    "description": "The Advanced Workbench is a structure used for crafting advanced tools.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 4.0
+      },
+      {
+        "item": "Stone Off-Cuts",
+        "amount": 10.0
+      },
+      {
+        "item": "Bronze Ingot",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Bed",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 50.0,
+    "description": "The Homestead Bed is a structure that is built to increase avatar recovery time. Base recovery time is 6 hours and 40 minutes and with each homestead bed built increases avatar recovery speed by 12.5%, with maximum of 8 beds reaching 100% (3 hours and 20 minutes), effectively halving the time required for full recovery.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Resource Stockpile T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 160.0,
+    "description": "The Resource Stockpile is a structure that can be used to hold large amounts of resources.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Resource Stockpile T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 360.0,
+    "description": "The Resource Stockpile is a structure that can be used to hold large amounts of resources.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Resource Stockpile T3",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 360.0,
+    "description": "The Resource Stockpile is a structure that can be used to hold large amounts of resources.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Workbench",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 80.0,
+    "description": "The Workbench is a structure used for crafting simple tools.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Full Height Stairs",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Full Height Stairs is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Half Height Stairs T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 75.0,
+    "description": "The Homestead Half Height Stairs is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Half Height Stairs T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 75.0,
+    "description": "The Homestead Half Height Stairs is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Arch Wall T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 75.0,
+    "description": "The Homestead Arch Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Arch Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Arch Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Declined Wall T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 75.0,
+    "description": "The Homestead Declined Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Declined Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Declined Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Door Wall T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 75.0,
+    "description": "The Homestead Door Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Door Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Door Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Half Width Wall T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 75.0,
+    "description": "The Homestead Half Width Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Half Width Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Half Width Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Inclined Wall T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 75.0,
+    "description": "The Homestead Inclined Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Inclined Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Inclined Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Power Bypass Wall",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "A Power Bypass Wall is used to pass a Power Connection Rope through the walls of a homestead. It's commonly used to input power from an external source such as a Wind Mill or Power Mill .",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 8.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Quarter Wall T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 75.0,
+    "description": "The Homestead Quarter Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Quarter Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Quarter Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Square Wall T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 100.0,
+    "description": "The Homestead Square Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Square Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Square Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Windowed Wall T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 75.0,
+    "description": "The Homestead Windowed Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Homestead Windowed Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 150.0,
+    "description": "The Homestead Windowed Wall is a homestead structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      }
+    ]
+  },
+  {
+    "name": "Banquet Table",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress, Homestead",
+    "health": 15.0,
+    "description": "The Banquet Table is a food storage structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Firepit",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Anywhere",
+    "health": 20.0,
+    "description": "The Firepit is a basic cooking structure used for simple food recipes.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Hearth",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Townstead",
+    "health": 100.0,
+    "description": "The Hearth is a cooking structure used for food recipes.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Liquid Barrel",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress, Homestead",
+    "health": 15.0,
+    "description": "The Liquid Barrel is a structure for storing liquids.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Meat Rack",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress, Homestead",
+    "health": 15.0,
+    "description": "The Meat Rack is a structure for storing uncooked meats, slowing their decay.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Oven",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Townstead",
+    "health": 100.0,
+    "description": "The Oven is a cooking structure used for cooking advanced food recipes.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 5.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Pantry",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress, Homestead",
+    "health": 15.0,
+    "description": "The Pantry is a structure that can be used for storing cooking ingredients.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Armour Rack",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress, Homestead",
+    "health": 15.0,
+    "description": "The Armour Rack is a structure that can store armours and shields.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Gate (Homestead)",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Fortress, Wildstead",
+    "health": 60.0,
+    "description": "The Gate is simple gate which can be used with Makeshift Walls inside a Homestead Keystone. It can be opened and closed by pressing Keyboard V while in range of the gate. Battering Rams have a unique feature when attacking Gates that allows it to breach and open a gate before it's destroyed. Once a gate has been breached it will be permanently stuck open until it has been repaired. The chance for a gate to breach depends on its tier, and its health each time the gate is rammed.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 8.0
+      }
+    ]
+  },
+  {
+    "name": "Makeshift Wall",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Fortress, Wildstead",
+    "health": 60.0,
+    "description": "The Makeshift Wall is a basic wall for defending your homesteads, it connects well with the Gate (Homestead).",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Mantlet",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Anywhere",
+    "health": 80.0,
+    "description": "The Mantlet is a temporary defensive structure that can be built to provide cover.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Stockade",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Wildstead, Siegecamp",
+    "health": 50.0,
+    "description": "The Stockade is a defensive spike structure that will damage players or animals that get too close, dealing 40 Piercing damage per second.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Tower",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress, Siegecamp",
+    "health": 480.0,
+    "description": "The Tower is a structure.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 10.0
+      }
+    ]
+  },
+  {
+    "name": "Weapon Stockpile",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress, Homestead",
+    "health": 15.0,
+    "description": "The Weapon Stockpile is a storage structure for holding weapons, tools or ammunition.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Aqueduct Pump",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Siegecamp, Wilderness",
+    "health": 1000.0,
+    "description": "The Aqueduct Pump is a water structure used to pump water from a river into an aqueduct system. Aqueducts cannot be built without water connection.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 20.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 25.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 12.0
+      },
+      {
+        "item": "Animal Bones",
+        "amount": 10.0
+      },
+      {
+        "item": "Rope",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Aqueduct Slope - Gentle",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Siegecamp, Wilderness, Town",
+    "health": 1000.0,
+    "description": "The Aqueduct Slope - Gentle is a water structure used to transport water from a river along a aqueduct system. Aqueducts cannot be built without water connection.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 10.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Aqueduct Slope - Steep",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Siegecamp, Wilderness, Town",
+    "health": 1000.0,
+    "description": "The Aqueduct Slope - Steep is a water structure used to transport water from a river along a aqueduct system. Aqueducts cannot be built without water connection.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 10.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Aqueduct Straight",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Siegecamp, Wilderness, Town",
+    "health": 1000.0,
+    "description": "The Aqueduct Straight is a water structure used to transport water from a river along a aqueduct system. Aqueducts cannot be built without water connection.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 10.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Canal",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead, Wilderness, Town",
+    "health": 100.0,
+    "description": "A Canal is a structure for distributing water from an aqueduct around a Town or Homestead. It can be used to attach to a Water Wheel or Canal Storage.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Canal Storage",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead, Wilderness, Town",
+    "health": 100.0,
+    "description": "The Canal Storage is a structure used in an aqueduct system for storing water. It will drain water from the system, storing Water Bucket in its inventory. The speed at which Water Bucket are filled is based on the number of other canal storages attached to the system. It has a minimum time of 15 seconds per water, but this can extend into 5+ minutes per water with large amounts of attached canal storage.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Heating Vat",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Wildstead",
+    "health": 60.0,
+    "description": "To craft using the heating vat you need three types of items. The necessary input for the recipe, the fuel which will set the vats heat, and the Water Bucket used for boiling. A Bellow can be attached to boost the heat input of the fuel by 50%, with each boilable item having an optimal target temprature for best Quality.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Dead Wood Planks",
+        "amount": 10.0
+      }
+    ]
+  },
+  {
+    "name": "Shallow Well",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress, Homestead",
+    "health": 90.0,
+    "description": "The Shallow Well is a structure used to get water. It will create 1 Water Bucket every 45 seconds.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 4.0
+      },
+      {
+        "item": "Stone Off-Cuts",
+        "amount": 4.0
+      }
+    ]
+  },
+  {
+    "name": "Deep Well",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress, Homestead",
+    "health": 210.0,
+    "description": "The Shallow Well is a structure used to get water. It will create 1 Water Bucket every 45 seconds.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 4.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 4.0
+      },
+      {
+        "item": "Animal Bones",
+        "amount": 3.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Water Wheel",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress, Homestead",
+    "health": 50.0,
+    "description": "The Water Wheel is a water structure used to generate power fed from a Canal attached to an aqueduct system.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 15.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 5.0
+      },
+      {
+        "item": "Animal Bones",
+        "amount": 1.0
+      },
+      {
+        "item": "Rope",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Anvil",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Townstead",
+    "health": 50.0,
+    "description": "The Anvil is a heated smithing structure used to shape Bronze Ingot (Heated) and Iron Ingot (Heated) into blades.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 3.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Bellow",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 50.0,
+    "description": "The Bellow is an industrial structure used to attach to a Forge or Heating Vat to increase heat.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 6.0
+      },
+      {
+        "item": "Animal Bones",
+        "amount": 4.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 4.0
+      }
+    ]
+  },
+  {
+    "name": "Farm Fence",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Wildstead",
+    "health": 15.0,
+    "description": "The Farm Fence is a structure useful against rabbits and losing animals.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Farm Gate",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Wildstead",
+    "health": 15.0,
+    "description": "The Farm Gate is a structure.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Food Trough",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Wildstead",
+    "health": 30.0,
+    "description": "The Food Trough is a husbandry structure used for raising Horse Foal or Donkey Foal . NOTE: Adult animals will not eat food from the Food Trough, meaning they will starve if not placed inside a Stable , or fed manually.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Forge",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Townstead",
+    "health": 50.0,
+    "description": "The Forge is a smithing structure used for heating ingots or blades. By default its only able to heat items up to 50% heat, with the remaining 50% be accessed by building an attached Bellow .",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 2.0
+      },
+      {
+        "item": "Animal Bones",
+        "amount": 2.0
+      },
+      {
+        "item": "Stone Off-Cuts",
+        "amount": 4.0
+      }
+    ]
+  },
+  {
+    "name": "Furnace",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 120.0,
+    "description": "The Furnace is a refinement structure used for refining fragments into ingots.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 3.0
+      },
+      {
+        "item": "Stone Off-Cuts",
+        "amount": 6.0
+      }
+    ]
+  },
+  {
+    "name": "Grain Mill",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 100.0,
+    "description": "The Grain Mill is a structure used for milling resources. Players can manually operate the mill via a handcrank to grind ingredients, or attach a Powered Handcrank Adapter connected to a power source for automation. The coarseness of ground ingredients can be controlled by pushing a lever at the side of the structure. The correct coarseness determines the final quality of the outputted materials.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 8.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 8.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 8.0
+      },
+      {
+        "item": "Animal Bones",
+        "amount": 4.0
+      }
+    ]
+  },
+  {
+    "name": "Hen House T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Wildstead",
+    "health": 150.0,
+    "description": "The Hen House is a animal husbandry structure used for feeding Chicken with Chicken Feed and collecting their Chicken Egg and Feathers . Up to 8 chickens will eat at midnight each day if enough feed is available.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 10.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 5.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 10.0
+      }
+    ]
+  },
+  {
+    "name": "Hen House T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Wildstead",
+    "health": 300.0,
+    "description": "The Hen House is a animal husbandry structure used for feeding Chicken with Chicken Feed and collecting their Chicken Egg and Feathers . Up to 20 chickens will eat at midnight each day if enough feed is available.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Mining Platform",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Underworld",
+    "health": 30.0,
+    "description": "The Mining Platform, like the Mining Stairs , is a framing structure used in the underworld for accessing resource chunks. They can only be built in close proximity to underworld cube mines.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 2.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Mining Stairs",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Underworld",
+    "health": 30.0,
+    "description": "The Mining Stairs, like the Mining Platform , is a framing structure used in the underworld for accessing resource chunks. They can only be built in close proximity to underworld cube mines.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 2.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Power Connection Gear",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 50.0,
+    "description": "The Power Connection Gear is a power structure used with Power Connection Rope to carry mechanical energy to other rope power structures.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Power Connection Rope",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 50.0,
+    "description": "The Power Connection Rope is a power structure used with Power Connection Gear to carry mechanical energy to other rope power structures.",
+    "ingredients": [
+      {
+        "item": "Rope",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Power Mill",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 100.0,
+    "description": "The Power Mill is a structure for power generation much like the Water Wheel , and Wind Mill . It's a manual push wheel that can be used by players, Horse or Donkey . In order for a Horse or Donkey to be attached they must have a Mill Harness attachment.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 10.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 5.0
+      },
+      {
+        "item": "Animal Bones",
+        "amount": 3.0
+      },
+      {
+        "item": "Rope",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Powered Handcrank Adapter",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 100.0,
+    "description": "The Powered Handcrank Adapter is a power structure that's used to connect the Grain Mill to a power system via Power Connection Rope .",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 4.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 2.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Powered Saw Mill",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Homestead",
+    "health": 50.0,
+    "description": "The Powered Saw Mill is a workshop structure that attaches to the Sawbuck . It's a powered structure used to automatically saw logs attached to the sawbuck.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 10.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 5.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 3.0
+      },
+      {
+        "item": "Rope",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Quenching Station",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Townstead",
+    "health": 50.0,
+    "description": "The Quenching Station is a smithing structure used for cooling heated ingots and blades. It consumes one Water Bucket for each item quenched.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Sawbuck",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Homestead",
+    "health": 30.0,
+    "description": "The Sawbuck is a structure used for processing logs into different resources. Logs are processed via hitting with an axe or use of an attached Powered Saw Mill .",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Smashing Plate",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Wildstead",
+    "health": 50.0,
+    "description": "The Smashing Plate is a structure used for breaking down rocks and minerals. Items are processed via hitting with a hammer or use of an attached Stamp Mill .",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 3.0
+      },
+      {
+        "item": "Animal Bones",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Stable",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Wildstead",
+    "health": 100.0,
+    "description": "A Stable is a structure used for feeding and breeding Horse Foal or Donkey Foal . Each stable can hold up to 3 animals. Animals in the stable are automatically fed from available Equine Feed when their satiety drops below 65%. Animals in the stable can be bred by having two of the same kind of animal, Equine Feed. Water Bucket, and an empty animal slot within the stable. If these conditions are met breeding can take 1-4 hours for Horse and 2-5 hours for Donkey.",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 15.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 5.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 3.0
+      },
+      {
+        "item": "Wood Planks",
+        "amount": 8.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Stamp Mill",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Wildstead",
+    "health": 75.0,
+    "description": "The Stamp Mill is a structure used to attach to a Smashing Plate allowing for powered automated mineral and rock production.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 10.0
+      },
+      {
+        "item": "Stone Bricks",
+        "amount": 10.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 3.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 1.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Stone Anvil",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Townstead",
+    "health": 30.0,
+    "description": "The Stone Anvil is a cold smithing structure used to shape Bronze Ingot or Iron Ingot into blades.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Stone Off-Cuts",
+        "amount": 10.0
+      }
+    ]
+  },
+  {
+    "name": "Tilled Field",
+    "tools": [
+      "Iron Hoe"
+    ],
+    "location": "Wildstead",
+    "health": 180.0,
+    "description": "A Tilled Field is a farm structure that's required for planting and growing crops. It has 20 slots that can be filled with the various crop types.",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 10.0
+      }
+    ]
+  },
+  {
+    "name": "Trip Hammer",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Townstead",
+    "health": 50.0,
+    "description": "The Trip Hammer is a smithing powered structure used to automate and speed up the forging process.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 2.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 3.0
+      },
+      {
+        "item": "Rope",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Wind Mill",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Wildstead",
+    "health": 100.0,
+    "description": "The Wind Mill is a simple structure for power generation that can be rotated to point in the direction of the wind.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 6.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 2.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 5.0
+      },
+      {
+        "item": "Rope",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Fort Banner (Hanging)",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "A Fort Banner (Hanging) is a banner that can be built to display your Empire's heraldry.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Linen",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Fort Banner (Standing)",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Fortress",
+    "health": 50.0,
+    "description": "A Fort Banner (Standing) is a banner that can be built to display your Empire's heraldry.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Linen",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Scorpion",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "The Scorpion is a defensive anti-infantry siege weapon that can be deployed on foundations. To operate it, Scorpion Arrows must be inserted into its inventory. Once loaded, the scorpion can be reloaded using the default key to prepare it to fire. A white tracer line will indicate your current aim.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Arch Foundation T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 800.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 8.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Arch Foundation T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 2160.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 8.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Gate Foundation T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 800.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 10.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Gate Foundation T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 2160.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 10.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 4.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Half Width Foundation T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 200.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Half Width Foundation T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 500.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Quarter Triangular Foundation T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 200.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Quarter Triangular Foundation T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 500.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 4.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Rounded Foundation T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 200.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Rounded Foundation T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 500.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 4.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Side Stairs Foundation T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 240.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 10.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Side Stairs Foundation T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 800.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 8.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Square Foundation T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 800.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 4.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Square Foundation T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 2160.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 5.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Triangular Foundation T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 400.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Triangular Foundation T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 600.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Fortress Keep T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 250.0,
+    "description": "A Fortress Keep is a structure that creates a buildable fortress area with 38m radius. It must be placed as a blueprint from a Caravan before construction. It has a bounty board which only the Pagan Oath Ring , Ancient Lamen , Remnant Cingulum , Fortress Charters , Religious Relics and valuables trophies can be turned in.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 35.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 10.0
+      },
+      {
+        "item": "Stone Off-Cuts",
+        "amount": 10.0
+      }
+    ]
+  },
+  {
+    "name": "Fortress Keep T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 2048.0,
+    "description": "A Fortress Keep is a structure that creates a buildable fortress area with 38m radius. It must be placed as a blueprint from a Caravan before construction. It has a bounty board which only the Pagan Oath Ring , Ancient Lamen , Remnant Cingulum and Fortress Charters trophies can be turned in.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 15.0
+      },
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 30.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 10.0
+      }
+    ]
+  },
+  {
+    "name": "Fortress Keep T3",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 2880.0,
+    "description": "A Fortress Keep is a structure that creates a buildable fortress area with 38m radius. It must be placed as a blueprint from a Caravan before construction. It has a bounty board which only the Pagan Oath Ring , Ancient Lamen , Remnant Cingulum , Fortress Charters , Religious Relics and valuables trophies can be turned in.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 50.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 25.0
+      },
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 50.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 50.0
+      },
+      {
+        "item": "Linen",
+        "amount": 20.0
+      },
+      {
+        "item": "Lead Ingot",
+        "amount": 20.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 20.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Half Triangular Landing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 75.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Half Triangular Landing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Rounded Landing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Rounded Landing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 400.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Square Landing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Square Landing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 400.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Triangular Landing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Triangular Landing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 400.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Flat Half Parapet T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Fortress",
+    "health": 50.0,
+    "description": "Flat Half Parapets are modular fortifications designed to provide cover along wall tops. They grant a 10% damage reduction to the structure they're attached to. The reduction bonus can stack a maximum of 2 times per structure.",
+    "ingredients": []
+  },
+  {
+    "name": "Flat Half Parapet T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 125.0,
+    "description": "Flat Half Parapets are modular fortifications designed to provide cover along wall tops. They grant a 10% damage reduction to the structure they're attached to. The reduction bonus can stack a maximum of 2 times per structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Flat Parapet T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "Flat Parapets are modular fortifications designed to provide cover along wall tops. They grant a 10% damage reduction to the structure they're attached to. The reduction bonus can stack a maximum of 2 times per structure.",
+    "ingredients": []
+  },
+  {
+    "name": "Flat Parapet T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 250.0,
+    "description": "Flat Parapets are modular fortifications designed to provide cover along wall tops. They grant a 10% damage reduction to the structure they're attached to. The reduction bonus can stack a maximum of 2 times per structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Rounded Parapet T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "Rounded Parapets are modular fortifications designed to provide cover along wall tops. They grant a 10% damage reduction to the structure they're attached to. The reduction bonus can stack a maximum of 2 times per structure.",
+    "ingredients": []
+  },
+  {
+    "name": "Rounded Parapet T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 250.0,
+    "description": "Rounded Parapets are modular fortifications designed to provide cover along wall tops. They grant a 10% damage reduction to the structure they're attached to. The reduction bonus can stack a maximum of 2 times per structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Staircase Half Parapet T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Fortress",
+    "health": 50.0,
+    "description": "Staircase Half Parapet are modular fortifications designed to provide cover along wall tops. They grant a 10% damage reduction to the structure they're attached to. The reduction bonus can stack a maximum of 2 times per structure.",
+    "ingredients": []
+  },
+  {
+    "name": "Staircase Half Parapet T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 125.0,
+    "description": "Staircase Half Parapet are modular fortifications designed to provide cover along wall tops. They grant a 10% damage reduction to the structure they're attached to. The reduction bonus can stack a maximum of 2 times per structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Staircase Parapet T1",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "Staircase Parapet are modular fortifications designed to provide cover along wall tops. They grant a 10% damage reduction to the structure they're attached to. The reduction bonus can stack a maximum of 2 times per structure.",
+    "ingredients": []
+  },
+  {
+    "name": "Staircase Parapet T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 250.0,
+    "description": "Staircase Parapet are modular fortifications designed to provide cover along wall tops. They grant a 10% damage reduction to the structure they're attached to. The reduction bonus can stack a maximum of 2 times per structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Town Marketplace",
+    "tools": [],
+    "location": "Town",
+    "health": 100.0,
+    "description": "A Town Marketplace is a structure for players to sell and buy armour, food, resources, tools, weapons, and vehicles. A market symbol can be seen on the map next to each Town which can be hovered to show the current buy and sell orders. For use the market must be visited in person and interacted with. The market has 3 menu tabs. \"Buy/Sell\" \"Place Order\" and \"Active Orders. \"Place Order\" will only be shown if the market is interacted with directly.",
+    "ingredients": []
+  },
+  {
+    "name": "Town Tavern",
+    "tools": [],
+    "location": "Town",
+    "health": 300.0,
+    "description": "The Rested buff is a player buff that is applied boosting stamina regeneration for a set duration. The buff will be applied when eating any food within the interior of the Town Tavern.",
+    "ingredients": []
+  },
+  {
+    "name": "Town Workshop",
+    "tools": [],
+    "location": "Town",
+    "health": 300.0,
+    "description": "Town Workshop is a production structure in Towns . It has a Repair Bench inside.",
+    "ingredients": []
+  },
+  {
+    "name": "Keep Corner In Roofing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Corner In Roofing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 400.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 4.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Corner Out Roofing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Corner Out Roofing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 400.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 4.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Edge Roofing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Edge Roofing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 400.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 4.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Inclined Roofing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Inclined Roofing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 400.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 4.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Interior Roofing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Interior Roofing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 400.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 4.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Quarter Incline Roofing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 75.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Quarter Incline Roofing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Quarter Triangular Roofing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 75.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Quarter Triangular Roofing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Rounded Roofing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Rounded Roofing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 400.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 4.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Triangular Roofing T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Triangular Roofing T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 400.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 4.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Half Height Staircase T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 100.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Half Height Staircase T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 250.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Half Spiral Staircase T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 240.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 5.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Half Spiral Staircase T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 800.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Staircase T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 240.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Staircase T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 800.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 3.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Town Keep",
+    "tools": [],
+    "location": "Town",
+    "health": 2880.0,
+    "description": "The Town Keep is a preplaced structure that serves as a capture point for the military victory condition. It also acts as the primary spawn point for players, having a storage for 500 Auxiliary avatars and an additional 1000 for named avatars. The keep features a public storage armoury, which can be unlocked when enemies are nearby, as well as rentable house and private storages. It creates a buildable town area with a 120m radius, allowing for the construction of town structures, including foundations used for walls and defences. Town Keystones can be built by those with a house within this area, enabling the construction of more advanced smithing and cooking structures. For solo or newer players looking to live within a town it's advised that they rent a private storage tab, and make use of the towns services while also renting any town homesteads setup by others to fulfil any additional smithing or cooking needs that can't be met via the standard town services.",
+    "ingredients": []
+  },
+  {
+    "name": "Keep Arch Hold Wall T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Arch Hold Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 300.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Door Hold Wall T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Door Hold Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 300.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Doorway Hold Wall T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Doorway Hold Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 300.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Half Triangular Hold Wall T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 75.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Half Triangular Hold Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Hold Wall T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Hold Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 300.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Quarter Hold Wall T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 75.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Quarter Hold Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Rounded Hold Wall T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Rounded Hold Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 300.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Windowed Hold Wall T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Windowed Hold Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 300.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Triangular Hold Wall T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Triangular Hold Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 300.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Windowed Round Hold Wall T1",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 150.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Keep Windowed Round Hold Wall T2",
+    "tools": [
+      "Iron Hammer",
+      "Flint Hammer"
+    ],
+    "location": "Fortress",
+    "health": 300.0,
+    "description": "Is a defensive structure.",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 2.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "name": "Large Camp",
+    "tools": [
+      "Hands"
+    ],
+    "location": "Wilderness",
+    "health": 500.0,
+    "description": "A Large Camp is a siege camp structure that can be deployed from a Caravan before being built. Without a supply of Silver the structures around the camp will decay. It has a bounty board which only the Pagan Oath Ring , Ancient Lamen , Remnant Cingulum , Fortress Charters , Religious Relics and valuables trophies can be turned in.",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 25.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 10.0
+      }
+    ]
+  }
+]
