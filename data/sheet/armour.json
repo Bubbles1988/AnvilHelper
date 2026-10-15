@@ -40,7 +40,7 @@
       "heavy_armour": false,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": true
+      "piercing_vulnerability": false
     },
     {
       "id": "A103",
@@ -54,7 +54,7 @@
       "heavy_armour": false,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": true
+      "piercing_vulnerability": false
     },
     {
       "id": "A104",
@@ -68,7 +68,7 @@
       "heavy_armour": false,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": true
+      "piercing_vulnerability": false
     },
     {
       "id": "A106",
@@ -82,7 +82,7 @@
       "heavy_armour": true,
       "projectile_stagger_immunity": true,
       "projectile_deflection": true,
-      "piercing_vulnerability": false
+      "piercing_vulnerability": true
     },
     {
       "id": "A107",
@@ -96,7 +96,7 @@
       "heavy_armour": true,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": false
+      "piercing_vulnerability": true
     },
     {
       "id": "A108",
@@ -110,7 +110,7 @@
       "heavy_armour": true,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": false
+      "piercing_vulnerability": true
     },
     {
       "id": "A110",
@@ -124,7 +124,7 @@
       "heavy_armour": false,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": true
+      "piercing_vulnerability": false
     },
     {
       "id": "A111",
@@ -138,7 +138,7 @@
       "heavy_armour": false,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": true
+      "piercing_vulnerability": false
     },
     {
       "id": "A112",
@@ -152,7 +152,7 @@
       "heavy_armour": false,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": true
+      "piercing_vulnerability": false
     },
     {
       "id": "A114",
@@ -166,7 +166,7 @@
       "heavy_armour": true,
       "projectile_stagger_immunity": true,
       "projectile_deflection": false,
-      "piercing_vulnerability": true
+      "piercing_vulnerability": false
     },
     {
       "id": "A115",
@@ -180,7 +180,7 @@
       "heavy_armour": true,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": true
+      "piercing_vulnerability": false
     },
     {
       "id": "A116",
@@ -194,7 +194,7 @@
       "heavy_armour": true,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": true
+      "piercing_vulnerability": false
     },
     {
       "id": "A117",

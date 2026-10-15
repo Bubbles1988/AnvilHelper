@@ -12,7 +12,7 @@ spreadsheet (collected from the [Anvil Empires wiki](https://anvilempires.wiki.g
 | `/weapon name` | Damage of every attack, stamina, requirements, what it's good / bad against, recipe |
 | `/compare first second` | Two weapons side by side, plus hits-to-kill vs armour sets and animals |
 | `/armour name [quality]` | One armour piece: mitigation (incl. vs Piercing), traits, recipe |
-| `/loadout helmet chest legs shield weapon enemy quality` | Full gear check: total mitigation, effective health, stability, warnings (e.g. bow + heavy armour), hits you can take from weapons and NPCs |
+| `/loadout helmet chest legs garment bottoms shield weapon enemy quality …_quality` | Full gear check incl. clothing worn under armour and a quality per piece: total mitigation, effective health, stability, warnings (e.g. bow + heavy armour), hits you can take from weapons and NPCs |
 | `/npc name [weapon] [armour…]` | Animal / NPC health, damage, hits needed to kill it, hits you survive, trophy |
 | `/craft item [amount] [station] [have]` | Full material list **and every step in between** (logs → planks → wood blank → …), leftovers and alternative stations |
 | `/food name` | Regen, duration, hunger, total healing, how to cook it (all steps) |
@@ -105,13 +105,15 @@ tests/
 
 ## How the numbers are calculated
 
-* **Damage mitigation** stacks multiplicatively: `1 - (1-head) × (1-chest) × (1-legs)`.
-  Quality 1/2/3 multiplies each piece by 1.1/1.2/1.3.
-* **Piercing vulnerability** (Crude, Light and Reinforced armour) halves that piece's mitigation vs Piercing damage.
+* **Damage mitigation** stacks multiplicatively over every worn piece, clothing included:
+  `1 - (1-helmet) × (1-chest) × (1-legs) × (1-garment) × (1-bottoms)`.
+  Quality 1/2/3 multiplies a piece by 1.1/1.2/1.3 and can be set per piece.
+* **Piercing vulnerability** (Heavy armour): Piercing damage against the wearer is ×2.
 * **Stability / temperature mitigation** add up and ignore quality.
 * **Effective health** = `100 / (1 - mitigation)`.
-* **Weapon damage** is multiplied by the damage-type table (e.g. Impaling ×1.5 vs NPCs, ×3 vs mounted),
-  then reduced by armour. Hits are shown as a range for max-roll and min-roll damage.
+* **Damage per hit on a player** = weapon damage × damage-type table vs Infantry (e.g. Piercing ×0.75)
+  × 2 if Piercing vs Heavy armour × (1 - mitigation). Against NPCs the NPC column is used
+  (e.g. Impaling ×1.5). Hits are shown as a range for max-roll and min-roll damage.
 * **NPC damage** against players goes through the damage-type table vs Infantry (Reaver slashing ×0.75,
   animals and missiles ×1), then armour.
 * **Crafting** picks, when there is a choice: your preferred station → no Silver → not a town building

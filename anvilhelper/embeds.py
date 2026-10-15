@@ -65,6 +65,11 @@ def dmg_text(dmg: dict) -> str:
     return f"{fmt_num(dmg['min'])}-{fmt_num(dmg['max'])} {dmg['type']}"
 
 
+def dmg_range(res: "combat.HitResult") -> str:
+    lo, hi = f"{res.damage_min:.1f}".rstrip("0").rstrip("."), f"{res.damage_max:.1f}".rstrip("0").rstrip(".")
+    return f"{lo} dmg" if lo == hi else f"{lo}-{hi} dmg"
+
+
 def attack_name(weapon: dict, attack: dict) -> str:
     names = {1: "Primary", 2: "Secondary", 3: "Heavy / Special"}
     if attack["slot"] == 2 and attack["damage"]["type"] == "Missile" and weapon["attacks"][0]["damage"]["type"] != "Missile":
@@ -176,21 +181,22 @@ def compare_embed(data: GameData, a: dict, b: dict) -> discord.Embed:
         embed.add_field(name=w["name"], value=_cut("\n".join(lines), FIELD_LIMIT), inline=True)
 
     # Hits needed against a few common targets with the primary attack
-    targets = [
-        ("🧍 Naked player", combat.Loadout()),
-        ("🛡️ Reinforced set", combat.Loadout(data.armour.get("reinforced helmet"), data.armour.get("reinforced chest"), data.armour.get("reinforced leg"))),
-        ("🛡️ Heavy set", combat.Loadout(data.armour.get("heavy helmet"), data.armour.get("heavy chest"), data.armour.get("heavy leg"))),
-    ]
+    def cell(res: combat.HitResult) -> str:
+        return f"**{res.text}** ({dmg_range(res)})"
+
     lines = []
-    for label, loadout in targets:
-        res = [combat.attack_vs_player(w["attacks"][0], loadout, data.damage_types).text if w["attacks"] else "-" for w in (a, b)]
-        lines.append(f"{label}: **{res[0]}** vs **{res[1]}**")
+    for label, loadout in [("🧍 No armour", combat.Loadout())] + [(f"🛡️ {p} set", combat.armour_set(data, p.lower()))
+                                                                 for p in ("Light", "Reinforced", "Heavy")]:
+        res = [cell(combat.attack_vs_player(w["attacks"][0], loadout, data.damage_types)) if w["attacks"] else "-"
+               for w in (a, b)]
+        lines.append(f"{label}: {res[0]} vs {res[1]}")
     for npc_name in ("wolf", "bear"):
         npc = data.npcs.get(npc_name)
         if npc:
-            res = [combat.attack_vs_npc(w["attacks"][0], npc, data.damage_types).text if w["attacks"] else "-" for w in (a, b)]
-            lines.append(f"🐺 {npc['name']} ({fmt_num(npc['health'])} HP): **{res[0]}** vs **{res[1]}**")
-    add_lines(embed, "Hits to kill (primary attack)", lines)
+            res = [cell(combat.attack_vs_npc(w["attacks"][0], npc, data.damage_types)) if w["attacks"] else "-"
+                   for w in (a, b)]
+            lines.append(f"🐺 {npc['name']} ({fmt_num(npc['health'])} HP): {res[0]} vs {res[1]}")
+    add_lines(embed, "Hits to kill with the primary attack (damage per hit)", lines)
     return embed
 
 
@@ -198,16 +204,17 @@ def compare_embed(data: GameData, a: dict, b: dict) -> discord.Embed:
 
 
 def armour_embed(data: GameData, a: dict, quality: int = 0) -> discord.Embed:
-    loadout = combat.Loadout(quality=quality)
-    mit = loadout.piece_mitigation(a)
-    embed = base_embed(data, a["name"], "armour", f"{a['kind'] or 'Armour'} · slot: **{a['slot']}**")
+    mit = combat.Loadout.piece_mitigation(a, quality)
+    slot = a["slot"] if a.get("kind") != "Clothing" else ("Garment" if a["slot"] == "Chest" else "Bottoms")
+    note = " (worn under armour)" if a.get("kind") == "Clothing" else ""
+    embed = base_embed(data, a["name"], "armour", f"{a['kind'] or 'Armour'} · slot: **{slot}**{note}")
     lines = [
         f"🛡️ Damage mitigation: **{fmt_pct(mit)}**" + (f" ({combat.QUALITY_NAMES[quality]})" if quality else ""),
         f"⚖️ Stability mitigation: {fmt_pct(a['stability_mitigation'])}",
         f"🌡️ Temperature mitigation: {fmt_pct(a['temperature_mitigation'])}",
     ]
     if a.get("piercing_vulnerability"):
-        lines.append(f"🗡️ vs Piercing: only **{fmt_pct(loadout.piece_mitigation(a, 'Piercing'))}** (piercing vulnerability)")
+        lines.append(f"🗡️ Piercing damage against you: **×{combat.PIERCING_VULNERABILITY_MULTIPLIER:g}**")
     if a.get("requirements"):
         lines.append(f"📋 Requirements: {a['requirements']}")
     add_lines(embed, "Protection", lines)
@@ -219,7 +226,7 @@ def armour_embed(data: GameData, a: dict, quality: int = 0) -> discord.Embed:
     if a.get("projectile_deflection"):
         traits.append("↩️ Can deflect arrows and javelins")
     if a.get("piercing_vulnerability"):
-        traits.append("⚠️ Weak against Piercing damage (longswords, scorpion)")
+        traits.append(f"⚠️ Piercing vulnerability: takes ×{combat.PIERCING_VULNERABILITY_MULTIPLIER:g} Piercing damage (longswords, scorpion)")
     add_lines(embed, "Traits", traits)
     add_crafting_fields(embed, data, a["name"])
     return embed
@@ -240,19 +247,21 @@ def shield_embed(data: GameData, s: dict) -> discord.Embed:
 def loadout_embed(data: GameData, loadout: combat.Loadout, weapon: dict | None = None,
                   enemy_weapon: dict | None = None) -> discord.Embed:
     embed = discord.Embed(title="🛡️ Loadout check", color=COLORS["armour"])
-    gear = [
-        f"**Head:** {loadout.head['name'] if loadout.head else '-'}",
-        f"**Chest:** {loadout.chest['name'] if loadout.chest else '-'}",
-        f"**Legs:** {loadout.legs['name'] if loadout.legs else '-'}",
-        f"**Shield:** {loadout.shield['name'] if loadout.shield else '-'}",
-        f"**Weapon:** {weapon['name'] if weapon else '-'}",
-        f"**Quality:** {combat.QUALITY_NAMES[loadout.quality]}",
-    ]
+    gear = []
+    for slot in combat.ARMOUR_SLOTS:
+        piece = getattr(loadout, slot)
+        if piece:
+            q = loadout.quality_of(slot)
+            gear.append(f"**{combat.SLOT_LABELS[slot]}:** {piece['name']}{f' (Q{q})' if q else ''}"
+                        f" - {fmt_pct(combat.Loadout.piece_mitigation(piece, q))}")
+        elif slot in ("head", "chest", "legs"):
+            gear.append(f"**{combat.SLOT_LABELS[slot]}:** -")
+    gear.append(f"**Shield:** {loadout.shield['name'] if loadout.shield else '-'}")
+    gear.append(f"**Weapon:** {weapon['name'] if weapon else '-'}")
     embed.add_field(name="Gear", value="\n".join(gear), inline=True)
 
     stats = [
         f"🛡️ Damage mitigation: **{fmt_pct(loadout.damage_mitigation())}**",
-        f"🗡️ vs Piercing: **{fmt_pct(loadout.damage_mitigation('Piercing'))}**",
         f"❤️ Effective health: **{loadout.effective_health():.0f}** (base 100)",
         f"⚖️ Stability mitigation: {fmt_pct(loadout.stability_mitigation())}",
         f"🌡️ Temperature mitigation: {fmt_pct(loadout.temperature_mitigation())}",
@@ -271,7 +280,9 @@ def loadout_embed(data: GameData, loadout: combat.Loadout, weapon: dict | None =
         traits.append("↩️ Can deflect arrows and javelins")
     vulnerable = [p["name"] for p in loadout.pieces if p.get("piercing_vulnerability")]
     if vulnerable:
-        traits.append("⚠️ Piercing vulnerability: " + ", ".join(vulnerable))
+        traits.append(f"⚠️ Piercing vulnerability ({', '.join(vulnerable)}): you take "
+                      f"×{combat.PIERCING_VULNERABILITY_MULTIPLIER:g} Piercing damage, "
+                      f"effective health vs Piercing {loadout.effective_health('Piercing'):.0f}")
     add_lines(embed, "Traits", traits)
     add_lines(embed, "📋 Skill requirements", loadout.requirements())
 
@@ -288,7 +299,7 @@ def loadout_embed(data: GameData, loadout: combat.Loadout, weapon: dict | None =
         for attack in (w["attacks"] if enemy_weapon else w["attacks"][:1]):
             res = combat.attack_vs_player(attack, loadout, data.damage_types)
             label = f"{w['name']} ({attack_name(w, attack).lower()})" if enemy_weapon else w["name"]
-            lines.append(f"{label}: **{res.text}** ({res.damage_min:.0f}-{res.damage_max:.0f} per hit)")
+            lines.append(f"{label}: **{res.text}** ({dmg_range(res)} per hit)")
     add_lines(embed, "💀 Hits you can take", lines)
 
     npc_lines = []
@@ -333,10 +344,7 @@ def npc_embed(data: GameData, npc: dict, weapon: dict | None = None,
     if npc["damage_max"]:
         loadouts = [("Your gear", loadout)] if loadout else [
             ("No armour", combat.Loadout()),
-            ("Crude set", combat.Loadout(data.armour.get("crude helmet"), data.armour.get("crude chest"), data.armour.get("crude leg"))),
-            ("Light set", combat.Loadout(data.armour.get("light helmet"), data.armour.get("light chest"), data.armour.get("light leg"))),
-            ("Reinforced set", combat.Loadout(data.armour.get("reinforced helmet"), data.armour.get("reinforced chest"), data.armour.get("reinforced leg"))),
-            ("Heavy set", combat.Loadout(data.armour.get("heavy helmet"), data.armour.get("heavy chest"), data.armour.get("heavy leg"))),
+            *[(f"{p} set", combat.armour_set(data, p.lower())) for p in ("Crude", "Light", "Reinforced", "Heavy")],
         ]
         lines = [f"{label}: **{combat.npc_vs_player(npc, lo, data.damage_types).text}**" for label, lo in loadouts]
         add_lines(embed, "🩸 Hits you can take", lines)

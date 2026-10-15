@@ -3,7 +3,7 @@
     python tools/preview.py wiki "Iron Longsword"
     python tools/preview.py craft "Catapult Boulder" 5
     python tools/preview.py npc Bear
-    python tools/preview.py loadout "Reinforced Helmet" "Reinforced Chest" "Reinforced Leg"
+    python tools/preview.py loadout "Heavy Helmet" "Heavy Chest" "Heavy Leg" "Light Garment"
 """
 
 import sys
@@ -12,7 +12,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from anvilhelper import combat, crafting, embeds  # noqa: E402
-from anvilhelper.data import GameData  # noqa: E402
+from anvilhelper.data import GameData, armour_slot  # noqa: E402
 
 
 def show(embed):
@@ -43,9 +43,11 @@ def main(argv):
         weapon = data.find(args[1], {"weapon"}).data if len(args) > 1 else None
         show(embeds.npc_embed(data, data.find(args[0], {"npc"}).data, weapon))
     elif cmd == "loadout":
-        pieces = [data.find(a, {"armour"}).data for a in args[:3]]
-        pieces += [None] * (3 - len(pieces))
-        show(embeds.loadout_embed(data, combat.Loadout(*pieces)))
+        lo = combat.Loadout()
+        for name in args:  # any order: helmet, chest, legs, garment, bottoms
+            piece = data.find(name, {"armour"}).data
+            setattr(lo, armour_slot(piece), piece)
+        show(embeds.loadout_embed(data, lo))
     elif cmd == "compare":
         show(embeds.compare_embed(data, data.find(args[0], {"weapon"}).data, data.find(args[1], {"weapon"}).data))
     else:

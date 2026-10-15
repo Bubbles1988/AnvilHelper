@@ -32,13 +32,12 @@ def test_recipe_names_link_to_items(data):
 # ------------------------------------------------------------------ combat
 
 def test_mitigation_formula_matches_spreadsheet(data):
-    lo = combat.Loadout(data.armour["reinforced helmet"], data.armour["reinforced chest"], data.armour["reinforced leg"])
+    lo = combat.armour_set(data, "reinforced")
     expected = 1 - (1 - 0.13) * (1 - 0.58) * (1 - 0.08)
     assert lo.damage_mitigation() == pytest.approx(expected)
     assert lo.effective_health() == pytest.approx(100 / (1 - expected))
-    # Reinforced armour has piercing vulnerability -> half mitigation per piece
-    pierce = 1 - (1 - 0.065) * (1 - 0.29) * (1 - 0.04)
-    assert lo.damage_mitigation("Piercing") == pytest.approx(pierce)
+    # Reinforced armour has no piercing vulnerability
+    assert lo.effective_health("Piercing") == pytest.approx(lo.effective_health())
     assert lo.stability_mitigation() == pytest.approx(0.09 + 0.32 + 0.07)
     assert lo.heavy
 
@@ -46,6 +45,37 @@ def test_mitigation_formula_matches_spreadsheet(data):
 def test_quality_adds_mitigation(data):
     chest = data.armour["heavy chest"]
     assert combat.Loadout(chest=chest, quality=3).damage_mitigation() == pytest.approx(0.64 * 1.3)
+
+
+def test_quality_per_piece(data):
+    lo = combat.armour_set(data, "heavy")
+    lo.qualities = {"chest": 3}
+    expected = 1 - (1 - 0.16) * (1 - 0.64 * 1.3) * (1 - 0.10)
+    assert lo.damage_mitigation() == pytest.approx(expected)
+
+
+def test_clothing_worn_under_armour(data):
+    lo = combat.armour_set(data, "heavy")
+    without = lo.damage_mitigation()
+    lo.garment, lo.bottoms = data.armour["light garment"], data.armour["light bottoms"]
+    assert lo.damage_mitigation() == pytest.approx(1 - (1 - without) * (1 - 0.04) * (1 - 0.02))
+    assert lo.temperature_mitigation() == pytest.approx(0.75)
+    assert data.armour_for_slot("garment") == ["Common Garment", "Light Garment"]
+    assert "Light Garment" not in data.armour_for_slot("chest")
+
+
+def test_piercing_double_damage_vs_heavy(data):
+    heavy = combat.armour_set(data, "heavy")
+    reinforced = combat.armour_set(data, "reinforced")
+    sword = data.weapons["iron longsword"]["attacks"][0]  # 40-49 Piercing, x0.75 vs Infantry
+    res = combat.attack_vs_player(sword, heavy, data.damage_types)
+    assert res.damage_max == pytest.approx(49 * 0.75 * 2.0 * (1 - heavy.damage_mitigation()))
+    res = combat.attack_vs_player(sword, reinforced, data.damage_types)
+    assert res.damage_max == pytest.approx(49 * 0.75 * (1 - reinforced.damage_mitigation()))
+    # Slashing is not doubled
+    slash = data.weapons["iron short sword"]["attacks"][0]
+    res = combat.attack_vs_player(slash, heavy, data.damage_types)
+    assert res.damage_max == pytest.approx(38 * 0.75 * (1 - heavy.damage_mitigation()))
 
 
 def test_hits_to_kill_npc(data):
@@ -130,10 +160,14 @@ def test_heavy_attack_stamina_is_30(data):
     assert data.weapons["iron longsword"]["attacks"][0]["stamina"] == 20
 
 
-def test_crude_armour_rated_like_light(data):
-    for name in ("crude helmet", "crude chest", "crude leg"):
-        assert data.armour[name]["piercing_vulnerability"]
-        assert not data.armour[name]["heavy_armour"]
+def test_armour_class_table(data):
+    for name in ("crude helmet", "crude chest", "crude leg", "light chest", "reinforced chest"):
+        assert not data.armour[name]["piercing_vulnerability"], name
+    for name in ("heavy helmet", "heavy chest", "heavy leg"):
+        assert data.armour[name]["piercing_vulnerability"], name
+    assert data.armour["heavy chest"]["projectile_deflection"]
+    assert data.armour["reinforced chest"]["projectile_stagger_immunity"]
+    assert not data.armour["crude chest"]["heavy_armour"]
 
 
 def test_reaver_slash_damage_uses_infantry_multiplier(data):
