@@ -187,3 +187,27 @@ def test_smashing_plate_steps(data):
     gravel = crafting.plan(data, "Gravel", 1)
     assert gravel.raw == {"Stone Off-Cuts": 1}
     assert crafting.plan(data, "Stone Off-Cuts", 2).raw == {"Rock Slab": 2}
+
+
+# ------------------------------------------------------------------ avatar skills
+
+def test_skill_aliases(data):
+    for alias, name in [("melee", "Melee Combat"), ("archery", "Ranged Combat"), ("smithing", "Blacksmithing"),
+                        ("mining", "Logging & Mining"), ("logging", "Logging & Mining"), ("hunting", "Hunting"),
+                        ("sprinting", "Fitness")]:
+        assert data.find(alias, {"attribute"}).name == name
+
+
+def test_skill_requirements_from_sheet(data):
+    melee = dict((n, lv) for lv, n, _ in data.items_requiring("Melee"))
+    assert melee["Superior Longsword"] == 7 and melee["Heavy Chest"] == 5 and melee["Javelin"] == 2
+    ranged = dict((n, lv) for lv, n, _ in data.items_requiring("Ranged"))
+    assert ranged["Longbow"] == 5 and ranged["Javelin"] == 4
+
+
+def test_skill_embed_level_split(data):
+    embed = embeds.attribute_embed(data, data.attributes["melee combat"], 4)
+    unlocked = next(f.value for f in embed.fields if f.name.startswith("✅"))
+    locked = next(f.value for f in embed.fields if f.name.startswith("🔒"))
+    assert "Iron Longsword" in unlocked and "Superior Longsword" in locked
+    assert len(embeds.attributes_overview_embed(data)) <= 6000

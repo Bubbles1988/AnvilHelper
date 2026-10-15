@@ -101,6 +101,12 @@ def register_commands(tree: app_commands.CommandTree, data: GameData):
     armour_names = completer({"armour"})
     craftable = completer(None)
 
+    async def skill_names(interaction: discord.Interaction, current: str):
+        q = key(current)
+        names = [a["name"] for a in data.attributes.values()
+                 if not q or q in key(a["name"]) or any(q in key(al) for al in a.get("aliases", []))]
+        return [app_commands.Choice(name=n, value=n) for n in names]
+
     def need(query, categories):
         entry = data.find(query, categories)
         if entry is None:
@@ -236,6 +242,18 @@ def register_commands(tree: app_commands.CommandTree, data: GameData):
         plan = crafting.plan(data, entry.name, amount, prefer_station=station, keep_as_raw=set(kept))
         await send(interaction, embeds.craft_embed(data, plan, kept), entry.name)
 
+    @tree.command(name="skill", description="Avatar skills (attributes): what they do, how to train, what each level unlocks")
+    @app_commands.describe(name="Skill, e.g. Melee, Ranged, Fitness, Smithing, Mining, Hunting (empty = all skills)",
+                           level="Your level - shows what you can use and what is still locked")
+    @app_commands.autocomplete(name=skill_names)
+    async def skill(interaction: discord.Interaction, name: str | None = None,
+                    level: app_commands.Range[int, 1, 10] | None = None):
+        if not name:
+            return await interaction.response.send_message(embed=embeds.attributes_overview_embed(data))
+        entry = need(name, {"attribute"})
+        await interaction.response.send_message(embed=embeds.attribute_embed(data, entry.data, level),
+                                                view=wiki_button(data.attribute_info["source"]))
+
     @tree.command(name="food", description="Food stats and how to cook it")
     @app_commands.autocomplete(name=food_names)
     async def food(interaction: discord.Interaction, name: str):
@@ -297,6 +315,7 @@ def register_commands(tree: app_commands.CommandTree, data: GameData):
             "`/armour` - one armour piece (with quality)",
             "`/loadout` - full gear check incl. clothing and quality per piece: mitigation, effective health, hits you can take",
             "`/npc` - animal / NPC strength and hits to kill it",
+            "`/skill` - avatar skills: what they do, how to train, what your level unlocks",
             "`/craft` - full material list and steps for anything",
             "`/food` · `/foods` - food stats, recipes and rankings",
             "`/gather` - where a resource comes from and which tool you need",
