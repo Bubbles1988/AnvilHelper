@@ -2,6 +2,7 @@
 
 import difflib
 import json
+import re
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -21,6 +22,7 @@ CATEGORIES = {
     "structure": "Structure",
     "resource": "Resource",
     "world_resource": "Gathering spot",
+    "attribute": "Avatar skill",
     "item": "Item",
 }
 
@@ -59,6 +61,12 @@ class GameData:
         self.wiki_titles = {key(k): v for k, v in images.get("wiki_titles", {}).items()}
         trophies = _load(manual / "trophies.json")["trophies"]
         self.trophies = {key(k): v for k, v in trophies.items()}
+        attributes = _load(manual / "attributes.json")
+        self.attribute_info = {k: attributes[k] for k in ("source", "general")}
+        self.attributes = {key(a["name"]): a for a in attributes["attributes"]}
+        for a in attributes["attributes"]:
+            for alias in a.get("aliases", []):
+                self.aliases.setdefault(key(alias), a["name"])
 
         self.damage_types = _load(sheet / "damage_types.json")
         armour = _load(sheet / "armour.json")
@@ -131,6 +139,7 @@ class GameData:
         add("structure", self.structures)
         add("resource", self.resources)
         add("world_resource", self.world_resources)
+        add("attribute", self.attributes)
         # Anything that can be crafted but has no own sheet row (e.g. blades)
         for k, recs in self.recipes.items():
             if k not in self.index:
@@ -206,3 +215,18 @@ class GameData:
     def wiki_url(self, name: str) -> str:
         title = self.wiki_titles.get(key(name), name)
         return "https://anvilempires.wiki.gg/wiki/" + title.replace(" ", "_")
+
+    def items_requiring(self, requirement_key: str) -> list[tuple[int, str, str]]:
+        """Everything that needs e.g. 'Melee N': [(level, item name, category label), ...] sorted by level."""
+        out = []
+        for category, table in (("Weapon", self.weapons), ("Armour", self.armour), ("Shield", self.shields)):
+            for item in table.values():
+                level = skill_requirements(item.get("requirements")).get(requirement_key.lower())
+                if level:
+                    out.append((level, item["name"], category))
+        return sorted(out, key=lambda x: (x[0], x[1]))
+
+
+def skill_requirements(text: str | None) -> dict[str, int]:
+    """'Melee 2 , Ranged 4 Cannot be used with ...' -> {'melee': 2, 'ranged': 4}"""
+    return {m.group(1).lower(): int(m.group(2)) for m in re.finditer(r"(Melee|Ranged)\s*(\d+)", text or "", re.I)}

@@ -1,0 +1,94 @@
+{
+  "_comment": "Named avatar attributes (skills), from https://anvilempires.wiki.gg/wiki/Avatar#Attributes. 'aliases' are other names players may type. 'levels' can hold a per-level table: [{\"level\": 1, \"effect\": \"...\"}, ...]. 'requirement_key' links to item requirements in the spreadsheet such as 'Melee 5'.",
+  "source": "https://anvilempires.wiki.gg/wiki/Avatar#Attributes",
+  "general": [
+    "Named avatars have 6 attributes that increase by doing the related action.",
+    "Every named avatar rolls a maximum (cap) for each attribute, up to 10.",
+    "Experience comes from output: better equipment produces the same output faster, so you level faster.",
+    "Auxiliary avatars are capped at 1/1 and cannot train their attributes."
+  ],
+  "attributes": [
+    {
+      "name": "Fitness",
+      "aliases": [
+        "Sprint",
+        "Sprinting"
+      ],
+      "emoji": "🏃",
+      "effect": "Longer sprint duration and more wounds before the avatar is incapacitated.",
+      "training": "Sprint. Diagonal sprinting costs extra stamina, so sprinting in straight lines trains faster.",
+      "requirement_key": null,
+      "levels": []
+    },
+    {
+      "name": "Melee Combat",
+      "aliases": [
+        "Melee",
+        "Melee Skill",
+        "Close Combat",
+        "Swordsmanship"
+      ],
+      "emoji": "⚔️",
+      "effect": "Decides which melee weapons and armour you can equip and how much damage you deal to creatures.",
+      "training": "Deal damage with melee weapons - the total damage dealt counts. Overkill damage on NPCs still counts in full. The primary (stab) attack of spears trains Melee Combat.",
+      "requirement_key": "Melee",
+      "levels": []
+    },
+    {
+      "name": "Ranged Combat",
+      "aliases": [
+        "Ranged",
+        "Range",
+        "Archery",
+        "Marksmanship"
+      ],
+      "emoji": "🏹",
+      "effect": "Decides which ranged weapons you can equip and how much damage you deal to creatures.",
+      "training": "Deal damage with ranged weapons - the total damage dealt counts. Throwing a spear trains Ranged Combat.",
+      "requirement_key": "Ranged",
+      "levels": []
+    },
+    {
+      "name": "Blacksmithing",
+      "aliases": [
+        "Smithing",
+        "Blacksmith",
+        "Forging",
+        "Metalworking"
+      ],
+      "emoji": "🔨",
+      "effect": "Fewer hammer strikes needed to forge items on an anvil.",
+      "training": "Hit ingots on an Anvil or Stone Anvil. Early on, cold ingots on a Stone Anvil are the more efficient way to train.",
+      "requirement_key": null,
+      "levels": []
+    },
+    {
+      "name": "Logging & Mining",
+      "aliases": [
+        "Logging and Mining",
+        "Logging",
+        "Mining",
+        "Woodcutting",
+        "Lumberjack",
+        "Chopping"
+      ],
+      "emoji": "⛏️",
+      "effect": "Less stamina used for harvesting, chopping trees, mining and breaking down ore.",
+      "training": "Chop trees, mine and break down ore. The wiki's level table was measured by chopping trees; other methods may level at different rates.",
+      "requirement_key": null,
+      "levels": []
+    },
+    {
+      "name": "Hunting",
+      "aliases": [
+        "Hunt",
+        "Hunter"
+      ],
+      "emoji": "🦌",
+      "effect": "Easier to move past animals without being noticed or attacked.",
+      "training": "Kill animals.",
+      "requirement_key": null,
+      "levels": []
+    }
+  ]
+}

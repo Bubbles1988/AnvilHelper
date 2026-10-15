@@ -14,6 +14,7 @@ spreadsheet (collected from the [Anvil Empires wiki](https://anvilempires.wiki.g
 | `/armour name [quality]` | One armour piece: mitigation (incl. vs Piercing), traits, recipe |
 | `/loadout helmet chest legs garment bottoms shield weapon enemy quality …_quality` | Full gear check incl. clothing worn under armour and a quality per piece: total mitigation, effective health, stability, warnings (e.g. bow + heavy armour), hits you can take from weapons and NPCs |
 | `/npc name [weapon] [armour…]` | Animal / NPC health, damage, hits needed to kill it, hits you survive, trophy |
+| `/skill [name] [level]` | Avatar skills (Fitness, Melee, Ranged, Blacksmithing, Logging & Mining, Hunting): what they do, how to train, and which gear your level unlocks |
 | `/craft item [amount] [station] [have]` | Full material list **and every step in between** (logs → planks → wood blank → …), leftovers and alternative stations |
 | `/food name` | Regen, duration, hunger, total healing, how to cook it (all steps) |
 | `/foods [sort]` | All foods ranked by hunger, regen, duration or total healing |
@@ -78,6 +79,7 @@ Hand-made fixes that survive every import live in `data/manual/`:
 * `extra_recipes.json` – steps missing in the sheet (heating ingots in the Forge, Smashing Plate).
 * `images.json` – picture URL or wiki page name when the automatic one is wrong.
 * `trophies.json` – which trophy an NPC drops.
+* `attributes.json` – avatar skills, their other names and (optional) per-level tables.
 
 ### Keeping the spreadsheet bot-friendly
 

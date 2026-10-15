@@ -19,6 +19,7 @@ COLORS = {
     "resource": 0xF1C40F,
     "world_resource": 0x16A085,
     "item": 0xF1C40F,
+    "attribute": 0x1ABC9C,
     "craft": 0xE67E22,
     "info": 0x34495E,
 }
@@ -508,6 +509,48 @@ def item_embed(data: GameData, e: dict) -> discord.Embed:
     return embed
 
 
+# --------------------------------------------------------------------------- avatar skills
+
+
+def attribute_embed(data: GameData, a: dict, level: int | None = None) -> discord.Embed:
+    embed = discord.Embed(title=f"{a.get('emoji', '')} {a['name']}".strip(), color=COLORS["attribute"],
+                          url=data.attribute_info["source"], description=a["effect"])
+    embed.add_field(name="📈 How to train", value=_cut(a["training"], FIELD_LIMIT), inline=False)
+    if a.get("levels"):
+        add_lines(embed, "📊 Levels", [f"**{lv['level']}**: {lv['effect']}" for lv in a["levels"]])
+
+    if a.get("requirement_key"):
+        reqs = data.items_requiring(a["requirement_key"])
+        by_level: dict[int, list[str]] = {}
+        for lv, name, _ in reqs:
+            by_level.setdefault(lv, []).append(name)
+        if level is None:
+            add_lines(embed, "🔓 Gear that needs this skill", [f"**Level {lv}:** {', '.join(n)}" for lv, n in by_level.items()])
+        else:
+            usable = [n for lv, names in by_level.items() if lv <= level for n in names]
+            locked = [(lv, names) for lv, names in by_level.items() if lv > level]
+            add_lines(embed, f"✅ Unlocked at level {level}", [", ".join(usable) or "Nothing that needs this skill yet"])
+            add_lines(embed, "🔒 Still locked", [f"**Level {lv}:** {', '.join(n)}" for lv, n in locked] or ["Nothing - you can use all of it!"])
+        if a["requirement_key"] == "Melee":
+            embed.add_field(name="💡 Note", inline=False,
+                            value="Javelin and Superior Spear need both Melee and Ranged levels.")
+
+    add_lines(embed, "ℹ️ Good to know", [f"• {g}" for g in data.attribute_info["general"]])
+    embed.set_footer(text="Also known as: " + ", ".join(a.get("aliases", [])[:6]))
+    return embed
+
+
+def attributes_overview_embed(data: GameData) -> discord.Embed:
+    embed = discord.Embed(title="🧍 Avatar skills (attributes)", color=COLORS["attribute"],
+                          url=data.attribute_info["source"],
+                          description="\n".join(data.attribute_info["general"]))
+    for a in data.attributes.values():
+        embed.add_field(name=f"{a.get('emoji', '')} {a['name']}",
+                        value=_cut(f"{a['effect']}\n*Train:* {a['training']}", FIELD_LIMIT), inline=False)
+    embed.set_footer(text="Use /skill <name> [level] to see what a skill level unlocks.")
+    return embed
+
+
 BUILDERS = {
     "weapon": weapon_embed,
     "armour": armour_embed,
@@ -519,6 +562,7 @@ BUILDERS = {
     "structure": structure_embed,
     "resource": resource_embed,
     "world_resource": world_resource_embed,
+    "attribute": attribute_embed,
     "item": item_embed,
 }
 
