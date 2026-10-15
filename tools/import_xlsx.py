@@ -42,6 +42,9 @@ DAMAGE_TYPE_NAMES = {
     "default": "Default",
 }
 
+# Armour classes missing from the class table that behave like another class.
+ARMOUR_CLASS_SAME_AS = {"Crude": "Light"}
+
 warnings: list[str] = []
 
 
@@ -105,6 +108,14 @@ def seconds(value):
         factor = 3600 if unit.startswith("h") else 60 if unit.startswith("m") else 1
         total += float(amount) * factor
     return total or None
+
+
+def stamina(value):
+    """'⚡20' -> 20. Some heavy attacks were typed as 0.3 (formatted as 30%) but mean 30 stamina."""
+    num = number(value)
+    if num is not None and 0 < num < 1 and "⚡" not in str(value):
+        num = round(num * 100)
+    return num
 
 
 def damage(value):
@@ -177,6 +188,7 @@ def import_armour(wb):
         prefix = name.split(" ")[0]
         kind = text_or_none(r[7])
         # The class table only describes real armour, not clothing such as "Light Garment".
+        prefix = ARMOUR_CLASS_SAME_AS.get(prefix, prefix)
         class_flags = classes.get(f"{prefix} {slot}") or classes.get(prefix) if kind == "Armour" else None
         flags = class_flags or {
             "heavy_armour": False,
@@ -248,7 +260,7 @@ def import_weapons(wb):
                     "time_s": seconds(r[start + 1]),
                     "movement": text_or_none(r[start + 2]),
                     "ability": text_or_none(r[start + 3]),
-                    "stamina": text_or_none(r[start + 4]),
+                    "stamina": stamina(r[start + 4]),
                 })
             weapons.append({
                 "id": first,
@@ -480,4 +492,6 @@ def main():
 
 
 if __name__ == "__main__":
+    # Windows consoles are not UTF-8 by default; don't crash on emoji / special letters.
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     main()

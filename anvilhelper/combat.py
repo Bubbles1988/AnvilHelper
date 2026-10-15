@@ -134,10 +134,11 @@ def attack_vs_health(attack: dict, health: float, target: str, table: dict) -> H
     return hits(health, dmg["min"] * factor, dmg["max"] * factor)
 
 
-def npc_vs_player(npc: dict, loadout: Loadout) -> HitResult:
-    """How many NPC hits a player survives. The NPC damage from the wiki is used as-is,
-    only reduced by armour."""
-    factor = 1 - loadout.damage_mitigation(npc.get("damage_type"))
+def npc_vs_player(npc: dict, loadout: Loadout, table: dict) -> HitResult:
+    """How many NPC hits a player survives. NPC damage uses the damage-type table vs Infantry
+    (Reaver slashing x0.75; Animal and Missile x1) and is then reduced by armour."""
+    dtype = npc.get("damage_type")
+    factor = multiplier(table, dtype, "Infantry") * (1 - loadout.damage_mitigation(dtype))
     return hits(PLAYER_HEALTH, npc["damage_min"] * factor, npc["damage_max"] * factor)
 
 
@@ -156,7 +157,7 @@ def strengths(damage_type: str, table: dict) -> tuple[list[str], list[str], list
 
 
 DAMAGE_TYPE_TIPS = {
-    "Piercing": "Halves the mitigation of armour with Piercing Vulnerability (Light & Reinforced armour).",
+    "Piercing": "Halves the mitigation of armour with Piercing Vulnerability (Crude, Light & Reinforced armour).",
     "Impaling": "Anti-cavalry: ×3 damage to mounted units and ×1.5 to NPCs.",
     "Missile": "Heavy Chest armour can deflect arrows and javelins; Heavy/Reinforced chests are not staggered by them.",
     "Siege": "Made for structures and vehicles (×5 vs vehicles), weak against people.",

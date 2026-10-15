@@ -2,6 +2,9 @@
 
 import logging
 import os
+import sys
+from logging.handlers import RotatingFileHandler
+from pathlib import Path
 
 import discord
 from discord import app_commands
@@ -288,17 +291,45 @@ def register_commands(tree: app_commands.CommandTree, data: GameData):
             await interaction.response.send_message(embed=embed, ephemeral=True)
 
 
+ROOT = Path(__file__).resolve().parent.parent
+EXIT_CONFIG_ERROR = 2  # start_bot.bat stops restarting on this code: retrying won't help
+
+
+def setup_logging():
+    fmt = logging.Formatter("%(asctime)s %(levelname)s %(name)s: %(message)s")
+    handlers: list[logging.Handler] = [logging.StreamHandler()]
+    log_file = os.environ.get("LOG_FILE", str(ROOT / "logs" / "bot.log"))
+    if log_file:
+        Path(log_file).parent.mkdir(parents=True, exist_ok=True)
+        handlers.append(RotatingFileHandler(log_file, maxBytes=2_000_000, backupCount=5, encoding="utf-8"))
+    root = logging.getLogger()
+    root.setLevel(logging.INFO)
+    for handler in handlers:
+        handler.setFormatter(fmt)
+        root.addHandler(handler)
+
+
 def main():
     try:
         from dotenv import load_dotenv
-        load_dotenv()
+        load_dotenv(ROOT / ".env")
     except ImportError:
         pass
-    logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
-    token = os.environ.get("DISCORD_TOKEN")
-    if not token:
-        raise SystemExit("Set DISCORD_TOKEN (see .env.example)")
-    guild = os.environ.get("GUILD_ID")
+    setup_logging()
+    token = os.environ.get("DISCORD_TOKEN", "").strip()
+    if not token or token == "put-your-bot-token-here":
+        log.error("DISCORD_TOKEN is not set. Copy .env.example to .env and put your bot token in it.")
+        sys.exit(EXIT_CONFIG_ERROR)
+    guild = os.environ.get("GUILD_ID", "").strip()
     fetch_images = os.environ.get("WIKI_IMAGES", "1") != "0"
+    discord.VoiceClient.warn_nacl = False  # the bot never uses voice
     client = AnvilHelper(GameData(), int(guild) if guild else None, fetch_images)
-    client.run(token, log_handler=None)
+    try:
+        client.run(token, log_handler=None)
+    except discord.LoginFailure:
+        log.error("Discord rejected the token. Check DISCORD_TOKEN in .env.")
+        sys.exit(EXIT_CONFIG_ERROR)
+    except Exception:
+        # e.g. no internet: log it to the file; start_bot.bat restarts the bot.
+        log.exception("Bot crashed")
+        sys.exit(1)

@@ -120,3 +120,36 @@ def test_command_tree_builds(data):
     assert {"wiki", "weapon", "loadout", "npc", "craft", "food"} <= names
     for command in client.tree.get_commands():
         command.to_dict(client.tree)  # raises if Discord would reject the definition
+
+
+# ------------------------------------------------------------------ answers from the sheet owner
+
+def test_heavy_attack_stamina_is_30(data):
+    heavy = data.weapons["iron longsword"]["attacks"][2]
+    assert heavy["stamina"] == 30
+    assert data.weapons["iron longsword"]["attacks"][0]["stamina"] == 20
+
+
+def test_crude_armour_rated_like_light(data):
+    for name in ("crude helmet", "crude chest", "crude leg"):
+        assert data.armour[name]["piercing_vulnerability"]
+        assert not data.armour[name]["heavy_armour"]
+
+
+def test_reaver_slash_damage_uses_infantry_multiplier(data):
+    bandit = data.npcs["reaver bandit"]  # 35 Slashing, x0.75 vs Infantry
+    res = combat.npc_vs_player(bandit, combat.Loadout(), data.damage_types)
+    assert res.damage_max == pytest.approx(35 * 0.75)
+    wolf = data.npcs["wolf"]  # Animal damage x1
+    assert combat.npc_vs_player(wolf, combat.Loadout(), data.damage_types).damage_max == 30
+
+
+def test_smashing_plate_steps(data):
+    plan = crafting.plan(data, "Steel Ingot", 1)
+    assert "Coal" in plan.raw and "Pulverized Coal" not in plan.raw
+    assert any(s.output == "Pulverized Coal" and s.station == "Smashing Plate" for s in plan.steps)
+    # Gatherable fragments stay a raw material instead of being smashed by default
+    assert "Iron Ore Fragment" in plan.raw
+    gravel = crafting.plan(data, "Gravel", 1)
+    assert gravel.raw == {"Stone Off-Cuts": 1}
+    assert crafting.plan(data, "Stone Off-Cuts", 2).raw == {"Rock Slab": 2}

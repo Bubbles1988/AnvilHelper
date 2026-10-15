@@ -1,7 +1,77 @@
 {
   "_comment": "Recipes that are not in the spreadsheet but are needed so the crafting calculator can follow every step. Same format as data/sheet/recipes.json.",
   "recipes": [
-    {"output": "Bronze Ingot (Heated)", "amount": 1, "station": "Forge", "ingredients": [{"item": "Bronze Ingot", "amount": 1}], "note": "Heat the ingot in a Forge. It cools back down to a normal ingot over time."},
-    {"output": "Iron Ingot (Heated)", "amount": 1, "station": "Forge", "ingredients": [{"item": "Iron Ingot", "amount": 1}], "note": "Heat the ingot in a Forge. It cools back down to a normal ingot over time."}
+    {
+      "output": "Bronze Ingot (Heated)",
+      "amount": 1,
+      "station": "Forge",
+      "ingredients": [
+        {
+          "item": "Bronze Ingot",
+          "amount": 1
+        }
+      ],
+      "note": "Heat the ingot in a Forge. It cools back down to a normal ingot over time."
+    },
+    {
+      "output": "Iron Ingot (Heated)",
+      "amount": 1,
+      "station": "Forge",
+      "ingredients": [
+        {
+          "item": "Iron Ingot",
+          "amount": 1
+        }
+      ],
+      "note": "Heat the ingot in a Forge. It cools back down to a normal ingot over time."
+    },
+    {
+      "output": "Iron Ore Fragment",
+      "amount": 1,
+      "station": "Smashing Plate",
+      "ingredients": [
+        {
+          "item": "Iron Ore",
+          "amount": 1
+        }
+      ],
+      "note": "Smash it on the Smashing Plate. Yield per smash not confirmed yet (assumed 1)."
+    },
+    {
+      "output": "Malachite Fragments",
+      "amount": 1,
+      "station": "Smashing Plate",
+      "ingredients": [
+        {
+          "item": "Malachite Ore",
+          "amount": 1
+        }
+      ],
+      "note": "Smash it on the Smashing Plate. Yield per smash not confirmed yet (assumed 1)."
+    },
+    {
+      "output": "Pulverized Coal",
+      "amount": 1,
+      "station": "Smashing Plate",
+      "ingredients": [
+        {
+          "item": "Coal",
+          "amount": 1
+        }
+      ],
+      "note": "Smash it on the Smashing Plate. Yield per smash not confirmed yet (assumed 1)."
+    },
+    {
+      "output": "Stone Off-Cuts",
+      "amount": 1,
+      "station": "Smashing Plate",
+      "ingredients": [
+        {
+          "item": "Rock Slab",
+          "amount": 1
+        }
+      ],
+      "note": "Smash it on the Smashing Plate. Yield per smash not confirmed yet (assumed 1)."
+    }
   ]
 }

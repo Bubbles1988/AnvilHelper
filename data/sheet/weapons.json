@@ -13,7 +13,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -25,7 +25,7 @@
         "time_s": 0.75,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡15"
+        "stamina": 15.0
       },
       {
         "slot": 3,
@@ -37,7 +37,7 @@
         "time_s": 1.47,
         "movement": "0.25",
         "ability": "Damage to guard: 10%",
-        "stamina": "0.3"
+        "stamina": 30
       }
     ],
     "stability_loss": 0.32,
@@ -58,7 +58,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -70,7 +70,7 @@
         "time_s": 0.7,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       }
     ],
     "stability_loss": 0.28,
@@ -91,7 +91,7 @@
         "time_s": 0.34,
         "movement": "66.5%",
         "ability": "Range 5m",
-        "stamina": "⚡10"
+        "stamina": 10.0
       }
     ],
     "stability_loss": null,
@@ -112,7 +112,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -124,7 +124,7 @@
         "time_s": 0.75,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡15"
+        "stamina": 15.0
       },
       {
         "slot": 3,
@@ -136,7 +136,7 @@
         "time_s": 1.47,
         "movement": "0.25",
         "ability": "Damage to guard: 6%",
-        "stamina": "0.3"
+        "stamina": 30
       }
     ],
     "stability_loss": 0.36,
@@ -157,7 +157,7 @@
         "time_s": 1.17,
         "movement": "0.4",
         "ability": "Range 27m , Inaccuracy 0m - 1m , Max Accuracy 1s",
-        "stamina": "⚡8"
+        "stamina": 8.0
       },
       {
         "slot": 2,
@@ -169,7 +169,7 @@
         "time_s": 1.17,
         "movement": "0.6",
         "ability": "Range 16m , Inaccuracy 1.5m - 3.5m , Max Accuracy 1s",
-        "stamina": "⚡8"
+        "stamina": 8.0
       }
     ],
     "stability_loss": null,
@@ -190,7 +190,7 @@
         "time_s": 0.2,
         "movement": null,
         "ability": "It always staggers the target on impact even if it is wearing heavy armour.",
-        "stamina": "⚡8"
+        "stamina": 8.0
       }
     ],
     "stability_loss": null,
@@ -211,7 +211,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -223,7 +223,7 @@
         "time_s": 0.75,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡15"
+        "stamina": 15.0
       },
       {
         "slot": 3,
@@ -235,7 +235,7 @@
         "time_s": 1.75,
         "movement": "0.25",
         "ability": "Damage to guard: 15%",
-        "stamina": "0.3"
+        "stamina": 30
       }
     ],
     "stability_loss": 0.24,
@@ -256,7 +256,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -268,7 +268,7 @@
         "time_s": 0.75,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡15"
+        "stamina": 15.0
       },
       {
         "slot": 3,
@@ -280,7 +280,7 @@
         "time_s": 1.47,
         "movement": "0.25",
         "ability": "Damage to guard: 15%",
-        "stamina": "0.3"
+        "stamina": 30
       }
     ],
     "stability_loss": 0.28,
@@ -301,7 +301,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -313,7 +313,7 @@
         "time_s": 0.7,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       }
     ],
     "stability_loss": 0.28,
@@ -334,7 +334,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -346,7 +346,7 @@
         "time_s": 0.75,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡15"
+        "stamina": 15.0
       },
       {
         "slot": 3,
@@ -358,7 +358,7 @@
         "time_s": 1.75,
         "movement": "0.25",
         "ability": "Damage to guard: 15%",
-        "stamina": "0.3"
+        "stamina": 30
       }
     ],
     "stability_loss": 0.24,
@@ -379,7 +379,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": "Stability Damage 3.75%",
-        "stamina": "⚡20"
+        "stamina": 20.0
       }
     ],
     "stability_loss": 0.28,
@@ -400,7 +400,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -412,7 +412,7 @@
         "time_s": 0.75,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡15"
+        "stamina": 15.0
       },
       {
         "slot": 3,
@@ -424,7 +424,7 @@
         "time_s": 1.47,
         "movement": "0.25",
         "ability": "Damage to guard: 15%",
-        "stamina": "0.3"
+        "stamina": 30
       }
     ],
     "stability_loss": 0.28,
@@ -445,7 +445,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -457,7 +457,7 @@
         "time_s": 0.7,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       }
     ],
     "stability_loss": 0.28,
@@ -478,7 +478,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡10"
+        "stamina": 10.0
       },
       {
         "slot": 2,
@@ -490,7 +490,7 @@
         "time_s": 0.7,
         "movement": "0.25",
         "ability": "Range 20m",
-        "stamina": "⚡10"
+        "stamina": 10.0
       }
     ],
     "stability_loss": 0.28,
@@ -511,7 +511,7 @@
         "time_s": 1.17,
         "movement": "0.6",
         "ability": "Range 34m , Inaccuracy 0m - 3m, Max Accuracy 1s",
-        "stamina": "⚡8"
+        "stamina": 8.0
       },
       {
         "slot": 2,
@@ -523,7 +523,7 @@
         "time_s": 1.17,
         "movement": "0.7",
         "ability": "Range 35m , Inaccuracy 2m - 4m , Max Accuracy 1s",
-        "stamina": "⚡10"
+        "stamina": 10.0
       }
     ],
     "stability_loss": null,
@@ -544,7 +544,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -556,7 +556,7 @@
         "time_s": 0.75,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡15"
+        "stamina": 15.0
       },
       {
         "slot": 3,
@@ -568,7 +568,7 @@
         "time_s": 1.47,
         "movement": "0.25",
         "ability": "Damage to guard: 15%",
-        "stamina": "0.3"
+        "stamina": 30
       }
     ],
     "stability_loss": 0.28,
@@ -589,7 +589,7 @@
         "time_s": 0.7,
         "movement": null,
         "ability": "Range 6m , No Damage to stone structures",
-        "stamina": "⚡10"
+        "stamina": 10.0
       }
     ],
     "stability_loss": null,
@@ -610,7 +610,7 @@
         "time_s": 0.2,
         "movement": null,
         "ability": "It always staggers the target on impact even if it is wearing heavy armour.",
-        "stamina": "⚡8"
+        "stamina": 8.0
       }
     ],
     "stability_loss": null,
@@ -631,7 +631,7 @@
         "time_s": 1.17,
         "movement": "0.4",
         "ability": "Range 27m , Inaccuracy 0m - 1m , Max Accuracy 1s",
-        "stamina": "⚡8"
+        "stamina": 8.0
       },
       {
         "slot": 2,
@@ -643,7 +643,7 @@
         "time_s": 1.17,
         "movement": "0.6",
         "ability": "Range 16m , Inaccuracy 1.5m - 3.5m , Max Accuracy 1s",
-        "stamina": "⚡8"
+        "stamina": 8.0
       }
     ],
     "stability_loss": null,
@@ -664,7 +664,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -676,7 +676,7 @@
         "time_s": 0.75,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡15"
+        "stamina": 15.0
       },
       {
         "slot": 3,
@@ -688,7 +688,7 @@
         "time_s": 1.75,
         "movement": "0.25",
         "ability": "Damage to guard: 15%",
-        "stamina": "0.3"
+        "stamina": 30
       }
     ],
     "stability_loss": 0.24,
@@ -709,7 +709,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -721,7 +721,7 @@
         "time_s": 0.75,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡15"
+        "stamina": 15.0
       },
       {
         "slot": 3,
@@ -733,7 +733,7 @@
         "time_s": 1.47,
         "movement": "0.25",
         "ability": "Damage to guard: 15%",
-        "stamina": "0.3"
+        "stamina": 30
       }
     ],
     "stability_loss": 0.28,
@@ -754,7 +754,7 @@
         "time_s": 1.17,
         "movement": "0.1",
         "ability": "Range 27m , Inaccuracy 0m - 1m , Max Accuracy 1s",
-        "stamina": "⚡8"
+        "stamina": 8.0
       },
       {
         "slot": 2,
@@ -766,7 +766,7 @@
         "time_s": 1.17,
         "movement": "0.3",
         "ability": "Range 16m , Inaccuracy 1.5m - 3.5m , Max Accuracy 1s",
-        "stamina": "⚡8"
+        "stamina": 8.0
       }
     ],
     "stability_loss": null,
@@ -787,7 +787,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       },
       {
         "slot": 2,
@@ -799,7 +799,7 @@
         "time_s": 0.7,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡20"
+        "stamina": 20.0
       }
     ],
     "stability_loss": 0.28,
@@ -820,7 +820,7 @@
         "time_s": 1.1,
         "movement": null,
         "ability": null,
-        "stamina": "⚡10"
+        "stamina": 10.0
       },
       {
         "slot": 2,
@@ -832,7 +832,7 @@
         "time_s": 0.4,
         "movement": null,
         "ability": "Range 6m",
-        "stamina": "⚡10"
+        "stamina": 10.0
       }
     ],
     "stability_loss": null,
@@ -861,7 +861,7 @@
         "time_s": 1.0,
         "movement": "0.25",
         "ability": "Shield durability loss multiplier x20 ; Armour damage multiplayer x7.5",
-        "stamina": "⚡20"
+        "stamina": 20.0
       }
     ],
     "stability_loss": 0.28,
@@ -882,7 +882,7 @@
         "time_s": 0.1,
         "movement": "0.55",
         "ability": "Damage to Stability 50% , Range 5m",
-        "stamina": "⚡10"
+        "stamina": 10.0
       }
     ],
     "stability_loss": null,
@@ -903,7 +903,7 @@
         "time_s": 1.1,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡10"
+        "stamina": 10.0
       }
     ],
     "stability_loss": null,
@@ -924,7 +924,7 @@
         "time_s": 1.1,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡10"
+        "stamina": 10.0
       }
     ],
     "stability_loss": null,
@@ -945,7 +945,7 @@
         "time_s": 1.1,
         "movement": "0.25",
         "ability": null,
-        "stamina": "⚡10"
+        "stamina": 10.0
       }
     ],
     "stability_loss": null,

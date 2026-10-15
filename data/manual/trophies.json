@@ -1,5 +1,5 @@
 {
-  "_comment": "NPC name -> trophy it drops (hand in at a bounty board). Guessed from the names in the spreadsheet - please check.",
+  "_comment": "NPC name -> trophy it drops (hand in at a bounty board).",
   "trophies": {
     "Bat": "Bat Wing",
     "Bear": "Bear Claw",

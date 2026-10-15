@@ -80,7 +80,9 @@ def plan(data: GameData, item: str, amount: float = 1, prefer_station: str | Non
                 cycles.append(names.get(k, k))
             return
         recipes = data.recipes.get(k)
-        if not recipes or (k in keep and stack):
+        # Items you can pick up in the world (e.g. Iron Ore Fragment from a pile) count as raw
+        # materials even if they can also be made (smashing Iron Ore) - unless asked for directly.
+        if not recipes or (stack and (k in keep or k in data.sources)):
             return
         rec = choose_recipe(data, recipes, prefer_station)
         chosen[k] = rec

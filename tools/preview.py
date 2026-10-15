@@ -53,4 +53,6 @@ def main(argv):
 
 
 if __name__ == "__main__":
+    # Windows consoles are not UTF-8 by default; don't crash on emoji / special letters.
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     main(sys.argv[1:])

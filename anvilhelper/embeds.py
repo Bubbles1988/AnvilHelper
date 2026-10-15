@@ -122,7 +122,7 @@ def weapon_embed(data: GameData, w: dict) -> discord.Embed:
         if attack["time_s"]:
             lines.append(f"⏱️ {fmt_num(attack['time_s'])} s")
         if attack["stamina"]:
-            lines.append(f"⚡ Stamina: {attack['stamina'].replace('⚡', '')}")
+            lines.append(f"⚡ Stamina: {fmt_num(attack['stamina'])}")
         if attack["movement"]:
             lines.append(f"🏃 Movement: {attack['movement']}")
         if attack["ability"]:
@@ -295,7 +295,7 @@ def loadout_embed(data: GameData, loadout: combat.Loadout, weapon: dict | None =
     for k in ("wolf", "bear", "reaver bandit", "stonwulfe"):
         npc = data.npcs.get(k)
         if npc and npc["damage_max"]:
-            npc_lines.append(f"{npc['name']}: **{combat.npc_vs_player(npc, loadout).text}**")
+            npc_lines.append(f"{npc['name']}: **{combat.npc_vs_player(npc, loadout, data.damage_types).text}**")
     add_lines(embed, "🐺 Hits you can take from NPCs", npc_lines)
     return embed
 
@@ -338,7 +338,7 @@ def npc_embed(data: GameData, npc: dict, weapon: dict | None = None,
             ("Reinforced set", combat.Loadout(data.armour.get("reinforced helmet"), data.armour.get("reinforced chest"), data.armour.get("reinforced leg"))),
             ("Heavy set", combat.Loadout(data.armour.get("heavy helmet"), data.armour.get("heavy chest"), data.armour.get("heavy leg"))),
         ]
-        lines = [f"{label}: **{combat.npc_vs_player(npc, lo).text}**" for label, lo in loadouts]
+        lines = [f"{label}: **{combat.npc_vs_player(npc, lo, data.damage_types).text}**" for label, lo in loadouts]
         add_lines(embed, "🩸 Hits you can take", lines)
     trophy = data.trophies.get(key(npc["name"]))
     if trophy:
@@ -391,8 +391,10 @@ def craft_embed(data: GameData, plan: Plan, kept: list[str] | None = None) -> di
         embed.description = "No recipe known for this item - it has to be gathered or bought."
     raw_lines = []
     for name, qty in plan.raw.items():
-        where = data.sources.get(key(name))
-        hint = f" *(from {where[0]['name']})*" if where else ""
+        where = [w["name"] for w in data.sources.get(key(name), [])[:2]]
+        where += [f"{r['station']}: {', '.join(i['item'] for i in r['ingredients'])}"
+                  for r in data.recipes.get(key(name), [])[:1]]
+        hint = f" *(from {' or '.join(where)})*" if where else ""
         raw_lines.append(f"• **{fmt_num(qty)}×** {name}{hint}")
     add_lines(embed, "📦 Total materials to gather / bring", raw_lines)
 

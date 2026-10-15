@@ -40,7 +40,7 @@
       "heavy_armour": false,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": false
+      "piercing_vulnerability": true
     },
     {
       "id": "A103",
@@ -54,7 +54,7 @@
       "heavy_armour": false,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": false
+      "piercing_vulnerability": true
     },
     {
       "id": "A104",
@@ -68,7 +68,7 @@
       "heavy_armour": false,
       "projectile_stagger_immunity": false,
       "projectile_deflection": false,
-      "piercing_vulnerability": false
+      "piercing_vulnerability": true
     },
     {
       "id": "A106",
