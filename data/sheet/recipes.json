@@ -1,0 +1,3730 @@
+[
+  {
+    "output": "Common Garment",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Linen",
+        "amount": 2.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 3.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Common Garment",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Linen",
+        "amount": 2.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 3.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Common Bottoms",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Linen",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Common Bottoms",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Linen",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Heavy Helmet",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Rare Metals",
+        "amount": 3.0
+      },
+      {
+        "item": "Linen",
+        "amount": 1.0
+      },
+      {
+        "item": "Tanned Thick Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Steel Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Reinforced Helmet",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      },
+      {
+        "item": "Iron Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Thick Leather",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Reinforced Helmet",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      },
+      {
+        "item": "Iron Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Thick Leather",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Light Helmet",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      },
+      {
+        "item": "Bronze Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Light Helmet",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      },
+      {
+        "item": "Bronze Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Crude Helmet",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Flint",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Crude Helmet",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Flint",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Heavy Chest",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Rare Metals",
+        "amount": 6.0
+      },
+      {
+        "item": "Linen",
+        "amount": 1.0
+      },
+      {
+        "item": "Tanned Thick Leather",
+        "amount": 2.0
+      },
+      {
+        "item": "Iron Armour Plating",
+        "amount": 2.0
+      },
+      {
+        "item": "Steel Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Reinforced Chest",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 3.0
+      },
+      {
+        "item": "Iron Armour Plating",
+        "amount": 2.0
+      },
+      {
+        "item": "Thick Leather",
+        "amount": 2.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Reinforced Chest",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 3.0
+      },
+      {
+        "item": "Iron Armour Plating",
+        "amount": 2.0
+      },
+      {
+        "item": "Thick Leather",
+        "amount": 2.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Light Chest",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 3.0
+      },
+      {
+        "item": "Bronze Armour Plating",
+        "amount": 2.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 2.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Light Chest",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 3.0
+      },
+      {
+        "item": "Bronze Armour Plating",
+        "amount": 2.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 2.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Crude Chest",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 1.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Crude Chest",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 1.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Heavy Leg",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Rare Metals",
+        "amount": 3.0
+      },
+      {
+        "item": "Linen",
+        "amount": 1.0
+      },
+      {
+        "item": "Tanned Thick Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Steel Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Reinforced Leg",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      },
+      {
+        "item": "Iron Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Thick Leather",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Reinforced Leg",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      },
+      {
+        "item": "Iron Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Thick Leather",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Light Leg",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      },
+      {
+        "item": "Bronze Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Light Leg",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      },
+      {
+        "item": "Bronze Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Crude Leg",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Flint",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Crude Leg",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Flint",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      }
+    ],
+    "section": "Armour"
+  },
+  {
+    "output": "Masterwork Short Sword",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Sword Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Rare Metals",
+        "amount": 3.0
+      },
+      {
+        "item": "Lead Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Superior Short Sword",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Sword Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Rare Metals",
+        "amount": 3.0
+      },
+      {
+        "item": "Lead Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Fine Short Sword",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Sword Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Rare Metals",
+        "amount": 3.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Iron Short Sword",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Sword Blade",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Iron Short Sword",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Sword Blade",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Bronze Short Sword",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Bronze Sword Blade",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Bronze Short Sword",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Bronze Sword Blade",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Iron Mace",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Axe Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 1.0
+      },
+      {
+        "item": "Lead Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Iron Knife",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Tool Blade",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Iron Knife",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Tool Blade",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Crude Short Sword",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 2.0
+      },
+      {
+        "item": "Flint",
+        "amount": 2.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Crude Short Sword",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 2.0
+      },
+      {
+        "item": "Flint",
+        "amount": 2.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Bronze Knife",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Bronze Tool Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Bronze Knife",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Bronze Tool Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Flint Knife",
+    "amount": 1.0,
+    "station": "Inventory",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 2.0
+      },
+      {
+        "item": "Flint",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Superior Longsword",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Sword Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Tin Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Rare Metals",
+        "amount": 3.0
+      },
+      {
+        "item": "Lead Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Fine Longsword",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Sword Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Tin Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Rare Metals",
+        "amount": 3.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Iron Longsword",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Sword Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Tin Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Iron Longsword",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Sword Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Tin Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Iron Broadaxe",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Axe Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Superior Spear",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Rare Animal Bones",
+        "amount": 1.0
+      },
+      {
+        "item": "Rare Metals",
+        "amount": 3.0
+      },
+      {
+        "item": "Lead Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Dead Wood Planks",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Weapon Tip",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Iron Spear",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Iron Weapon Tip",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Iron Spear",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Iron Weapon Tip",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Javelin",
+    "amount": 8.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Iron Weapon Tip",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      },
+      {
+        "item": "Lead Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Bronze Spear",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Bronze Tip Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Bronze Spear",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Bronze Tip Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Flint Spear",
+    "amount": 1.0,
+    "station": "Inventory",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      },
+      {
+        "item": "Flint",
+        "amount": 2.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Longbow",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Dead Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Sinew Bow String",
+        "amount": 2.0
+      },
+      {
+        "item": "Linen",
+        "amount": 1.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Longbow",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Dead Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Sinew Bow String",
+        "amount": 2.0
+      },
+      {
+        "item": "Linen",
+        "amount": 1.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Superior Shortbow",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Rare Animal Bones",
+        "amount": 1.0
+      },
+      {
+        "item": "Rare Metals",
+        "amount": 4.0
+      },
+      {
+        "item": "Linen",
+        "amount": 1.0
+      },
+      {
+        "item": "Dead Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Sinew Bow String",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Shortbow",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 2.0
+      },
+      {
+        "item": "Sinew Bow String",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Shortbow",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 2.0
+      },
+      {
+        "item": "Sinew Bow String",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Crude Shortbow",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 4.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Crude Shortbow",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 4.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Burning Oil",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 2.0
+      },
+      {
+        "item": "Linen",
+        "amount": 1.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Burning Oil",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 2.0
+      },
+      {
+        "item": "Linen",
+        "amount": 1.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Quality Throwing Axe",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Axe Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 3.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Quality Throwing Axe",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Axe Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 3.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Crude Throwing Axe",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      },
+      {
+        "item": "Flint",
+        "amount": 3.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Crude Throwing Axe",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      },
+      {
+        "item": "Flint",
+        "amount": 3.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Oil Flask",
+    "amount": 2.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 2.0
+      },
+      {
+        "item": "Strong Fibre",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Oil Flask",
+    "amount": 2.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 2.0
+      },
+      {
+        "item": "Strong Fibre",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Torch",
+    "amount": 2.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 3.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Torch",
+    "amount": 2.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 3.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Catapult Boulder",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Stone Bricks",
+        "amount": 1.0
+      },
+      {
+        "item": "Mortar",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Crude Shortbow Arrows",
+    "amount": 20.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 2.0
+      },
+      {
+        "item": "Flint",
+        "amount": 2.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Crude Shortbow Arrows",
+    "amount": 20.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 2.0
+      },
+      {
+        "item": "Flint",
+        "amount": 2.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Longbow Arrows",
+    "amount": 20.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 2.0
+      },
+      {
+        "item": "Feathers",
+        "amount": 2.0
+      },
+      {
+        "item": "Flint",
+        "amount": 3.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Longbow Arrows",
+    "amount": 20.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 2.0
+      },
+      {
+        "item": "Feathers",
+        "amount": 2.0
+      },
+      {
+        "item": "Flint",
+        "amount": 3.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Scorpion Arrows",
+    "amount": 10.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      },
+      {
+        "item": "Feathers",
+        "amount": 1.0
+      },
+      {
+        "item": "Lead Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Scorpion Arrows",
+    "amount": 10.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      },
+      {
+        "item": "Feathers",
+        "amount": 1.0
+      },
+      {
+        "item": "Lead Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Shortbow Arrows",
+    "amount": 20.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 2.0
+      },
+      {
+        "item": "Feathers",
+        "amount": 2.0
+      },
+      {
+        "item": "Flint",
+        "amount": 3.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Shortbow Arrows",
+    "amount": 20.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 2.0
+      },
+      {
+        "item": "Feathers",
+        "amount": 2.0
+      },
+      {
+        "item": "Flint",
+        "amount": 3.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Trap",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 2.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 1.0
+      },
+      {
+        "item": "Lead Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Weapon"
+  },
+  {
+    "output": "Bloodberry Field Bar",
+    "amount": 1.0,
+    "station": "Firepit",
+    "ingredients": [
+      {
+        "item": "Berries",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Bloodberry Field Bar",
+    "amount": 1.0,
+    "station": "Oven",
+    "ingredients": [
+      {
+        "item": "Berries",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Bloodberry Field Bar",
+    "amount": 1.0,
+    "station": "Town Tavern",
+    "ingredients": [
+      {
+        "item": "Berries",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 2.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Boiled Cabbage",
+    "amount": 1.0,
+    "station": "Hearth",
+    "ingredients": [
+      {
+        "item": "Cabbage",
+        "amount": 2.0
+      },
+      {
+        "item": "Water Bucket",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Boiled Eggs",
+    "amount": 1.0,
+    "station": "Hearth",
+    "ingredients": [
+      {
+        "item": "Chicken Egg",
+        "amount": 2.0
+      },
+      {
+        "item": "Water Bucket",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Egg Tarte",
+    "amount": 1.0,
+    "station": "Oven",
+    "ingredients": [
+      {
+        "item": "Chicken Egg",
+        "amount": 2.0
+      },
+      {
+        "item": "Flour",
+        "amount": 1.0
+      },
+      {
+        "item": "Cabbage",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Lost Bread",
+    "amount": 1.0,
+    "station": "Oven",
+    "ingredients": [
+      {
+        "item": "Trencher Bread",
+        "amount": 1.0
+      },
+      {
+        "item": "Chicken Egg",
+        "amount": 1.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Mead",
+    "amount": 1.0,
+    "station": "Town Tavern",
+    "ingredients": [
+      {
+        "item": "Silver",
+        "amount": 20.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Pemmikan",
+    "amount": 1.0,
+    "station": "Hearth",
+    "ingredients": [
+      {
+        "item": "Common Meat",
+        "amount": 1.0
+      },
+      {
+        "item": "Berries",
+        "amount": 2.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Plain Alemette",
+    "amount": 1.0,
+    "station": "Oven",
+    "ingredients": [
+      {
+        "item": "Chicken Egg",
+        "amount": 2.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Roasted Game",
+    "amount": 1.0,
+    "station": "Firepit",
+    "ingredients": [
+      {
+        "item": "Deer Meat",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Roasted Game",
+    "amount": 1.0,
+    "station": "Hearth",
+    "ingredients": [
+      {
+        "item": "Deer Meat",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Roasted Game",
+    "amount": 1.0,
+    "station": "Town Tavern",
+    "ingredients": [
+      {
+        "item": "Deer Meat",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 5.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Roasted Hog's Leg",
+    "amount": 1.0,
+    "station": "Firepit",
+    "ingredients": [
+      {
+        "item": "Boar Meat",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Roasted Hog's Leg",
+    "amount": 1.0,
+    "station": "Hearth",
+    "ingredients": [
+      {
+        "item": "Boar Meat",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Roasted Hog's Leg",
+    "amount": 1.0,
+    "station": "Town Tavern",
+    "ingredients": [
+      {
+        "item": "Boar Meat",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 5.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Small Roasted Game",
+    "amount": 1.0,
+    "station": "Firepit",
+    "ingredients": [
+      {
+        "item": "Common Meat",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Small Roasted Game",
+    "amount": 1.0,
+    "station": "Hearth",
+    "ingredients": [
+      {
+        "item": "Common Meat",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Small Roasted Game",
+    "amount": 1.0,
+    "station": "Town Tavern",
+    "ingredients": [
+      {
+        "item": "Common Meat",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 2.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Trencher Bread",
+    "amount": 1.0,
+    "station": "Oven",
+    "ingredients": [
+      {
+        "item": "Flour",
+        "amount": 2.0
+      },
+      {
+        "item": "Water Bucket",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Water Pie",
+    "amount": 1.0,
+    "station": "Oven",
+    "ingredients": [
+      {
+        "item": "Flour",
+        "amount": 2.0
+      },
+      {
+        "item": "Deer Meat",
+        "amount": 1.0
+      },
+      {
+        "item": "Boiled Cabbage",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Grilled Whitefish",
+    "amount": 1.0,
+    "station": "Oven",
+    "ingredients": [
+      {
+        "item": "Fish",
+        "amount": 1.0
+      }
+    ],
+    "section": "Food"
+  },
+  {
+    "output": "Superior Shield",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Rare Metals",
+        "amount": 3.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 1.0
+      },
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 2.0
+      },
+      {
+        "item": "Iron Armour Plating",
+        "amount": 1.0
+      }
+    ],
+    "section": "Shields"
+  },
+  {
+    "output": "Iron Shield",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Thick Leather",
+        "amount": 2.0
+      }
+    ],
+    "section": "Shields"
+  },
+  {
+    "output": "Iron Shield",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 1.0
+      },
+      {
+        "item": "Iron Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Thick Leather",
+        "amount": 2.0
+      }
+    ],
+    "section": "Shields"
+  },
+  {
+    "output": "Light Targe",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      },
+      {
+        "item": "Bronze Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 2.0
+      }
+    ],
+    "section": "Shields"
+  },
+  {
+    "output": "Light Targe",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      },
+      {
+        "item": "Bronze Armour Plating",
+        "amount": 1.0
+      },
+      {
+        "item": "Thin Leather",
+        "amount": 2.0
+      }
+    ],
+    "section": "Shields"
+  },
+  {
+    "output": "Crude Shield",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 1.0
+      }
+    ],
+    "section": "Shields"
+  },
+  {
+    "output": "Crude Shield",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 1.0
+      }
+    ],
+    "section": "Shields"
+  },
+  {
+    "output": "Bronze Ingot",
+    "amount": 1.0,
+    "station": "Furnace",
+    "ingredients": [
+      {
+        "item": "Malachite Fragments",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Ingot",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Malachite Fragments",
+        "amount": 3.0
+      },
+      {
+        "item": "Silver",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Chicken Feed",
+    "amount": 2.0,
+    "station": "Grain Mill",
+    "ingredients": [
+      {
+        "item": "Wheat Seed",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Copper Nails",
+    "amount": 6.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Malachite Fragments",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Dead Wood Planks",
+    "amount": 2.0,
+    "station": "Sawbuck",
+    "ingredients": [
+      {
+        "item": "Dead Wood Log",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Equine Feed",
+    "amount": 2.0,
+    "station": "Grain Mill",
+    "ingredients": [
+      {
+        "item": "Cabbage Seed",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Equine Feed",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Cabbage Seed",
+        "amount": 2.0
+      },
+      {
+        "item": "Silver",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Fertilizer",
+    "amount": 3.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Animal Shite",
+        "amount": 2.0
+      },
+      {
+        "item": "Wood Ash",
+        "amount": 10.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Flour",
+    "amount": 1.0,
+    "station": "Grain Mill",
+    "ingredients": [
+      {
+        "item": "Wheat Sheaf",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Gravel",
+    "amount": 1.0,
+    "station": "Smashing Plate",
+    "ingredients": [
+      {
+        "item": "Stone Off-Cuts",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Ingot",
+    "amount": 1.0,
+    "station": "Furnace",
+    "ingredients": [
+      {
+        "item": "Iron Ore Fragment",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Ingot",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Iron Ore Fragment",
+        "amount": 3.0
+      },
+      {
+        "item": "Silver",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Lead Ingot",
+    "amount": 1.0,
+    "station": "Furnace",
+    "ingredients": [
+      {
+        "item": "Lead Fragments",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Linen",
+    "amount": 1.0,
+    "station": "Drying Rack",
+    "ingredients": [
+      {
+        "item": "Flax",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Mortar",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Ash",
+        "amount": 10.0
+      },
+      {
+        "item": "Limestone",
+        "amount": 1.0
+      },
+      {
+        "item": "Animal Bones",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Reinforced Wood Planks",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Rosin",
+    "amount": 1.0,
+    "station": "Heating Vat",
+    "ingredients": [
+      {
+        "item": "Crude Resin",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Sinew Bow String",
+    "amount": 1.0,
+    "station": "Drying Rack",
+    "ingredients": [
+      {
+        "item": "Strong Sinew",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Sinew Bow String",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Strong Sinew",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Steel Ingot",
+    "amount": 1.0,
+    "station": "Furnace",
+    "ingredients": [
+      {
+        "item": "Pulverized Coal",
+        "amount": 3.0
+      },
+      {
+        "item": "Iron Ore Fragment",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Stone Bricks",
+    "amount": 3.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Stone Off-Cuts",
+        "amount": 3.0
+      },
+      {
+        "item": "Silver",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Tanned Thick Leather",
+    "amount": 1.0,
+    "station": "Heating Vat",
+    "ingredients": [
+      {
+        "item": "Thick Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Mireland Beech Seed",
+        "amount": 1.0
+      },
+      {
+        "item": "Briar Spruce Seeds",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Tanned Thick Leather",
+    "amount": 1.0,
+    "station": "Heating Vat",
+    "ingredients": [
+      {
+        "item": "Thick Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Mireland Beech Seed",
+        "amount": 1.0
+      },
+      {
+        "item": "North Astrian Pine Seeds",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Tanned Thick Leather",
+    "amount": 1.0,
+    "station": "Heating Vat",
+    "ingredients": [
+      {
+        "item": "Thick Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "North Astrian Pine Seeds",
+        "amount": 1.0
+      },
+      {
+        "item": "Briar Spruce Seeds",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Tanned Thick Leather",
+    "amount": 1.0,
+    "station": "Heating Vat",
+    "ingredients": [
+      {
+        "item": "Thick Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Mireland Beech Seed",
+        "amount": 2.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Tanned Thick Leather",
+    "amount": 1.0,
+    "station": "Heating Vat",
+    "ingredients": [
+      {
+        "item": "Thick Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Briar Spruce Seeds",
+        "amount": 2.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Tanned Thick Leather",
+    "amount": 1.0,
+    "station": "Heating Vat",
+    "ingredients": [
+      {
+        "item": "Thick Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "North Astrian Pine Seeds",
+        "amount": 2.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Thick Leather",
+    "amount": 1.0,
+    "station": "Drying Rack",
+    "ingredients": [
+      {
+        "item": "Thick Pelt",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Thick Leather",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Thick Pelt",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Thin Leather",
+    "amount": 1.0,
+    "station": "Drying Rack",
+    "ingredients": [
+      {
+        "item": "Thin Pelt",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Thin Leather",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Thin Pelt",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Tin Ingot",
+    "amount": 1.0,
+    "station": "Furnace",
+    "ingredients": [
+      {
+        "item": "Cassiterite Fragments",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Wood Blank",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Wood Blank",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Wood Planks",
+    "amount": 4.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Mireland Beech Log",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Wood Planks",
+    "amount": 4.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Briar Spruce Log",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Wood Planks",
+    "amount": 5.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "North Astrian Pine Log",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 3.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Wood Planks",
+    "amount": 4.0,
+    "station": "Sawbuck",
+    "ingredients": [
+      {
+        "item": "Mireland Beech Log",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Wood Planks",
+    "amount": 4.0,
+    "station": "Sawbuck",
+    "ingredients": [
+      {
+        "item": "Briar Spruce Log",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Wood Planks",
+    "amount": 5.0,
+    "station": "Sawbuck",
+    "ingredients": [
+      {
+        "item": "North Astrian Pine Log",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Basic Saddle",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      },
+      {
+        "item": "Rope",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Mill Harness",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Planks",
+        "amount": 2.0
+      },
+      {
+        "item": "Linen",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Pack Saddle",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Thin Leather",
+        "amount": 1.0
+      },
+      {
+        "item": "Barrel",
+        "amount": 1.0
+      },
+      {
+        "item": "Linen",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Armour Plating",
+    "amount": 1.0,
+    "station": "Anvil",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot (Heated)",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Armour Plating",
+    "amount": 1.0,
+    "station": "Stone Anvil",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Armour Plating",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 8.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Axe Blade",
+    "amount": 1.0,
+    "station": "Anvil",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot (Heated)",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Axe Blade",
+    "amount": 1.0,
+    "station": "Stone Anvil",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Axe Blade",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 8.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Sword Blade",
+    "amount": 1.0,
+    "station": "Anvil",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot (Heated)",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Sword Blade",
+    "amount": 1.0,
+    "station": "Stone Anvil",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Sword Blade",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 8.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Tip Blade",
+    "amount": 1.0,
+    "station": "Anvil",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot (Heated)",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Tip Blade",
+    "amount": 1.0,
+    "station": "Stone Anvil",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Tip Blade",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 8.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Tool Blade",
+    "amount": 1.0,
+    "station": "Anvil",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot (Heated)",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Tool Blade",
+    "amount": 1.0,
+    "station": "Stone Anvil",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bronze Tool Blade",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Bronze Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 8.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Armour Plating",
+    "amount": 1.0,
+    "station": "Anvil",
+    "ingredients": [
+      {
+        "item": "Iron Ingot (Heated)",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Armour Plating",
+    "amount": 1.0,
+    "station": "Stone Anvil",
+    "ingredients": [
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Armour Plating",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 15.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Axe Blade",
+    "amount": 1.0,
+    "station": "Anvil",
+    "ingredients": [
+      {
+        "item": "Iron Ingot (Heated)",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Axe Blade",
+    "amount": 1.0,
+    "station": "Stone Anvil",
+    "ingredients": [
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Axe Blade",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 15.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Sword Blade",
+    "amount": 1.0,
+    "station": "Anvil",
+    "ingredients": [
+      {
+        "item": "Iron Ingot (Heated)",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Sword Blade",
+    "amount": 1.0,
+    "station": "Stone Anvil",
+    "ingredients": [
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Sword Blade",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 15.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Tool Blade",
+    "amount": 1.0,
+    "station": "Anvil",
+    "ingredients": [
+      {
+        "item": "Iron Ingot (Heated)",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Tool Blade",
+    "amount": 1.0,
+    "station": "Stone Anvil",
+    "ingredients": [
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Tool Blade",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 15.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Weapon Tip",
+    "amount": 1.0,
+    "station": "Anvil",
+    "ingredients": [
+      {
+        "item": "Iron Ingot (Heated)",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Weapon Tip",
+    "amount": 1.0,
+    "station": "Stone Anvil",
+    "ingredients": [
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Weapon Tip",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      },
+      {
+        "item": "Silver",
+        "amount": 15.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Bandage",
+    "amount": 1.0,
+    "station": "Inventory",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Barrel",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Barrel",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 1.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Repair Materials",
+    "amount": 25.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Repair Materials",
+    "amount": 25.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      }
+    ],
+    "section": "Resources"
+  },
+  {
+    "output": "Iron Axe",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Iron Axe Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Iron Axe",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Iron Axe Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Bronze Axe",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Bronze Axe Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 1.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Bronze Axe",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Bronze Axe Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 1.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Stone Axe",
+    "amount": 1.0,
+    "station": "Inventory",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      },
+      {
+        "item": "Stone Off-Cuts",
+        "amount": 2.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Iron Pickaxe",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Iron Axe Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 5.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Iron Pickaxe",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Iron Axe Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 5.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Bronze Pickaxe",
+    "amount": 1.0,
+    "station": "Workbench",
+    "ingredients": [
+      {
+        "item": "Bronze Axe Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Bronze Pickaxe",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Bronze Axe Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Flint Pickaxe",
+    "amount": 1.0,
+    "station": "Inventory",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      },
+      {
+        "item": "Flint",
+        "amount": 2.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Iron Hammer",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Iron Tool Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Iron Hammer",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Iron Tool Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Flint Hammer",
+    "amount": 1.0,
+    "station": "Inventory",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 2.0
+      },
+      {
+        "item": "Flint",
+        "amount": 2.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Iron Scythe",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Iron Tool Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Iron Hoe",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Iron Tool Blade",
+        "amount": 1.0
+      },
+      {
+        "item": "Wood Blank",
+        "amount": 1.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Alliance Banner",
+    "amount": 3.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      },
+      {
+        "item": "Linen",
+        "amount": 1.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Fishing Pole",
+    "amount": 1.0,
+    "station": "Advanced Workbench",
+    "ingredients": [
+      {
+        "item": "Branches",
+        "amount": 3.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 1.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Rope",
+    "amount": 1.0,
+    "station": "Town Workshop",
+    "ingredients": [
+      {
+        "item": "Fibre",
+        "amount": 5.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 1.0
+      }
+    ],
+    "section": "Tools"
+  },
+  {
+    "output": "Caravan",
+    "amount": 1,
+    "station": "Build site (Town, Fortress, Siegecamp)",
+    "tool": "Hammer",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 25.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 5.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 3.0
+      }
+    ],
+    "section": "Vehicles",
+    "locations": [
+      "Town",
+      "Fortress",
+      "Siegecamp"
+    ]
+  },
+  {
+    "output": "Hand Cart",
+    "amount": 1,
+    "station": "Build site (Homestead, Town, Fortress)",
+    "tool": "Hands",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 3.0
+      }
+    ],
+    "section": "Vehicles",
+    "locations": [
+      "Homestead",
+      "Town",
+      "Fortress"
+    ]
+  },
+  {
+    "output": "Resource Wagon",
+    "amount": 1,
+    "station": "Build site (Town, Fortress, Siegecamp)",
+    "tool": "Hammer",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 12.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 2.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 5.0
+      }
+    ],
+    "section": "Vehicles",
+    "locations": [
+      "Town",
+      "Fortress",
+      "Siegecamp"
+    ]
+  },
+  {
+    "output": "Small Boat",
+    "amount": 1,
+    "station": "Build site (Coast)",
+    "tool": "Hammer",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 10.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 5.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 3.0
+      }
+    ],
+    "section": "Vehicles",
+    "locations": [
+      "Coast"
+    ]
+  },
+  {
+    "output": "Battering Ram",
+    "amount": 1,
+    "station": "Build site (Fortress, Siegecamp, Town)",
+    "tool": "Hammer",
+    "ingredients": [
+      {
+        "item": "Iron Ingot",
+        "amount": 10.0
+      },
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 10.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 10.0
+      },
+      {
+        "item": "Strong Fibre",
+        "amount": 3.0
+      }
+    ],
+    "section": "Vehicles",
+    "locations": [
+      "Fortress",
+      "Siegecamp",
+      "Town"
+    ]
+  },
+  {
+    "output": "Heavy Battering Ram",
+    "amount": 1,
+    "station": "Build site (Fortress, Siegecamp, Town)",
+    "tool": "Hammer",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 15.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 10.0
+      },
+      {
+        "item": "Steel Ingot",
+        "amount": 12.0
+      },
+      {
+        "item": "Strong Fibre",
+        "amount": 5.0
+      }
+    ],
+    "section": "Vehicles",
+    "locations": [
+      "Fortress",
+      "Siegecamp",
+      "Town"
+    ]
+  },
+  {
+    "output": "Makeshift Battering Ram",
+    "amount": 1,
+    "station": "Build site (Fortress, Siegecamp, Town)",
+    "tool": "Hammer",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 10.0
+      },
+      {
+        "item": "Copper Nails",
+        "amount": 5.0
+      }
+    ],
+    "section": "Vehicles",
+    "locations": [
+      "Fortress",
+      "Siegecamp",
+      "Town"
+    ]
+  },
+  {
+    "output": "Catapult",
+    "amount": 1,
+    "station": "Build site (Fortress, Siegecamp, Town)",
+    "tool": "Hammer",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 15.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 15.0
+      },
+      {
+        "item": "Steel Ingot",
+        "amount": 3.0
+      },
+      {
+        "item": "Strong Fibre",
+        "amount": 20.0
+      }
+    ],
+    "section": "Vehicles",
+    "locations": [
+      "Fortress",
+      "Siegecamp",
+      "Town"
+    ]
+  },
+  {
+    "output": "Scorpion",
+    "amount": 1,
+    "station": "Build site (Fortress, Siegecamp, Town)",
+    "tool": "Hammer",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 1.0
+      }
+    ],
+    "section": "Vehicles",
+    "locations": [
+      "Fortress",
+      "Siegecamp",
+      "Town"
+    ]
+  },
+  {
+    "output": "Siege Ladder",
+    "amount": 1,
+    "station": "Build site (Fortress, Siegecamp, Town)",
+    "tool": "Hammer",
+    "ingredients": [
+      {
+        "item": "Wood Planks",
+        "amount": 5.0
+      }
+    ],
+    "section": "Vehicles",
+    "locations": [
+      "Fortress",
+      "Siegecamp",
+      "Town"
+    ]
+  },
+  {
+    "output": "Siege Tower",
+    "amount": 1,
+    "station": "Build site (Fortress, Siegecamp, Town)",
+    "tool": "Hammer",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 60.0
+      },
+      {
+        "item": "Animal Fat",
+        "amount": 20.0
+      },
+      {
+        "item": "Steel Ingot",
+        "amount": 25.0
+      },
+      {
+        "item": "Linen",
+        "amount": 20.0
+      },
+      {
+        "item": "Lead Ingot",
+        "amount": 20.0
+      },
+      {
+        "item": "Rosin",
+        "amount": 20.0
+      }
+    ],
+    "section": "Vehicles",
+    "locations": [
+      "Fortress",
+      "Siegecamp",
+      "Town"
+    ]
+  },
+  {
+    "output": "Cargo Ship",
+    "amount": 1,
+    "station": "Build site (Shipyard)",
+    "tool": "Hammer",
+    "ingredients": [
+      {
+        "item": "Reinforced Wood Planks",
+        "amount": 35.0
+      },
+      {
+        "item": "Iron Ingot",
+        "amount": 8.0
+      },
+      {
+        "item": "Strong Fibre",
+        "amount": 3.0
+      },
+      {
+        "item": "Thick Leather",
+        "amount": 6.0
+      },
+      {
+        "item": "Rope",
+        "amount": 5.0
+      }
+    ],
+    "section": "Vehicles",
+    "locations": [
+      "Shipyard"
+    ]
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "id": "F100",
+    "name": "Berries",
+    "regen": 1.0,
+    "duration_text": "30 sec",
+    "duration_s": 30.0,
+    "hunger": 3.0,
+    "food_type": "Berry"
+  },
+  {
+    "id": "F101",
+    "name": "Bloodberry Field Bar",
+    "regen": 1.5,
+    "duration_text": "2 min",
+    "duration_s": 120.0,
+    "hunger": 15.0,
+    "food_type": "Berry"
+  },
+  {
+    "id": "F102",
+    "name": "Boiled Cabbage",
+    "regen": 1.0,
+    "duration_text": "30 sec",
+    "duration_s": 30.0,
+    "hunger": 80.0,
+    "food_type": "Produce"
+  },
+  {
+    "id": "F103",
+    "name": "Boiled Eggs",
+    "regen": 2.0,
+    "duration_text": "45 sec",
+    "duration_s": 45.0,
+    "hunger": 35.0,
+    "food_type": "Produce"
+  },
+  {
+    "id": "F104",
+    "name": "Egg Tarte",
+    "regen": 1.0,
+    "duration_text": "8 min",
+    "duration_s": 480.0,
+    "hunger": 100.0,
+    "food_type": "Produce"
+  },
+  {
+    "id": "F105",
+    "name": "Grilled Whitefish",
+    "regen": 1.5,
+    "duration_text": "5 sec",
+    "duration_s": 5.0,
+    "hunger": 15.0,
+    "food_type": "Fish"
+  },
+  {
+    "id": "F106",
+    "name": "Lost Bread",
+    "regen": 0.5,
+    "duration_text": "10 min",
+    "duration_s": 600.0,
+    "hunger": 60.0,
+    "food_type": "Wheat"
+  },
+  {
+    "id": "F107",
+    "name": "Mead",
+    "regen": 1.0,
+    "duration_text": "3 min",
+    "duration_s": 180.0,
+    "hunger": 20.0,
+    "food_type": "Berry"
+  },
+  {
+    "id": "F108",
+    "name": "Pemmikan",
+    "regen": 2.0,
+    "duration_text": "3 min",
+    "duration_s": 180.0,
+    "hunger": 25.0,
+    "food_type": "Common Meat"
+  },
+  {
+    "id": "F109",
+    "name": "Plain Alemette",
+    "regen": 2.0,
+    "duration_text": "50 sec",
+    "duration_s": 50.0,
+    "hunger": 30.0,
+    "food_type": "Produce"
+  },
+  {
+    "id": "F110",
+    "name": "Roasted Game",
+    "regen": 1.5,
+    "duration_text": "4 min",
+    "duration_s": 240.0,
+    "hunger": 30.0,
+    "food_type": "Deer Meat"
+  },
+  {
+    "id": "F111",
+    "name": "Roasted Hog's Leg",
+    "regen": 1.5,
+    "duration_text": "4 min",
+    "duration_s": 240.0,
+    "hunger": 30.0,
+    "food_type": "Boar Meat"
+  },
+  {
+    "id": "F112",
+    "name": "Small Roasted Game",
+    "regen": 1.5,
+    "duration_text": "2 min",
+    "duration_s": 120.0,
+    "hunger": 15.0,
+    "food_type": "Common Meat"
+  },
+  {
+    "id": "F113",
+    "name": "Trencher Bread",
+    "regen": 0.5,
+    "duration_text": "1 min",
+    "duration_s": 60.0,
+    "hunger": 80.0,
+    "food_type": "Wheat"
+  },
+  {
+    "id": "F114",
+    "name": "Water Pie",
+    "regen": 1.5,
+    "duration_text": "15 min",
+    "duration_s": 900.0,
+    "hunger": 70.0,
+    "food_type": "Common Meat"
+  }
+]

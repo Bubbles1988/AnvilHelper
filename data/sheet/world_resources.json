@@ -1,0 +1,468 @@
+[
+  {
+    "id": "WR001",
+    "name": "Animal Shite Pile",
+    "tools": [
+      "Hands"
+    ],
+    "description": "Animal Shite Pile is a resource pile created by Horse and Donkey. It despawns after 15 Minutes if not collected.",
+    "outputs": [
+      {
+        "item": "Animal Shite",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR002",
+    "name": "Berry Bush",
+    "tools": [
+      "Hands"
+    ],
+    "description": "Berry Bush is a resource bush within the world of Calligo.",
+    "outputs": [
+      {
+        "item": "Berries",
+        "amount": 1.0
+      },
+      {
+        "item": "Fibre",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "id": "WR003",
+    "name": "Branch Pile",
+    "tools": [
+      "Hands"
+    ],
+    "description": "Branch Pile is a resource pile within the world of Calligo.",
+    "outputs": [
+      {
+        "item": "Branches",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR004",
+    "name": "Briar Spruce Tree",
+    "tools": [
+      "Stone Axe",
+      "Bronze Axe",
+      "Iron Axe",
+      "Iron Broadaxe"
+    ],
+    "description": "The Briar Spruce Tree is a type of tree found within the world of Calligo. It has 3 stages of growth with 2 hours of time between each stage, for a total growth time of 4 hours. The amount of logs dropped by the tree change depending on its growth stage, with seeds only being dropped in the mature stage.",
+    "outputs": [
+      {
+        "item": "Branches",
+        "amount": 6.0
+      },
+      {
+        "item": "Briar Spruce Log",
+        "amount": 2.0
+      },
+      {
+        "item": "Briar Spruce Seeds",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR005",
+    "name": "Cabbage Plant",
+    "tools": [
+      "Iron Scythe"
+    ],
+    "description": "Cabbage Plant is a plant that grows on a Tilled Field . It requires Cabbage Seed to plant. Cabbage plants take a total of 1.5 hours to grow. If Fertilizer is applied on the field, the growth time is reduced by 33% thus taking roughly 1 hour to grow.",
+    "outputs": [
+      {
+        "item": "Cabbage",
+        "amount": "1 to 2"
+      },
+      {
+        "item": "Cabbage Seed",
+        "amount": "1 to 3"
+      }
+    ]
+  },
+  {
+    "id": "WR006",
+    "name": "Cassiterite Chunk",
+    "tools": [
+      "Bronze Pickaxe",
+      "Iron Pickaxe"
+    ],
+    "description": "Cassiterite Chunk is a resource found in the underworld. It can only be found after 4 days have passed in the age.",
+    "outputs": [
+      {
+        "item": "Cassiterite Ore",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR007",
+    "name": "Coal Chunk",
+    "tools": [
+      "Bronze Pickaxe",
+      "Iron Pickaxe"
+    ],
+    "description": "Coal Chunk is a resource found in the underworld. It can only be found after 3 days have passed in the age.",
+    "outputs": [
+      {
+        "item": "Coal",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR008",
+    "name": "Dead Wood Tree",
+    "tools": [
+      "Bronze Axe",
+      "Iron Axe",
+      "Iron Broadaxe"
+    ],
+    "description": "Dead Wood Trees are a type of tree resource found within the world of Calligo. They will spawn 3 Dire Raven which will patrol close to the tree to protect it.",
+    "outputs": [
+      {
+        "item": "Dead Wood Log",
+        "amount": 2.0
+      }
+    ]
+  },
+  {
+    "id": "WR009",
+    "name": "Flax Plant",
+    "tools": [
+      "Iron Scythe"
+    ],
+    "description": "Flax Plant is a plant that grows on a Tilled Field . It requires Flax Seed to plant. Flax plants take a total of 2 hours to grow. If Fertilizer is applied on the field, the growth time is reduced by 33% thus taking roughly 1 hour, 20 minutes to grow.",
+    "outputs": [
+      {
+        "item": "Flax",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR010",
+    "name": "Flint Pile",
+    "tools": [
+      "Hands"
+    ],
+    "description": "Flint Pile is a resource pile within the world of Calligo.",
+    "outputs": [
+      {
+        "item": "Flint",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR011",
+    "name": "Hemp Plant",
+    "tools": [
+      "Iron Scythe"
+    ],
+    "description": "Hemp Plant is a resource that will start to spawn in Calligo 2 days into the age. After which it can be cultivated on a Tilled Field . It requires Hemp Seed for planting and need warm air temperatures to be sown. Hemp plants take a total of 3 hours to grow. If Fertilizer is applied on the field, the growth time is reduced by 33% thus taking roughly 2 hours to grow.",
+    "outputs": [
+      {
+        "item": "Strong Fibre",
+        "amount": 1.0
+      },
+      {
+        "item": "Hemp Seed",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR012",
+    "name": "Iron Chunk",
+    "tools": [
+      "Bronze Pickaxe",
+      "Iron Pickaxe"
+    ],
+    "description": "Hemp Plant is a resource that will start to spawn in Calligo 2 days into the age. After which it can be cultivated on a Tilled Field . It requires Hemp Seed for planting and need warm air temperatures to be sown. Hemp plants take a total of 3 hours to grow. If Fertilizer is applied on the field, the growth time is reduced by 33% thus taking roughly 2 hours to grow.",
+    "outputs": [
+      {
+        "item": "Iron Ore",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR013",
+    "name": "Iron Fragments Pile",
+    "tools": [
+      "Bronze Pickaxe",
+      "Iron Pickaxe"
+    ],
+    "description": "Iron Fragments Pile is a resource found in the underworld.",
+    "outputs": [
+      {
+        "item": "Iron Ore Fragment",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR014",
+    "name": "Lead Fragments Pile",
+    "tools": [
+      "Bronze Pickaxe",
+      "Iron Pickaxe"
+    ],
+    "description": "Lead Fragments Pile is a resource pile that can be found within the world of Calligo.",
+    "outputs": [
+      {
+        "item": "Lead Fragments",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR015",
+    "name": "Malachite Chunk",
+    "tools": [
+      "Bronze Pickaxe",
+      "Iron Pickaxe"
+    ],
+    "description": "Malachite Chunk is a resource found in the underworld.",
+    "outputs": [
+      {
+        "item": "Malachite Ore",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR016",
+    "name": "Malachite Fragments Pile",
+    "tools": [
+      "Flint Pickaxe",
+      "Bronze Pickaxe",
+      "Iron Pickaxe"
+    ],
+    "description": "Malachite Fragments Pile is a resource pile that can be found around a Malachite Mine .",
+    "outputs": [
+      {
+        "item": "Malachite Fragments",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR017",
+    "name": "Mireland Beech Tree",
+    "tools": [
+      "Stone Axe",
+      "Bronze Axe",
+      "Iron Axe",
+      "Iron Broadaxe"
+    ],
+    "description": "The Mireland Beech Tree is a type of tree found within the world of Calligo. It has 3 stages of growth with 2 hours of time between each stage, for a total growth time of 4 hours. The amount of logs dropped by the tree change depending on its growth stage, with seeds only being dropped in the mature stage.",
+    "outputs": [
+      {
+        "item": "Branches",
+        "amount": 4.0
+      },
+      {
+        "item": "Mireland Beech Log",
+        "amount": 2.0
+      },
+      {
+        "item": "Mireland Beech Seed",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR018",
+    "name": "North Astrian Pine Tree",
+    "tools": [
+      "Stone Axe",
+      "Bronze Axe",
+      "Iron Axe",
+      "Iron Broadaxe"
+    ],
+    "description": "The North Astrian Pine Tree is a type of tree found within the world of Calligo. It has 3 stages of growth with 2 hours of time between each stage, for a total growth time of 4 hours. The amount of logs dropped by the tree change depending on its growth stage, with seeds only being dropped in the mature stage.",
+    "outputs": [
+      {
+        "item": "Branches",
+        "amount": 4.0
+      },
+      {
+        "item": "North Astrian Pine Log",
+        "amount": 2.0
+      },
+      {
+        "item": "North Astrian Pine Seeds",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR019",
+    "name": "Rare Metals Pile",
+    "tools": [
+      "Bronze Pickaxe",
+      "Iron Pickaxe"
+    ],
+    "description": "Rare Metals Pile is a resource pile that can be found in the underworld.",
+    "outputs": [
+      {
+        "item": "Rare Metals",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR020",
+    "name": "Relic Site",
+    "tools": [
+      "Flint Pickaxe",
+      "Bronze Pickaxe",
+      "Iron Pickaxe"
+    ],
+    "description": "A Relic Site is a religious victory condition structure that will spawn at random location along the current empire territory border every 1 Hour, 30 Minutes. After spawning the site will be available for mining with a pickaxe for 15 minutes before despawning. Successfully mining the site will reward you with number of Religious Relics which can be handed in at a town Bounty Board to provide both Silver and 14 religious influence per trophy. The first empire to reach 10,000 influence will earn the religious victory.",
+    "outputs": [
+      {
+        "item": "Religious Relics",
+        "amount": 25.0
+      }
+    ]
+  },
+  {
+    "id": "WR021",
+    "name": "Resin Pile",
+    "tools": [
+      "Bronze Knife",
+      "Iron Knife"
+    ],
+    "description": "Resin Pile is a resource pile that can be found in the world of Calligo.",
+    "outputs": [
+      {
+        "item": "Crude Resin",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR022",
+    "name": "Stone Chunk",
+    "tools": [
+      "Flint Pickaxe",
+      "Bronze Pickaxe",
+      "Iron Pickaxe"
+    ],
+    "description": "Stone Chunk is a resource found in the underworld. Limestone has a chance to drop.",
+    "outputs": [
+      {
+        "item": "Rock Slab",
+        "amount": 1.0
+      },
+      {
+        "item": "Limestone",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR023",
+    "name": "Stone Fragments Pile",
+    "tools": [
+      "Flint Pickaxe",
+      "Bronze Pickaxe",
+      "Iron Pickaxe"
+    ],
+    "description": "Stone Fragments Pile is a resource pile within the world of Calligo.",
+    "outputs": [
+      {
+        "item": "Stone Off-Cuts",
+        "amount": "3 to 4"
+      }
+    ]
+  },
+  {
+    "id": "WR024",
+    "name": "Tree Stumps",
+    "tools": [
+      "Stone Axe",
+      "Bronze Axe",
+      "Iron Axe",
+      "Iron Broadaxe"
+    ],
+    "description": "Tree Stump is a resource pile.",
+    "outputs": [
+      {
+        "item": "Branches",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR025",
+    "name": "Wheat Plant",
+    "tools": [
+      "Iron Scythe"
+    ],
+    "description": "Wheat Plant is a plant that grows on a Tilled Field . It requires Wheat Seed to plant. Wheat plants take a total of 1.5 hours to grow. If Fertilizer is applied on the field, the growth time is reduced by 33% thus taking roughly 1 hour to grow.",
+    "outputs": [
+      {
+        "item": "Wheat Sheaf",
+        "amount": "1 to 2"
+      },
+      {
+        "item": "Wheat Seed",
+        "amount": "1 to 3"
+      }
+    ]
+  },
+  {
+    "id": "WR026",
+    "name": "Wild Cabbage Plant",
+    "tools": [
+      "Hands"
+    ],
+    "description": "Wild Cabbage Plant is a plant that can be found in the world of Calligo.",
+    "outputs": [
+      {
+        "item": "Cabbage Seed",
+        "amount": "1 to 2"
+      }
+    ]
+  },
+  {
+    "id": "WR027",
+    "name": "Wild Flax Plant",
+    "tools": [
+      "Hands"
+    ],
+    "description": "Wild Flax Plant is a plant that can be found in the world of Calligo.",
+    "outputs": [
+      {
+        "item": "Flax Seed",
+        "amount": 1.0
+      }
+    ]
+  },
+  {
+    "id": "WR028",
+    "name": "Wild Wheat Plant",
+    "tools": [
+      "Hands"
+    ],
+    "description": "Wild Wheat Plant is a plant that can be found in the world of Calligo.",
+    "outputs": [
+      {
+        "item": "Wheat Seed",
+        "amount": "1 to 2"
+      }
+    ]
+  }
+]

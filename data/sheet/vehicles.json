@@ -1,0 +1,198 @@
+[
+  {
+    "id": "V100",
+    "name": "Battering Ram",
+    "health": 460.0,
+    "seats": 4.0,
+    "speed": "1.5 m /s",
+    "sprint_speed": "7.5 m/s",
+    "sprint_duration": "20 Seconds",
+    "road_bonus": "1x",
+    "damage": {
+      "type": "Siege",
+      "min": 150.0,
+      "max": 150.0
+    },
+    "description": "The Battering Ram is a battering ram used for ramming structures. It requires 4 people to use. The ram must be moving at least 60% of its maximum velocity for its damage to be applied on impact. Any players hit by the ram will be killed instantly regardless of health."
+  },
+  {
+    "id": "V101",
+    "name": "Caravan",
+    "health": 128.0,
+    "seats": null,
+    "speed": "4 m/s",
+    "sprint_speed": "6 m/s",
+    "sprint_duration": "6 Seconds",
+    "road_bonus": "1.2x",
+    "damage": null,
+    "description": "A Caravan is a horse-drawn vehicle that can be used for transporting avatars, supplies or used to deploy a build site for a Fortress Keep or Large Camp. It has a large inventory which can be used for transporting barreled goods long distances. To deploy a build site from a caravan, use the designated button in the caravan's interaction menu and select the desired structure. This will activate build mode, enabling you to position your selected structure."
+  },
+  {
+    "id": "V102",
+    "name": "Catapult",
+    "health": 315.0,
+    "seats": 4.0,
+    "speed": "1.5 m/s",
+    "sprint_speed": null,
+    "sprint_duration": null,
+    "road_bonus": "1x",
+    "damage": {
+      "type": "Siege",
+      "min": 45.0,
+      "max": 55.0
+    },
+    "description": "The Catapult is a siege vehicle used to fire Catapult Boulder at enemy structures. It requires 4 people to move. It can be operated by 2 players, with one player operating the crank for rearming, while another player operates the lever for firing. Catapult Boulders will deal damage to both structures and vehicles, with players being killed instantly when hit."
+  },
+  {
+    "id": "V103",
+    "name": "Donkey",
+    "health": 80.0,
+    "seats": 1.0,
+    "speed": "4.55 m/s",
+    "sprint_speed": "6.825 m/s",
+    "sprint_duration": "20 Seconds",
+    "road_bonus": "1x",
+    "damage": {
+      "type": "Default",
+      "min": 20.0,
+      "max": 20.0
+    },
+    "description": null
+  },
+  {
+    "id": "V104",
+    "name": "Hand Cart",
+    "health": 80.0,
+    "seats": 1.0,
+    "speed": "3.75 m/s",
+    "sprint_speed": "4.5 m/s",
+    "sprint_duration": "1m 40sec",
+    "road_bonus": "1.2x",
+    "damage": null,
+    "description": "Hand Cart is a basic vehicle used for transportation of resources. It's currently the only vehicle that can be used in the underworld to support mining activities."
+  },
+  {
+    "id": "V105",
+    "name": "Heavy Battering Ram",
+    "health": 1050.0,
+    "seats": 6.0,
+    "speed": "0.75 m/s",
+    "sprint_speed": "3.75 m/s",
+    "sprint_duration": "20 seconds",
+    "road_bonus": "1x",
+    "damage": {
+      "type": "Siege",
+      "min": 75.0,
+      "max": 75.0
+    },
+    "description": "The Heavy Battering Ram is a battering ram used for ramming structures. It requires 6 people to move with 4 of the vehicles operators being protected by the roof from arrow fire. Players inside the ram can still be melee attacked."
+  },
+  {
+    "id": "V106",
+    "name": "Horse",
+    "health": 200.0,
+    "seats": 2.0,
+    "speed": "4.4 m/s",
+    "sprint_speed": "8.8 m/s",
+    "sprint_duration": "20 Seconds",
+    "road_bonus": "1.3x",
+    "damage": {
+      "type": "Slashing",
+      "min": 20.0,
+      "max": 20.0
+    },
+    "description": null
+  },
+  {
+    "id": "V107",
+    "name": "Resource Wagon",
+    "health": 200.0,
+    "seats": 2.0,
+    "speed": "4 m/s",
+    "sprint_speed": "6 m/s",
+    "sprint_duration": "6 Seconds",
+    "road_bonus": "1.2x",
+    "damage": null,
+    "description": "A Resource Wagon is a horse-drawn vehicle that can be used for transporting various resources. The wagon itself has two seats for passengers."
+  },
+  {
+    "id": "V108",
+    "name": "Scorpion",
+    "health": 100.0,
+    "seats": 1.0,
+    "speed": null,
+    "sprint_speed": null,
+    "sprint_duration": null,
+    "road_bonus": null,
+    "damage": {
+      "type": "Piercing",
+      "min": 216.0,
+      "max": 264.0
+    },
+    "description": "The Scorpion is a defensive anti-infantry siege weapon that can be deployed on foundations."
+  },
+  {
+    "id": "V109",
+    "name": "Siege Ladder",
+    "health": 200.0,
+    "seats": 2.0,
+    "speed": "3 m/s",
+    "sprint_speed": null,
+    "sprint_duration": null,
+    "road_bonus": "1x",
+    "damage": null,
+    "description": "In order to move and turn both players must work together either pushing forward or backwards. In order to turn left or right both players invert push direction from the other side. The ladder can rotate on the spot, or translate left and right if both players share left and right inputs."
+  },
+  {
+    "id": "V110",
+    "name": "Siege Tower",
+    "health": 3220.0,
+    "seats": 8.0,
+    "speed": "0.5 m/s",
+    "sprint_speed": "2.5 m/s",
+    "sprint_duration": "20 Seconds",
+    "road_bonus": "1x",
+    "damage": null,
+    "description": "The Siege Tower is a siege vehicle used to protect attackers as they approach and scale walls during an assault. It requires 8 people to move."
+  },
+  {
+    "id": "V111",
+    "name": "Small Boat",
+    "health": 200.0,
+    "seats": 3.0,
+    "speed": "1.75 m/s",
+    "sprint_speed": null,
+    "sprint_duration": null,
+    "road_bonus": null,
+    "damage": null,
+    "description": "The Small Boat is a water vehicle that can hold up to 3 people."
+  },
+  {
+    "id": "V112",
+    "name": "Cargo Ship",
+    "health": 600.0,
+    "seats": 8.0,
+    "speed": "2.5 m/s",
+    "sprint_speed": null,
+    "sprint_duration": null,
+    "road_bonus": null,
+    "damage": null,
+    "description": "Cargo Ship is a boat variant built at a Shipyard that can be used to move larger numbers of people, items, and up to 2 from a small list of vehicles across waterways. Players can stand, eat and walk around on the deck while the ship is moving. It can be docked with a Shipdock for repairs and storage."
+  },
+  {
+    "id": "V113",
+    "name": "Makeshift Battering Ram",
+    "health": 276.0,
+    "seats": 4.0,
+    "speed": "1.5 m/s",
+    "sprint_speed": "7 m/s",
+    "sprint_duration": "20 Seconds",
+    "road_bonus": "1x",
+    "damage": {
+      "type": "Siege",
+      "min": 75.0,
+      "max": 75.0
+    },
+    "description": "The Makeshift Battering Ram is a light battering ram used for ramming structures. It can be built only after 3 Hours into an age. It requires 4 people to use. The ram must be moving at least 60% of its maximum velocity for its damage to be applied on impact. Any players hit by the ram will be killed instantly regardless of health."
+  }
+]

@@ -1,0 +1,310 @@
+[
+  {
+    "id": "S100",
+    "name": "Anvil"
+  },
+  {
+    "id": "S101",
+    "name": "Aqueduct Parts"
+  },
+  {
+    "id": "S102",
+    "name": "Aqueduct Pump"
+  },
+  {
+    "id": "S103",
+    "name": "Armour Rack"
+  },
+  {
+    "id": "S104",
+    "name": "Banquet Table"
+  },
+  {
+    "id": "S105",
+    "name": "Beacon Tower"
+  },
+  {
+    "id": "S106",
+    "name": "Bear Den"
+  },
+  {
+    "id": "S107",
+    "name": "Bellow"
+  },
+  {
+    "id": "S108",
+    "name": "Camp Gate"
+  },
+  {
+    "id": "S109",
+    "name": "Camp Palisade"
+  },
+  {
+    "id": "S110",
+    "name": "Canal"
+  },
+  {
+    "id": "S111",
+    "name": "Canal Storage"
+  },
+  {
+    "id": "S112",
+    "name": "Cave"
+  },
+  {
+    "id": "S113",
+    "name": "Deep Well"
+  },
+  {
+    "id": "S114",
+    "name": "Dirt Path"
+  },
+  {
+    "id": "S115",
+    "name": "Drying Rack"
+  },
+  {
+    "id": "S116",
+    "name": "Farm Fence"
+  },
+  {
+    "id": "S117",
+    "name": "Farm Gate"
+  },
+  {
+    "id": "S118",
+    "name": "Farm House"
+  },
+  {
+    "id": "S119",
+    "name": "Firepit"
+  },
+  {
+    "id": "S120",
+    "name": "Food Trough"
+  },
+  {
+    "id": "S121",
+    "name": "Forge"
+  },
+  {
+    "id": "S122",
+    "name": "Fortress Keep T1"
+  },
+  {
+    "id": "S123",
+    "name": "Fortress Keep T2"
+  },
+  {
+    "id": "S124",
+    "name": "Fortress Keep T3"
+  },
+  {
+    "id": "S125",
+    "name": "Furnace"
+  },
+  {
+    "id": "S126",
+    "name": "Gate (Homestead)"
+  },
+  {
+    "id": "S127",
+    "name": "Grain Mill"
+  },
+  {
+    "id": "S128",
+    "name": "Hearth"
+  },
+  {
+    "id": "S129",
+    "name": "Heating Vat"
+  },
+  {
+    "id": "S130",
+    "name": "Hen House"
+  },
+  {
+    "id": "S131",
+    "name": "Homestead Keystone T1"
+  },
+  {
+    "id": "S132",
+    "name": "Homestead Keystone T2"
+  },
+  {
+    "id": "S133",
+    "name": "Homestead Keystone T3"
+  },
+  {
+    "id": "S134",
+    "name": "Homestead Parts T1"
+  },
+  {
+    "id": "S135",
+    "name": "Homestead Parts T2"
+  },
+  {
+    "id": "S136",
+    "name": "Keep Parts"
+  },
+  {
+    "id": "S137",
+    "name": "Large Camp"
+  },
+  {
+    "id": "S138",
+    "name": "Liquid Barrel"
+  },
+  {
+    "id": "S139",
+    "name": "Makeshift Wall"
+  },
+  {
+    "id": "S140",
+    "name": "Malachite Mine"
+  },
+  {
+    "id": "S141",
+    "name": "Meat Rack"
+  },
+  {
+    "id": "S142",
+    "name": "Mining Platform"
+  },
+  {
+    "id": "S143",
+    "name": "Mining Stairs"
+  },
+  {
+    "id": "S144",
+    "name": "Oven"
+  },
+  {
+    "id": "S145",
+    "name": "Pantry"
+  },
+  {
+    "id": "S146",
+    "name": "Power Connection Gear"
+  },
+  {
+    "id": "S147",
+    "name": "Power Connection Rope"
+  },
+  {
+    "id": "S148",
+    "name": "Power Mill"
+  },
+  {
+    "id": "S149",
+    "name": "Powered Handcrank Adapter"
+  },
+  {
+    "id": "S150",
+    "name": "Powered Saw Mill"
+  },
+  {
+    "id": "S151",
+    "name": "Quenching Station"
+  },
+  {
+    "id": "S152",
+    "name": "Reaver Camp"
+  },
+  {
+    "id": "S153",
+    "name": "Reaver Fort"
+  },
+  {
+    "id": "S154",
+    "name": "Repair Bench"
+  },
+  {
+    "id": "S155",
+    "name": "Sawbuck"
+  },
+  {
+    "id": "S156",
+    "name": "Shallow Well"
+  },
+  {
+    "id": "S157",
+    "name": "Sign Post"
+  },
+  {
+    "id": "S158",
+    "name": "Smashing Plate"
+  },
+  {
+    "id": "S159",
+    "name": "Stable"
+  },
+  {
+    "id": "S160",
+    "name": "Stamp Mill"
+  },
+  {
+    "id": "S161",
+    "name": "Standing Torch"
+  },
+  {
+    "id": "S162",
+    "name": "Stockade"
+  },
+  {
+    "id": "S163",
+    "name": "Stone Anvil"
+  },
+  {
+    "id": "S164",
+    "name": "Storage Chest"
+  },
+  {
+    "id": "S165",
+    "name": "Tavern"
+  },
+  {
+    "id": "S166",
+    "name": "Temple"
+  },
+  {
+    "id": "S167",
+    "name": "Tent"
+  },
+  {
+    "id": "S168",
+    "name": "Tilled Field"
+  },
+  {
+    "id": "S169",
+    "name": "Tower"
+  },
+  {
+    "id": "S170",
+    "name": "Town Crafting Area"
+  },
+  {
+    "id": "S171",
+    "name": "Town Marketplace"
+  },
+  {
+    "id": "S172",
+    "name": "Town Workshop"
+  },
+  {
+    "id": "S173",
+    "name": "Trip Hammer"
+  },
+  {
+    "id": "S174",
+    "name": "Water Wheel"
+  },
+  {
+    "id": "S175",
+    "name": "Weapon Stockpile"
+  },
+  {
+    "id": "S176",
+    "name": "Wind Mill"
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "T100",
+    "name": "Alliance Banner",
+    "effectiveness": 1.0,
+    "durability": null
+  },
+  {
+    "id": "T101",
+    "name": "Bronze Axe",
+    "effectiveness": 0.66,
+    "durability": 400.0
+  },
+  {
+    "id": "T102",
+    "name": "Bronze Knife",
+    "effectiveness": 0.66,
+    "durability": 160.0
+  },
+  {
+    "id": "T103",
+    "name": "Bronze Pickaxe",
+    "effectiveness": 0.75,
+    "durability": 400.0
+  },
+  {
+    "id": "T104",
+    "name": "Fishing Pole",
+    "effectiveness": 1.0,
+    "durability": 200.0
+  },
+  {
+    "id": "T105",
+    "name": "Flint Hammer",
+    "effectiveness": 1.0,
+    "durability": 134.0
+  },
+  {
+    "id": "T106",
+    "name": "Flint Knife",
+    "effectiveness": 0.5,
+    "durability": 80.0
+  },
+  {
+    "id": "T107",
+    "name": "Flint Pickaxe",
+    "effectiveness": 0.5,
+    "durability": 200.0
+  },
+  {
+    "id": "T108",
+    "name": "Hands",
+    "effectiveness": 1.0,
+    "durability": null
+  },
+  {
+    "id": "T109",
+    "name": "Iron Axe",
+    "effectiveness": 0.8,
+    "durability": 800.0
+  },
+  {
+    "id": "T110",
+    "name": "Iron Broadaxe",
+    "effectiveness": 1.0,
+    "durability": 400.0
+  },
+  {
+    "id": "T111",
+    "name": "Iron Hammer",
+    "effectiveness": 1.0,
+    "durability": 267.0
+  },
+  {
+    "id": "T112",
+    "name": "Iron Hoe",
+    "effectiveness": 1.0,
+    "durability": 100.0
+  },
+  {
+    "id": "T113",
+    "name": "Iron Knife",
+    "effectiveness": 1.0,
+    "durability": 320.0
+  },
+  {
+    "id": "T114",
+    "name": "Iron Pickaxe",
+    "effectiveness": 1.0,
+    "durability": 800.0
+  },
+  {
+    "id": "T115",
+    "name": "Iron Scythe",
+    "effectiveness": 1.0,
+    "durability": 200.0
+  },
+  {
+    "id": "T116",
+    "name": "Rope",
+    "effectiveness": 1.0,
+    "durability": null
+  },
+  {
+    "id": "T117",
+    "name": "Stone Axe",
+    "effectiveness": 0.5,
+    "durability": 200.0
+  }
+]

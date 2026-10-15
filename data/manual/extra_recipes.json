@@ -1,0 +1,7 @@
+{
+  "_comment": "Recipes that are not in the spreadsheet but are needed so the crafting calculator can follow every step. Same format as data/sheet/recipes.json.",
+  "recipes": [
+    {"output": "Bronze Ingot (Heated)", "amount": 1, "station": "Forge", "ingredients": [{"item": "Bronze Ingot", "amount": 1}], "note": "Heat the ingot in a Forge. It cools back down to a normal ingot over time."},
+    {"output": "Iron Ingot (Heated)", "amount": 1, "station": "Forge", "ingredients": [{"item": "Iron Ingot", "amount": 1}], "note": "Heat the ingot in a Forge. It cools back down to a normal ingot over time."}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "shields": [
+    {
+      "id": "SH100",
+      "name": "Crude Shield",
+      "durability_hits": 223.0,
+      "stability_loss_per_hit": 0.3,
+      "requirements": null
+    },
+    {
+      "id": "SH101",
+      "name": "Iron Shield",
+      "durability_hits": 223.0,
+      "stability_loss_per_hit": 0.16,
+      "requirements": "Melee 3"
+    },
+    {
+      "id": "SH102",
+      "name": "Light Targe",
+      "durability_hits": 223.0,
+      "stability_loss_per_hit": 0.24,
+      "requirements": null
+    },
+    {
+      "id": "SH103",
+      "name": "Superior Shield",
+      "durability_hits": 223.0,
+      "stability_loss_per_hit": 0.14,
+      "requirements": "Melee 5"
+    }
+  ],
+  "notes": [
+    "Missile damage deals 50% less guard stamina damage to shields."
+  ]
+}
