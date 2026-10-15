@@ -36,6 +36,13 @@ class Entry:
         return CATEGORIES.get(self.category, self.category.title())
 
 
+def armour_slot(piece: dict) -> str:
+    """Loadout slot of an armour piece: head, chest, legs, garment or bottoms."""
+    if piece.get("kind") == "Clothing":
+        return "garment" if piece["slot"] == "Chest" else "bottoms"
+    return {"Head": "head", "Chest": "chest", "Leg": "legs"}.get(piece["slot"], piece["slot"].lower())
+
+
 def _load(path: Path):
     return json.loads(path.read_text(encoding="utf-8"))
 
@@ -189,7 +196,8 @@ class GameData:
     # ------------------------------------------------------------------ helpers
 
     def armour_for_slot(self, slot: str) -> list[str]:
-        return [a["name"] for a in self.armour.values() if a["slot"].lower() == slot.lower()]
+        """slot: head / chest / legs (armour) or garment / bottoms (clothing worn underneath)."""
+        return [a["name"] for a in self.armour.values() if armour_slot(a) == slot]
 
     def stations(self) -> list[str]:
         return sorted({r["station"] for recs in self.recipes.values() for r in recs

@@ -5,7 +5,8 @@ Formulas follow the notes in the spreadsheet / wiki:
   total = 1 - (1 - a*q) * (1 - b*q) * (1 - c*q), q = quality multiplier.
 * Quality levels add 10% / 20% / 30% on top of the base mitigation.
 * Stability and temperature mitigation simply add up and ignore quality.
-* Piercing vulnerability halves a piece's mitigation against Piercing damage.
+* Clothing (garment / bottoms) is worn under armour and counts as extra pieces.
+* Piercing damage is doubled against anyone wearing armour with Piercing Vulnerability (Heavy).
 * Weapon damage is multiplied by the damage-type table (Infantry, NPC, ...).
 """
 
@@ -38,30 +39,54 @@ def effectiveness(multiplier: float) -> str:
     return "No Damage"
 
 
+ARMOUR_SLOTS = ("head", "chest", "legs", "garment", "bottoms")
+SLOT_LABELS = {"head": "Helmet", "chest": "Chest", "legs": "Legs", "garment": "Garment", "bottoms": "Bottoms"}
+# Piercing damage against armour with Piercing Vulnerability (Heavy armour)
+PIERCING_VULNERABILITY_MULTIPLIER = 2.0
+
+
 @dataclass
 class Loadout:
+    """Armour pieces (head/chest/legs), clothing worn underneath (garment/bottoms) and a shield.
+
+    `quality` is the default quality for every piece, `qualities` overrides it per slot,
+    e.g. {"chest": 3} for a quality 3 chest with base helmet and legs.
+    """
+
     head: dict | None = None
     chest: dict | None = None
     legs: dict | None = None
+    garment: dict | None = None
+    bottoms: dict | None = None
     shield: dict | None = None
     quality: int = 0
-    warnings: list[str] = field(default_factory=list)
+    qualities: dict[str, int] = field(default_factory=dict)
+
+    def worn(self) -> list[tuple[str, dict]]:
+        return [(slot, getattr(self, slot)) for slot in ARMOUR_SLOTS if getattr(self, slot)]
 
     @property
     def pieces(self) -> list[dict]:
-        return [p for p in (self.head, self.chest, self.legs) if p]
+        return [piece for _, piece in self.worn()]
 
-    def piece_mitigation(self, piece: dict, damage_type: str | None = None) -> float:
-        value = piece["damage_mitigation"] * QUALITY_MULTIPLIER.get(self.quality, 1.0)
-        if damage_type == "Piercing" and piece.get("piercing_vulnerability"):
-            value /= 2
-        return min(value, 0.99)
+    def quality_of(self, slot: str) -> int:
+        return self.qualities.get(slot, self.quality)
 
-    def damage_mitigation(self, damage_type: str | None = None) -> float:
+    @staticmethod
+    def piece_mitigation(piece: dict, quality: int = 0) -> float:
+        return min(piece["damage_mitigation"] * QUALITY_MULTIPLIER.get(quality, 1.0), 0.99)
+
+    def damage_mitigation(self) -> float:
         remaining = 1.0
-        for piece in self.pieces:
-            remaining *= 1 - self.piece_mitigation(piece, damage_type)
+        for slot, piece in self.worn():
+            remaining *= 1 - self.piece_mitigation(piece, self.quality_of(slot))
         return 1 - remaining
+
+    def damage_taken_multiplier(self, damage_type: str | None) -> float:
+        """Extra damage the wearer takes: Piercing x2 when wearing Heavy armour."""
+        if damage_type == "Piercing" and self.has("piercing_vulnerability"):
+            return PIERCING_VULNERABILITY_MULTIPLIER
+        return 1.0
 
     def stability_mitigation(self) -> float:
         return sum(p["stability_mitigation"] for p in self.pieces)
@@ -70,7 +95,7 @@ class Loadout:
         return sum(p["temperature_mitigation"] for p in self.pieces)
 
     def effective_health(self, damage_type: str | None = None) -> float:
-        return PLAYER_HEALTH / (1 - self.damage_mitigation(damage_type))
+        return PLAYER_HEALTH / ((1 - self.damage_mitigation()) * self.damage_taken_multiplier(damage_type))
 
     def has(self, flag: str) -> bool:
         return any(p.get(flag) for p in self.pieces)
@@ -84,6 +109,12 @@ class Loadout:
         if self.shield and self.shield.get("requirements"):
             reqs.append(f"{self.shield['name']}: {self.shield['requirements']}")
         return reqs
+
+
+def armour_set(data, prefix: str) -> Loadout:
+    """Full set like 'Heavy' -> Heavy Helmet + Heavy Chest + Heavy Leg."""
+    return Loadout(head=data.armour.get(f"{prefix} helmet"), chest=data.armour.get(f"{prefix} chest"),
+                   legs=data.armour.get(f"{prefix} leg"))
 
 
 def blocked_by_heavy_armour(weapon: dict) -> bool:
@@ -118,7 +149,8 @@ def hits(health: float, dmg_min: float, dmg_max: float) -> HitResult:
 
 def attack_vs_player(attack: dict, loadout: Loadout, table: dict) -> HitResult:
     dmg = attack["damage"]
-    factor = multiplier(table, dmg["type"], "Infantry") * (1 - loadout.damage_mitigation(dmg["type"]))
+    factor = (multiplier(table, dmg["type"], "Infantry") * loadout.damage_taken_multiplier(dmg["type"])
+              * (1 - loadout.damage_mitigation()))
     return hits(PLAYER_HEALTH, dmg["min"] * factor, dmg["max"] * factor)
 
 
@@ -138,7 +170,8 @@ def npc_vs_player(npc: dict, loadout: Loadout, table: dict) -> HitResult:
     """How many NPC hits a player survives. NPC damage uses the damage-type table vs Infantry
     (Reaver slashing x0.75; Animal and Missile x1) and is then reduced by armour."""
     dtype = npc.get("damage_type")
-    factor = multiplier(table, dtype, "Infantry") * (1 - loadout.damage_mitigation(dtype))
+    factor = (multiplier(table, dtype, "Infantry") * loadout.damage_taken_multiplier(dtype)
+              * (1 - loadout.damage_mitigation()))
     return hits(PLAYER_HEALTH, npc["damage_min"] * factor, npc["damage_max"] * factor)
 
 
@@ -157,7 +190,7 @@ def strengths(damage_type: str, table: dict) -> tuple[list[str], list[str], list
 
 
 DAMAGE_TYPE_TIPS = {
-    "Piercing": "Halves the mitigation of armour with Piercing Vulnerability (Crude, Light & Reinforced armour).",
+    "Piercing": "Deals ×2 damage to players wearing Heavy armour (piercing vulnerability).",
     "Impaling": "Anti-cavalry: ×3 damage to mounted units and ×1.5 to NPCs.",
     "Missile": "Heavy Chest armour can deflect arrows and javelins; Heavy/Reinforced chests are not staggered by them.",
     "Siege": "Made for structures and vehicles (×5 vs vehicles), weak against people.",

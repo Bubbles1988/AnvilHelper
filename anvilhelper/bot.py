@@ -10,11 +10,15 @@ import discord
 from discord import app_commands
 
 from . import combat, crafting, embeds
-from .data import GameData
+from .data import GameData, armour_slot
 from .images import ImageFinder
 from .text import clean_name, key
 
 log = logging.getLogger("anvilhelper")
+
+
+class BadInput(Exception):
+    """Shown to the player as-is."""
 
 
 class NotFound(Exception):
@@ -111,14 +115,17 @@ def register_commands(tree: app_commands.CommandTree, data: GameData):
             raise NotFound(query, categories)
         return entry.data
 
-    def build_loadout(helmet, chest, legs, shield, quality):
-        return combat.Loadout(
-            head=optional(helmet, {"armour"}),
-            chest=optional(chest, {"armour"}),
-            legs=optional(legs, {"armour"}),
-            shield=optional(shield, {"shield"}),
-            quality=quality,
-        )
+    def build_loadout(pieces: dict, shield=None, quality=0, qualities=None):
+        """pieces: slot -> name typed by the player, e.g. {"head": "Heavy Helmet"}."""
+        lo = combat.Loadout(shield=optional(shield, {"shield"}), quality=quality,
+                            qualities={k: v for k, v in (qualities or {}).items() if v is not None})
+        for slot, name in pieces.items():
+            piece = optional(name, {"armour"})
+            if piece and armour_slot(piece) != slot:
+                raise BadInput(f"**{piece['name']}** is not a {combat.SLOT_LABELS[slot].lower()} "
+                               f"- it goes in the {combat.SLOT_LABELS[armour_slot(piece)].lower()} slot.")
+            setattr(lo, slot, piece)
+        return lo
 
     # ---------------------------------------------------------------- commands
 
@@ -161,32 +168,55 @@ def register_commands(tree: app_commands.CommandTree, data: GameData):
 
     @tree.command(name="loadout", description="Check a full gear set: protection, effective health, hits you can take")
     @app_commands.describe(
-        helmet="Head armour", chest="Chest armour", legs="Leg armour", shield="Shield",
+        helmet="Head armour", chest="Chest armour", legs="Leg armour",
+        garment="Clothing under the chest armour (e.g. Light Garment)",
+        bottoms="Clothing under the leg armour (e.g. Light Bottoms)", shield="Shield",
         weapon="Your weapon (checks if it works with your armour)",
         enemy="Enemy weapon: show exactly how many hits it needs on you",
-        quality="Armour quality (0 = base, 1-3 add 10/20/30% mitigation)",
+        quality="Quality for all pieces (0 = base, 1-3 add 10/20/30% mitigation)",
+        helmet_quality="Quality of the helmet only (overrides 'quality')",
+        chest_quality="Quality of the chest only (overrides 'quality')",
+        legs_quality="Quality of the legs only (overrides 'quality')",
+        garment_quality="Quality of the garment only (overrides 'quality')",
+        bottoms_quality="Quality of the bottoms only (overrides 'quality')",
     )
-    @app_commands.autocomplete(helmet=slot_completer("Head"), chest=slot_completer("Chest"),
-                               legs=slot_completer("Leg"), shield=shield_names,
+    @app_commands.autocomplete(helmet=slot_completer("head"), chest=slot_completer("chest"),
+                               legs=slot_completer("legs"), garment=slot_completer("garment"),
+                               bottoms=slot_completer("bottoms"), shield=shield_names,
                                weapon=weapon_names, enemy=weapon_names)
     async def loadout(interaction: discord.Interaction, helmet: str | None = None, chest: str | None = None,
-                      legs: str | None = None, shield: str | None = None, weapon: str | None = None,
-                      enemy: str | None = None, quality: app_commands.Range[int, 0, 3] = 0):
+                      legs: str | None = None, garment: str | None = None, bottoms: str | None = None,
+                      shield: str | None = None, weapon: str | None = None, enemy: str | None = None,
+                      quality: app_commands.Range[int, 0, 3] = 0,
+                      helmet_quality: app_commands.Range[int, 0, 3] | None = None,
+                      chest_quality: app_commands.Range[int, 0, 3] | None = None,
+                      legs_quality: app_commands.Range[int, 0, 3] | None = None,
+                      garment_quality: app_commands.Range[int, 0, 3] | None = None,
+                      bottoms_quality: app_commands.Range[int, 0, 3] | None = None):
         await interaction.response.defer()
-        lo = build_loadout(helmet, chest, legs, shield, quality)
+        lo = build_loadout(
+            {"head": helmet, "chest": chest, "legs": legs, "garment": garment, "bottoms": bottoms},
+            shield, quality,
+            {"head": helmet_quality, "chest": chest_quality, "legs": legs_quality,
+             "garment": garment_quality, "bottoms": bottoms_quality},
+        )
         await send(interaction, embeds.loadout_embed(data, lo, optional(weapon, {"weapon"}), optional(enemy, {"weapon"})))
 
     @tree.command(name="npc", description="How strong is an animal / NPC and how many hits to kill it?")
     @app_commands.describe(weapon="Your weapon (shows all its attacks)", helmet="Your helmet",
-                           chest="Your chest armour", legs="Your leg armour", quality="Armour quality 0-3")
-    @app_commands.autocomplete(name=npc_names, weapon=weapon_names, helmet=slot_completer("Head"),
-                               chest=slot_completer("Chest"), legs=slot_completer("Leg"))
+                           chest="Your chest armour", legs="Your leg armour", garment="Your garment (clothing)",
+                           bottoms="Your bottoms (clothing)", quality="Armour quality 0-3")
+    @app_commands.autocomplete(name=npc_names, weapon=weapon_names, helmet=slot_completer("head"),
+                               chest=slot_completer("chest"), legs=slot_completer("legs"),
+                               garment=slot_completer("garment"), bottoms=slot_completer("bottoms"))
     async def npc(interaction: discord.Interaction, name: str, weapon: str | None = None,
                   helmet: str | None = None, chest: str | None = None, legs: str | None = None,
+                  garment: str | None = None, bottoms: str | None = None,
                   quality: app_commands.Range[int, 0, 3] = 0):
         await interaction.response.defer()
         entry = need(name, {"npc"})
-        lo = build_loadout(helmet, chest, legs, None, quality) if (helmet or chest or legs) else None
+        pieces = {"head": helmet, "chest": chest, "legs": legs, "garment": garment, "bottoms": bottoms}
+        lo = build_loadout(pieces, None, quality) if any(pieces.values()) else None
         await send(interaction, embeds.npc_embed(data, entry.data, optional(weapon, {"weapon"}), lo), entry.name)
 
     @tree.command(name="craft", description="Everything you need to craft something, including all the steps in between")
@@ -265,7 +295,7 @@ def register_commands(tree: app_commands.CommandTree, data: GameData):
             "`/weapon` - weapon stats & what it's good against",
             "`/compare` - two weapons side by side",
             "`/armour` - one armour piece (with quality)",
-            "`/loadout` - full gear check: mitigation, effective health, hits you can take",
+            "`/loadout` - full gear check incl. clothing and quality per piece: mitigation, effective health, hits you can take",
             "`/npc` - animal / NPC strength and hits to kill it",
             "`/craft` - full material list and steps for anything",
             "`/food` · `/foods` - food stats, recipes and rankings",
@@ -281,6 +311,8 @@ def register_commands(tree: app_commands.CommandTree, data: GameData):
         original = getattr(error, "original", error)
         if isinstance(original, NotFound):
             embed = embeds.not_found_embed(data, original.query, original.categories)
+        elif isinstance(original, BadInput):
+            embed = discord.Embed(title="🤔 Check your input", description=str(original), color=embeds.COLORS["info"])
         else:
             log.exception("Command failed", exc_info=original)
             embed = discord.Embed(title="Something went wrong", description=str(original)[:500],
